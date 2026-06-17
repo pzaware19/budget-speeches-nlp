@@ -326,6 +326,52 @@ The ideological register that characterised her 2026-27 budget — moderately ma
 **On the sample.** Eight speeches from one Finance Minister is a small dataset. A single unusual year — a crisis budget, a pre-election reversal, a global shock — can materially shift a linear trend. Treat the manufacturing and fiscal projections as informed extrapolations, not forecasts. The 80% prediction intervals are wide for a reason.
 :::
 
+## Do Finance Ministers Drift Ideologically Over Their Tenure? {#trajectory}
+
+If a Finance Minister serves for three, five, or eight budgets, do they drift toward a different ideological position than when they started? Do they become more market-liberal as they settle into the role and build relationships with capital markets? Or does an accumulated political logic pull them back toward redistribution and welfare?
+
+The corpus spans 11 Finance Ministers with three or more full budgets, ranging from Morarji Desai (8 budgets, INC, 1959-1964 and 1967-1969) to Nirmala Sitharaman (8 budgets, BJP, 2019-2026). Fitting a linear trend within each FM's tenure tests whether the ideology score systematically rises or falls over the course of their time in office.
+
+![Finance Minister ideology over tenure. Each point is one full budget speech. Thick trend lines are significant at p<0.1; dashed lines are not. The x-axis is budget number within that FM's tenure, not calendar year.](output/figures/fig_fm_trajectory.png){width=100%}
+
+Most Finance Ministers show no statistically significant ideological drift. Being in office for a fourth or fifth budget does not reliably make a Finance Minister more or less capitalist in their vocabulary.
+
+Two exceptions stand out.
+
+**P. Chidambaram** (INC, 8 full budgets across multiple stints) drifts significantly toward less market-liberal vocabulary over his tenure (slope = -0.0009 per budget, p=0.049, R²=0.50). His early budgets — particularly 1996-97 under the United Front government and his first UPA budget in 2004-05 — are relatively market-liberal in vocabulary. By his later UPA budgets (2012-13), the vocabulary has shifted toward welfare and social programmes. Whether this reflects his personal evolution, the political pressures of UPA's coalition arithmetic, or the changing policy agenda is not resolvable from the text alone.
+
+**Yashwant Sinha** (BJP, 4 full budgets, 1998-2002) becomes significantly less nationalist over his tenure on the protectionist axis (slope = -0.0009 per budget, p=0.001, R²=0.998). His first budget in 1998-99 contains substantially more domestic-industry protection and self-reliance vocabulary; by his 2001-02 budget, that vocabulary has receded. The NDA government's trajectory — from the Swadeshi framing of its early phase to the more outward-oriented disinvestment and technology emphasis of the early 2000s — is visible in his individual trajectory.
+
+![Slope of ideological drift per additional budget in tenure. Filled dots are significant at p<0.1. Most FMs cluster near zero on both axes.](output/figures/fig_fm_slope.png){width=100%}
+
+### Does the pre-election budget differ?
+
+Finance Ministers who present both full and interim budgets give us a natural test: does the last full budget before an election year read differently from their earlier budgets? If FMs move toward populism ahead of elections, the pre-election budget (the final full speech before the interim) should score lower on market-liberal vocabulary and possibly higher on welfare rhetoric.
+
+The means go in the expected direction: pre-election full budgets score slightly lower on market-liberal vocabulary (mean 0.00044 vs 0.00178 for other full budgets). But with only six pre-election observations across six Finance Ministers, the difference is not statistically significant (p=0.36). The effect size would need to be much larger to detect it with this sample.
+
+The result is consistent with the interim budget finding from Section 8: electoral pressure shifts the *tone* of fiscal communication but does not systematically reshape its *ideological content*. FMs do not appear to fundamentally rewrite their economic philosophy when an election is approaching.
+
+## Economic Survey vs Budget Speech {#ecosurvey}
+
+The Economic Survey is published the day before the Union Budget. It is written by the Chief Economic Adviser (CEA), a technocrat appointed by the government but with a degree of analytical independence from the Finance Ministry. The budget speech itself is drafted by the Finance Minister's team. The two documents address the same economy with potentially different emphases — the CEA's assessment of what is and what should be done, versus the Finance Ministry's political statement of what the government is going to do.
+
+Do the Economic Survey and the Budget Speech sit in the same ideological position? When they diverge, who is more market-liberal?
+
+This analysis uses the same ideology dictionaries applied to Economic Survey PIB press release texts for 2021-2024. Three years have sufficient text for scoring (2021 under K.V. Subramanian; 2023 and 2024 under V. Anantha Nageswaran). Three years is a small sample and the results are directional rather than definitive.
+
+![Economic Survey (circle) vs Budget Speech (square) ideological positions. Arrow points from Budget Speech toward Economic Survey — the arrow shows the direction and magnitude of divergence. 2021: Economic Survey is more market-liberal than the Budget. 2023-24: Budget Speech is more market-liberal than the Economic Survey.](output/figures/fig_es_vs_bs.png){width=90%}
+
+**2021 (K.V. Subramanian):** The Economic Survey is more market-liberal than the Budget Speech delivered by Nirmala Sitharaman. The CEA's text uses more private-sector, reform, and efficiency vocabulary relative to the budget's welfare and consolidation emphasis in the post-COVID year.
+
+**2023-2024 (V. Anantha Nageswaran):** The pattern reverses. The Budget Speech is now more market-liberal than the Economic Survey in both years. The CEA's text is relatively more balanced or state-led in its framing, while the budget speech leads with more capitalist vocabulary.
+
+Market axis sign agreement across the three years: 2/3. Nationalist axis: 1/3. The sample is too small to draw firm conclusions, but the reversal in direction between the two CEA regimes is notable.
+
+::: {.callout-note}
+The Economic Survey texts here are PIB press release summaries, not the full Economic Survey documents, which run to hundreds of pages. The PIB summaries emphasise highlights rather than the full analytical content. This limits the analysis — the ideology scores are being computed on a summary of the CEA's argument rather than the argument itself. The direction of divergence is interpretable; the magnitude less so.
+:::
+
 ## Why This Is Harder to Answer Than It Looks {#robustness}
 
 ### The collinearity problem

@@ -22,6 +22,10 @@ website:
         href: index.html#ideology
       - text: "2027 Forecast"
         href: index.html#prediction
+      - text: "FM Trajectory"
+        href: index.html#trajectory
+      - text: "EcoSurvey vs Budget"
+        href: index.html#ecosurvey
       - text: "Time Trends"
         href: index.html#time
       - text: "Methods"

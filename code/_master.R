@@ -47,3 +47,7 @@ system2(rscript, file.path(CODDIR, "E2_extract_themes.R"))    # TF-IDF theme ext
 # F: Sitharaman trend analysis and 2027 prediction
 system2(rscript, file.path(CODDIR, "F1_sitharaman_trend.R"))  # vocabulary + ideology trends
 system2(rscript, file.path(CODDIR, "F2_prediction.R"))        # forecast + prediction report
+
+# G: New analyses
+system2(rscript, file.path(CODDIR, "G1_ecosurvey_ideology.R")) # Economic Survey vs Budget Speech ideology
+system2(rscript, file.path(CODDIR, "G2_fm_trajectory.R"))      # FM ideological drift over tenure
