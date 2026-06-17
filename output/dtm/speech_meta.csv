@@ -1,0 +1,94 @@
+doc_id,budget_year,fy_start,budget_type,fm_name,fm_party,fm_party_family,pm_name,government_coalition,words_raw,words_clean,is_short
+bs194748,1947-48,1947,full,R.K. Shanmukham Chetty,INC,INC,Jawaharlal Nehru,Nehru-I,10015,9911,FALSE
+bs196364,1963-64,1963,full,T.T. Krishnamachari,INC,INC,Jawaharlal Nehru,Nehru-IV,10525,10372,FALSE
+bs197778_I_,1977-78,1977,interim,NA,NA,NA,NA,NA,802,766,TRUE
+bs199596,1995-96,1995,full,Manmohan Singh,INC,INC,P.V. Narasimha Rao,Rao,12256,12034,FALSE
+bs194849,1948-49,1948,full,R.K. Shanmukham Chetty,INC,INC,Jawaharlal Nehru,Nehru-I,15404,15068,FALSE
+bs196465,1964-65,1964,full,T.T. Krishnamachari,INC,INC,Lal Bahadur Shastri,Shastri,12862,12688,FALSE
+bs197879,1978-79,1978,full,H.M. Patel,Janata,Other,Morarji Desai,Janata,11096,10918,FALSE
+bs199697,1996-97,1996,full,P. Chidambaram,TMC,INC,H.D. Deve Gowda,United Front,12030,11728,FALSE
+bs194950,1949-50,1949,full,John Mathai,INC,INC,Jawaharlal Nehru,Nehru-I,11589,11305,FALSE
+bs196566,1965-66,1965,full,T.T. Krishnamachari,INC,INC,Lal Bahadur Shastri,Shastri,11809,11644,FALSE
+bs197980,1979-80,1979,full,Charan Singh,Janata Dal,Other,Charan Singh,Janata Dal,13025,12789,FALSE
+bs199697_I_,1996-97,1996,interim,NA,NA,NA,NA,NA,6002,5915,FALSE
+bs195051,1950-51,1950,full,C.D. Deshmukh,INC,INC,Jawaharlal Nehru,Nehru-I,10306,10246,FALSE
+bs196566_August_,1965-66,1965,special,NA,NA,NA,NA,NA,5249,5211,FALSE
+bs198081,1980-81,1980,full,R. Venkataraman,INC,INC,Indira Gandhi,Indira-IV,13461,13228,FALSE
+bs199798,1997-98,1997,full,P. Chidambaram,TMC,INC,I.K. Gujral,United Front,12080,11791,FALSE
+bs195152,1951-52,1951,full,C.D. Deshmukh,INC,INC,Jawaharlal Nehru,Nehru-II,12784,12622,FALSE
+bs196667,1966-67,1966,full,Sachin Chaudhuri,INC,INC,Indira Gandhi,Indira-I,9790,9656,FALSE
+bs198081_I_,1980-81,1980,interim,NA,NA,NA,NA,NA,3440,3360,FALSE
+bs199899,1998-99,1998,full,Yashwant Sinha,BJP,BJP,Atal Bihari Vajpayee,NDA-I,15643,15019,FALSE
+bs195253,1952-53,1952,full,C.D. Deshmukh,INC,INC,Jawaharlal Nehru,Nehru-II,4457,4405,FALSE
+bs196768,1967-68,1967,full,Morarji Desai,INC,INC,Indira Gandhi,Indira-II,12530,12336,FALSE
+bs198182,1981-82,1981,full,R. Venkataraman,INC,INC,Indira Gandhi,Indira-IV,11984,11770,FALSE
+bs195253_I_,1952-53,1952,interim,NA,NA,NA,NA,NA,1917,1883,TRUE
+bs196768_I_,1967-68,1967,interim,NA,NA,NA,NA,NA,4781,4690,FALSE
+bs198283,1982-83,1982,full,R. Venkataraman,INC,INC,Indira Gandhi,Indira-IV,14360,14095,FALSE
+bs19992000,1999-00,1999,full,Yashwant Sinha,BJP,BJP,Atal Bihari Vajpayee,NDA-II,13124,12791,FALSE
+bs195354,1953-54,1953,full,C.D. Deshmukh,INC,INC,Jawaharlal Nehru,Nehru-II,9855,9722,FALSE
+bs196869,1968-69,1968,full,Morarji Desai,INC,INC,Indira Gandhi,Indira-II,9156,9003,FALSE
+bs198384,1983-84,1983,full,Pranab Mukherjee,INC,INC,Indira Gandhi,Indira-IV,13988,13730,FALSE
+bs200001,2000-01,2000,full,Yashwant Sinha,BJP,BJP,Atal Bihari Vajpayee,NDA-II,14732,14138,FALSE
+bs195455,1954-55,1954,full,C.D. Deshmukh,INC,INC,Jawaharlal Nehru,Nehru-II,11418,11286,FALSE
+bs196970,1969-70,1969,full,Morarji Desai,INC,INC,Indira Gandhi,Indira-II,6564,6436,FALSE
+bs198485,1984-85,1984,full,Pranab Mukherjee,INC,INC,Indira Gandhi,Indira-IV,11980,11762,FALSE
+bs200102,2001-02,2001,full,Yashwant Sinha,BJP,BJP,Atal Bihari Vajpayee,NDA-II,15375,14699,FALSE
+bs195556,1955-56,1955,full,C.D. Deshmukh,INC,INC,Jawaharlal Nehru,Nehru-III,12261,12119,FALSE
+bs197071,1970-71,1970,full,Indira Gandhi,INC,INC,Indira Gandhi,Indira-II,7606,7494,FALSE
+bs198586,1985-86,1985,full,V.P. Singh,INC,INC,Rajiv Gandhi,Rajiv-I,13916,13673,FALSE
+bs200203,2002-03,2002,full,Jaswant Singh,BJP,BJP,Atal Bihari Vajpayee,NDA-II,16248,15492,FALSE
+bs195657,1956-57,1956,full,T.T. Krishnamachari,INC,INC,Jawaharlal Nehru,Nehru-III,13319,13151,FALSE
+bs197172,1971-72,1971,full,Yashwantrao Chavan,INC,INC,Indira Gandhi,Indira-III,10135,9937,FALSE
+bs198687,1986-87,1986,full,V.P. Singh,INC,INC,Rajiv Gandhi,Rajiv-I,15790,15475,FALSE
+bs200304,2003-04,2003,full,Jaswant Singh,BJP,BJP,Atal Bihari Vajpayee,NDA-II,15476,14715,FALSE
+bs195657_November_,1956-57,1956,special,NA,NA,NA,NA,NA,4693,4477,FALSE
+bs197172december,1971-72,1971,full,Yashwantrao Chavan,INC,INC,Indira Gandhi,Indira-III,2075,2030,TRUE
+bs198788,1987-88,1987,full,N.D. Tiwari,INC,INC,Rajiv Gandhi,Rajiv-I,11481,11212,FALSE
+bs200405,2004-05,2004,full,P. Chidambaram,INC,INC,Manmohan Singh,UPA-I,13577,12907,FALSE
+bs195758,1957-58,1957,full,T.T. Krishnamachari,INC,INC,Jawaharlal Nehru,Nehru-III,13214,13036,FALSE
+bs198889,1988-89,1988,full,N.D. Tiwari,INC,INC,Rajiv Gandhi,Rajiv-I,16182,15831,FALSE
+bs200405_I_,2004-05,2004,interim,Jaswant Singh,BJP,BJP,Atal Bihari Vajpayee,NDA-II,5038,4889,FALSE
+bs195758_I_,1957-58,1957,interim,NA,NA,NA,NA,NA,2122,2073,TRUE
+bs197273,1972-73,1972,full,Yashwantrao Chavan,INC,INC,Indira Gandhi,Indira-III,9090,8919,FALSE
+bs198990,1989-90,1989,full,S.B. Chavan,INC,INC,Rajiv Gandhi,Rajiv-I,13215,12931,FALSE
+bs200506,2005-06,2005,full,P. Chidambaram,INC,INC,Manmohan Singh,UPA-I,14257,13525,FALSE
+bs195859,1958-59,1958,full,Morarji Desai,INC,INC,Jawaharlal Nehru,Nehru-III,8282,7973,FALSE
+bs197374,1973-74,1973,full,Yashwantrao Chavan,INC,INC,Indira Gandhi,Indira-III,10259,10082,FALSE
+bs199091,1990-91,1990,full,Madhu Dandavate,Janata Dal,Other,V.P. Singh,National Front,13508,13229,FALSE
+bs200607,2006-07,2006,full,P. Chidambaram,INC,INC,Manmohan Singh,UPA-I,13197,12530,FALSE
+bs195960,1959-60,1959,full,Morarji Desai,INC,INC,Jawaharlal Nehru,Nehru-III,10806,10641,FALSE
+bs197475,1974-75,1974,full,Yashwantrao Chavan,INC,INC,Indira Gandhi,Indira-III,7907,7751,FALSE
+bs199192,1991-92,1991,full,Yashwant Sinha,Janata Dal,Other,Chandra Shekhar,Chandra Shekhar,18712,18134,FALSE
+bs199192,1991-92,1991,full,Manmohan Singh,INC,INC,P.V. Narasimha Rao,Rao,18712,18134,FALSE
+bs200708,2007-08,2007,full,P. Chidambaram,INC,INC,Manmohan Singh,UPA-I,13236,12443,FALSE
+bs196061,1960-61,1960,full,Morarji Desai,INC,INC,Jawaharlal Nehru,Nehru-III,9775,9614,FALSE
+bs197475_july_,1974-75,1974,special,NA,NA,NA,NA,NA,4517,4426,FALSE
+bs199192_I_,1991-92,1991,interim,NA,NA,NA,NA,NA,2492,2408,TRUE
+bs196162,1961-62,1961,full,Morarji Desai,INC,INC,Jawaharlal Nehru,Nehru-III,12851,12631,FALSE
+bs197576,1975-76,1975,full,C. Subramaniam,INC,INC,Indira Gandhi,Indira-III,11955,11853,FALSE
+bs199293,1992-93,1992,full,Manmohan Singh,INC,INC,P.V. Narasimha Rao,Rao,14430,13975,FALSE
+bs196263,1962-63,1962,full,Morarji Desai,INC,INC,Jawaharlal Nehru,Nehru-IV,7860,7725,FALSE
+bs197677,1976-77,1976,full,C. Subramaniam,INC,INC,Indira Gandhi,Indira-III,12785,12689,FALSE
+bs199394,1993-94,1993,full,Manmohan Singh,INC,INC,P.V. Narasimha Rao,Rao,13027,12530,FALSE
+bs196263_I_,1962-63,1962,interim,NA,NA,NA,NA,NA,4172,4097,FALSE
+bs197778,1977-78,1977,full,H.M. Patel,Janata,Other,Morarji Desai,Janata,11999,11775,FALSE
+bs199495,1994-95,1994,full,Manmohan Singh,INC,INC,P.V. Narasimha Rao,Rao,13115,12643,FALSE
+bs,NA,NA,full,NA,NA,NA,NA,NA,6611,6432,FALSE
+bs201213,2012-13,2012,full,Pranab Mukherjee,INC,INC,Manmohan Singh,UPA-II,14251,13766,FALSE
+bs201314,2013-14,2013,full,P. Chidambaram,INC,INC,Manmohan Singh,UPA-II,6611,6432,FALSE
+bs201415,2014-15,2014,full,Arun Jaitley,BJP,BJP,Narendra Modi,NDA-III,16564,16025,FALSE
+bs201516,2015-16,2015,full,Arun Jaitley,BJP,BJP,Narendra Modi,NDA-III,18073,17557,FALSE
+bs201617,2016-17,2016,full,Arun Jaitley,BJP,BJP,Narendra Modi,NDA-III,24733,23484,FALSE
+bs201718,2017-18,2017,full,Arun Jaitley,BJP,BJP,Narendra Modi,NDA-III,18930,17960,FALSE
+bs201819,2018-19,2018,full,Arun Jaitley,BJP,BJP,Narendra Modi,NDA-III,18099,16990,FALSE
+bs201920_I_,2019-20,2019,interim,Piyush Goyal,BJP,BJP,Narendra Modi,NDA-III,8178,8003,FALSE
+bs201920,2019-20,2019,full,Nirmala Sitharaman,BJP,BJP,Narendra Modi,NDA-IV,20259,19449,FALSE
+Budget_Speech_2020-21,2020-21,2020,full,Nirmala Sitharaman,BJP,BJP,Narendra Modi,NDA-IV,21147,20042,FALSE
+Budget_Speech_2021-22,2021-22,2021,full,Nirmala Sitharaman,BJP,BJP,Narendra Modi,NDA-IV,17310,16146,FALSE
+Budget_Speech_2022-23,2022-23,2022,full,Nirmala Sitharaman,BJP,BJP,Narendra Modi,NDA-IV,10110,8797,FALSE
+Budget_Speech_2023-24,2023-24,2023,full,Nirmala Sitharaman,BJP,BJP,Narendra Modi,NDA-IV,14043,13235,FALSE
+Budget_Speech_2024-25,2024-25,2024,full,Nirmala Sitharaman,BJP,BJP,Narendra Modi,NDA-V,14972,7554,FALSE
+Budget_Speech_2025-26,2025-26,2025,full,NA,NA,NA,NA,NA,14612,7552,FALSE
+Budget_Speech_2026-27,2026-27,2026,full,NA,NA,NA,NA,NA,15817,7820,FALSE
+Budget_Speech_2024-25_interim,2024-25,2024,interim,Nirmala Sitharaman,BJP,BJP,Narendra Modi,NDA-IV,5384,5030,FALSE

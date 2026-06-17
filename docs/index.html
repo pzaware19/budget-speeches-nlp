@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>What Does India’s Union Budget Actually Say?</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./output/figures/fig_topic_words.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-58f65581fc16a020bf8c0dce5340cfae.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">What Does India’s Union Budget Actually Say?</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html#data"> 
+<span class="menu-text">Corpus &amp; Data</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html#topics"> 
+<span class="menu-text">Topics</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html#party"> 
+<span class="menu-text">BJP vs INC</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html#time"> 
+<span class="menu-text">Time Trends</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html#methodology"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/pzaware19"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text">Code</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul class="collapse">
+  <li><a href="#what-does-indias-union-budget-actually-say" id="toc-what-does-indias-union-budget-actually-say" class="nav-link active" data-scroll-target="#what-does-indias-union-budget-actually-say">What Does India’s Union Budget Actually Say?</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">The Data</a></li>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methods</a></li>
+  <li><a href="#findings" id="toc-findings" class="nav-link" data-scroll-target="#findings">Results</a></li>
+  <li><a href="#robustness" id="toc-robustness" class="nav-link" data-scroll-target="#robustness">The Identification Problem</a></li>
+  <li><a href="#about-this-project" id="toc-about-this-project" class="nav-link" data-scroll-target="#about-this-project">About This Project</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section id="what-does-indias-union-budget-actually-say" class="level1 hero">
+<h1>What Does India’s Union Budget Actually Say?</h1>
+<div class="subtitle">
+<p>I ran unsupervised machine learning on every Union Budget speech from 1947 to 2026 — seventy-nine years, 91 speeches. No hand-coding, no predetermined categories. Just the text Finance Ministers read to Parliament, and what falls out when you let the data structure itself.</p>
+</div>
+<div class="meta">
+<p>Piyush Zaware</p>
+</div>
+<div class="badge-row">
+<div class="badge-item">
+<p>91 Speeches</p>
+</div>
+<div class="badge-item">
+<p>1947 – 2026</p>
+</div>
+<div class="badge-item">
+<p>BJP · INC · Other</p>
+</div>
+<div class="badge-item">
+<p>STM · LDA · TF-IDF</p>
+</div>
+<div class="badge-item">
+<p>k = 10 Topics</p>
+</div>
+<div class="badge-item">
+<p>Party × Year Covariates</p>
+</div>
+</div>
+</section>
+<div class="lead-para">
+<p>Every February, India’s Finance Minister stands before Parliament and reads a budget speech. These speeches are simultaneously a policy statement, a political document, and a historical record — they name what the government cares about, what it is afraid of, and what it is trying to sell to the public. Across eight decades, the corpus runs from R.K. Shanmukham Chetty’s 1947-48 speech delivered weeks after Partition to Nirmala Sitharaman’s 2026-27 speech delivered in the post-GST, Aadhaar-linked economy.</p>
+<p>This project applies structural topic models to that corpus. The central question: does party ideology shape what Finance Ministers talk about? Is a BJP budget speech systematically different from an INC one? The answer turns out to be more surprising than the question.</p>
+</div>
+<div class="abstract-box">
+<p><strong>Three findings from 79 years of budget speeches</strong></p>
+<ol type="1">
+<li><p><strong>The dominant signal is era, not party.</strong> When you control for year, BJP and INC budget speeches are statistically indistinguishable across all 10 topics. Every point estimate of the BJP−INC difference is within one standard error of zero. The vocabulary of fiscal governance is historically determined, not ideologically polarised.</p></li>
+<li><p><strong>The corpus recovers ten coherent economic eras.</strong> Topics map cleanly onto India’s macroeconomic history: the post-Partition fiscal emergency (1947–55), the planning era and Green Revolution (1956–79), the foreign exchange crisis and liberalisation (1991–99), and the digital public goods era (2014–26). No human labelling was used.</p></li>
+<li><p><strong>The identification problem is fundamental.</strong> BJP has governed since 1999 (briefly) and 2014–present. INC governed from 1947 through 2004 with two interruptions. Party and era are collinear. Any apparent vocabulary difference between BJP and INC speeches is indistinguishable from an era effect. This is not a data limitation; it is a feature of the history.</p></li>
+</ol>
+</div>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">The Data</h2>
+<div class="stat-row">
+  <div class="stat"><div class="stat-num">91</div><div class="stat-label">speeches modelled</div></div>
+  <div class="stat"><div class="stat-num">79</div><div class="stat-label">years covered</div></div>
+  <div class="stat"><div class="stat-num">8,308</div><div class="stat-label">vocabulary terms</div></div>
+  <div class="stat"><div class="stat-num">10</div><div class="stat-label">topics (STM)</div></div>
+</div>
+<p>The corpus covers every Union Budget speech from 1947-48 through 2026-27, downloaded from <a href="https://www.indiabudget.gov.in">indiabudget.gov.in</a>. Speeches include full annual budgets as well as interim budgets and occasional supplementary sessions. One speech (1977-78 interim, 766 clean words) was too short for reliable topic estimation and was excluded from modelling, leaving 91 documents.</p>
+<p>PDF extraction used <code>pdftools</code>. Text cleaning removed parliamentary boilerplate (greetings, Jai Hind), table-of-contents lines, fiscal figures, paragraph number artifacts from scanned PDFs, and lines dominated by numbers (budget tables). Custom stop words removed fiscal units (crore, lakh, rupee), country/government boilerplate (india, central, national), and generic connectors. The final cleaned corpus averages 7,400 words per speech.</p>
+<p><strong>Corpus breakdown by party family (full budgets only):</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Party Family</th>
+<th>Finance Ministers</th>
+<th>Full Budgets</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>INC</td>
+<td>Shanmukham Chetty, Matthai, Deshmukh, Morarji Desai, TTK, Chavan, Mukherjee, V.P. Singh, Manmohan Singh, Chidambaram, Pranab, Jaitley*</td>
+<td>53</td>
+</tr>
+<tr class="even">
+<td>BJP</td>
+<td>Yashwant Sinha, Jaswant Singh, Jaitley, Arun Jaitley, Nirmala Sitharaman</td>
+<td>20</td>
+</tr>
+<tr class="odd">
+<td>Other</td>
+<td>Yashwant Sinha (Janata Dal), H.M. Patel, Charan Singh era</td>
+<td>7</td>
+</tr>
+</tbody>
+</table>
+<p>*Arun Jaitley served under BJP; P. Chidambaram under INC/UPA.</p>
+<p><strong>Vocabulary construction:</strong> TF-IDF weighted document-feature matrix via <code>quanteda</code>. Words retained if they appear in ≥ 3 speeches and ≤ 95% of speeches. Tax-proposal vocabulary (<code>duty</code>, <code>excise</code>, <code>customs</code>, <code>levy</code>, <code>cess</code>, <code>surcharge</code>, etc.) was removed before topic modelling — these terms appear in the Part B section of every budget (tax proposals) and would otherwise swamp every topic with fiscal-technical language.</p>
+</section>
+<section id="methodology" class="level2">
+<h2 class="anchored" data-anchor-id="methodology">Methods</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Method</th>
+<th>What it does</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>STM (B1)</strong></td>
+<td>Pure topic model with no covariates. Equivalent to LDA with better initialisation. <code>searchK()</code> selects k=10.</td>
+<td>10 topics, document-topic theta matrix</td>
+</tr>
+<tr class="even">
+<td><strong>STM (B2)</strong></td>
+<td>Same topic structure but adds <code>party + s(year, df=5)</code> as prevalence covariates. Estimates BJP−INC marginal effects.</td>
+<td>Coefficient per topic with 95% CI</td>
+</tr>
+<tr class="odd">
+<td><strong>k selection</strong></td>
+<td><code>searchK()</code> evaluates k ∈ {5, 8, 10, 12, 15, 20} on semantic coherence, exclusivity, held-out likelihood, and residuals</td>
+<td>k = 10 selected</td>
+</tr>
+<tr class="even">
+<td><strong>FREX words</strong></td>
+<td>Frequency × Exclusivity weighting for topic labelling. Balances how common a word is overall vs how characteristic it is of one topic.</td>
+<td>Top-8 FREX words per topic</td>
+</tr>
+<tr class="odd">
+<td><strong>estimateEffect()</strong></td>
+<td>Bayesian posterior simulation under the fitted STM to compute marginal party effects on topic prevalence</td>
+<td>Forest plot</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Why STM rather than LDA?</strong> STM is equivalent to LDA when run without covariates (as in B1) but allows prevalence covariates (as in B2). This means we can ask: after accounting for time trends, do BJP Finance Ministers use Topic X more than INC Finance Ministers? LDA cannot answer that directly. The two-step approach (B1 for topic discovery, B2 for covariate estimation) is the standard practice in Grimmer, Roberts &amp; Stewart (2022).</p>
+</div>
+</div>
+</section>
+<section id="findings" class="level2">
+<h2 class="anchored" data-anchor-id="findings">Results</h2>
+<section id="selecting-the-number-of-topics" class="level3">
+<h3 class="anchored" data-anchor-id="selecting-the-number-of-topics">1. Selecting the Number of Topics</h3>
+<p>The <code>searchK()</code> diagnostic evaluates four criteria across k ∈ {5, 8, 10, 12, 15, 20}:</p>
+<ul>
+<li><strong>Semantic coherence:</strong> top words co-occur within documents (high = interpretable)</li>
+<li><strong>Exclusivity:</strong> top words are distinctive to one topic, not shared across many (high = separated)</li>
+<li><strong>Held-out likelihood:</strong> model generalises to unseen documents (high = better fit)</li>
+<li><strong>Residuals:</strong> unexplained variance (low = better fit)</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="output/figures/fig_k_selection.png" class="img-fluid figure-img" style="width:90.0%"></p>
+<figcaption>k-selection diagnostics. Dashed line marks selected k=10, which balances all four criteria. k=15 and k=20 gain little on held-out likelihood but lose exclusivity.</figcaption>
+</figure>
+</div>
+<p>k=10 sits at the natural elbow of all four curves. At k=5 the topics are too broad (agriculture and industry collapse into one); at k=15 the topics begin to fragment into near-duplicates without interpretive gain.</p>
+</section>
+<section id="topics" class="level3">
+<h3 class="anchored" data-anchor-id="topics">2. What India’s Budget Speeches Talk About</h3>
+<p>With k=10, the model recovers topics that map directly onto India’s macroeconomic history. No labels were assigned by hand.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="output/figures/fig_topic_words.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Top probability words per topic (beta weights). Each panel is one topic; bars are ranked by how strongly each word loads on that topic relative to others.</figcaption>
+</figure>
+</div>
+<p><strong>Reading the topics:</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Topic</th>
+<th>FREX Words</th>
+<th>Era / Theme</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>T1</td>
+<td>provinces, pakistan, sterling, kingdom, cloth</td>
+<td>Post-Partition foreign trade &amp; currency (1947–55)</td>
+</tr>
+<tr class="even">
+<td>T2</td>
+<td>manifesto, reform, macro, adjustment, election</td>
+<td>Liberalisation &amp; crisis management (1991–99)</td>
+</tr>
+<tr class="odd">
+<td>T3</td>
+<td>fertilizers, season, naye, selective, increases</td>
+<td>Green Revolution &amp; agricultural inputs (1965–80)</td>
+</tr>
+<tr class="even">
+<td>T4</td>
+<td>hindu, wealth, overdrafts, regulatory</td>
+<td>Wealth tax &amp; regulatory framework</td>
+</tr>
+<tr class="odd">
+<td>T5</td>
+<td>tonnes, auxiliary, valorem, drought, seventh</td>
+<td>Industrial planning &amp; Five-Year Plans</td>
+</tr>
+<tr class="even">
+<td>T6</td>
+<td>nabard, ssi, rbi, upa, cenvat</td>
+<td>Financial sector: rural credit, SME finance (2000s)</td>
+</tr>
+<tr class="odd">
+<td>T7</td>
+<td>loan, grants, heads, naye, treasury</td>
+<td>Public expenditure &amp; budget heads</td>
+</tr>
+<tr class="even">
+<td>T8</td>
+<td>annas, dollar, war, balances, partition</td>
+<td>Colonial-era fiscal accounts (pre-1957)</td>
+</tr>
+<tr class="odd">
+<td>T9</td>
+<td>gst, bcd, msmes, aadhaar, ppp</td>
+<td>Digital economy &amp; GST era (2014–26)</td>
+</tr>
+<tr class="even">
+<td>T10</td>
+<td>gains, gic, ownership, yarn, shares</td>
+<td>Privatisation &amp; capital markets (1990s–2000s)</td>
+</tr>
+</tbody>
+</table>
+<p>The temporal structure is stark. Topics T1 and T8 contain vocabulary that literally cannot appear after 1957 (annas ceased to exist when India decimalised). Topic T9 contains vocabulary that literally did not exist before 2014 (GST was enacted in 2017, Aadhaar in 2009). This is the core identification problem for the party comparison.</p>
+</section>
+<section id="time" class="level3">
+<h3 class="anchored" data-anchor-id="time">3. How Topics Have Shifted Over Time</h3>
+<p>Average topic prevalence by decade shows how India’s fiscal preoccupations have evolved.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="output/figures/fig_topic_time.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Mean topic proportion across full budgets, by decade. Each line is one topic (labelled by top FREX word). Dotted vertical lines mark 1991 (liberalisation) and 2014 (BJP majority).</figcaption>
+</figure>
+</div>
+<p>The historical segmentation is visible in raw prevalence without any statistical modelling:</p>
+<ul>
+<li><strong>1940s–1950s (T1, T8):</strong> Post-Partition currency, trade agreements with Pakistan, sterling balances, reconstruction spending. This era’s vocabulary is unique to those 15 years.</li>
+<li><strong>1960s–1970s (T3, T5, T7):</strong> Agricultural inputs, industrial licensing, Five-Year Plan outlays. The Green Revolution and planning era dominate.</li>
+<li><strong>1980s–1990s (T2, T10):</strong> Macro stabilisation, economic reforms, capital market development. The 1991 crisis creates a vocabulary discontinuity visible as a spike in T2.</li>
+<li><strong>2000s–2010s (T6):</strong> NABARD, SSI, RRBs, RIDF — the banking and financial inclusion era under UPA.</li>
+<li><strong>2014–2026 (T9):</strong> GST, Aadhaar, MSME, digital payments, BCD schedules. An entirely new institutional vocabulary.</li>
+</ul>
+<p>This is the key empirical pattern: <strong>topic evolution tracks institutional history, not electoral cycles.</strong> The 1991 change is sharper than any change associated with the 1999 or 2014 election.</p>
+</section>
+<section id="party" class="level3">
+<h3 class="anchored" data-anchor-id="party">4. BJP vs INC Topic Profiles (Unadjusted)</h3>
+<p>Before controlling for time, there are visible differences in raw average prevalence between BJP and INC Finance Ministers.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="output/figures/fig_topic_party.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Mean topic proportion by party family (full budgets only). Error bars = ±1 SE. The BJP-INC differences are large in raw averages — but this reflects period differences, not ideology.</figcaption>
+</figure>
+</div>
+<p>BJP speeches show higher average prevalence in T9 (GST era) and T6 (financial sector). INC speeches show higher prevalence in T1 (post-Partition), T7 (expenditure heads), and T8 (colonial-era accounts). These differences are mechanically generated by the fact that INC governed during eras 1 and 2 and BJP governs during era 4.</p>
+</section>
+<section id="stm" class="level3">
+<h3 class="anchored" data-anchor-id="stm">5. Controlling for Time: The Null Result</h3>
+<p>The B2 model adds <code>party + s(year, df=5)</code> as prevalence covariates to the STM. The year spline absorbs era-specific vocabulary shifts; the party coefficient estimates the <strong>within-era</strong> BJP−INC vocabulary difference.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="output/figures/fig_bjp_inc_forest.png" class="img-fluid figure-img" style="width:90.0%"></p>
+<figcaption>Forest plot of BJP−INC marginal effects per topic (STM B2). Estimate = BJP minus INC topic proportion, controlling for year. Dashed line at zero = no difference. 95% CI shown. No topic reaches statistical significance.</figcaption>
+</figure>
+</div>
+<p><strong>Effect estimates (BJP minus INC, controlling for year):</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Topic</th>
+<th>Estimate</th>
+<th>SE</th>
+<th>p-value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>T1: Post-Partition trade</td>
+<td>−0.047</td>
+<td>0.084</td>
+<td>0.58</td>
+</tr>
+<tr class="even">
+<td>T2: Liberalisation</td>
+<td>−0.083</td>
+<td>0.080</td>
+<td>0.30</td>
+</tr>
+<tr class="odd">
+<td>T3: Agriculture</td>
+<td>+0.034</td>
+<td>0.100</td>
+<td>0.74</td>
+</tr>
+<tr class="even">
+<td>T4: Taxation &amp; capital</td>
+<td>+0.037</td>
+<td>0.089</td>
+<td>0.68</td>
+</tr>
+<tr class="odd">
+<td>T5: Industrial planning</td>
+<td>−0.124</td>
+<td>0.105</td>
+<td>0.24</td>
+</tr>
+<tr class="even">
+<td>T6: Financial sector</td>
+<td>+0.114</td>
+<td>0.121</td>
+<td>0.35</td>
+</tr>
+<tr class="odd">
+<td>T7: Public expenditure</td>
+<td>−0.022</td>
+<td>0.086</td>
+<td>0.80</td>
+</tr>
+<tr class="even">
+<td>T8: Colonial fiscal</td>
+<td>−0.001</td>
+<td>0.068</td>
+<td>0.99</td>
+</tr>
+<tr class="odd">
+<td>T9: Digital economy</td>
+<td>+0.063</td>
+<td>0.080</td>
+<td>0.44</td>
+</tr>
+<tr class="even">
+<td>T10: Privatisation</td>
+<td>+0.027</td>
+<td>0.111</td>
+<td>0.81</td>
+</tr>
+</tbody>
+</table>
+<p>Zero of 10 topics show a statistically significant BJP−INC difference at p &lt; 0.05. The largest absolute estimate is T5 (−0.124, p = 0.24), with a 95% CI that spans from −0.33 to +0.08. All estimates are small (|β| &lt; 0.13) relative to the within-party variance in topic proportions.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>What does this mean substantively?</strong> Once you account for the fact that India’s fiscal vocabulary changes across decades — that “annas” does not survive the 1957 decimalisation, that “GST” did not exist before 2017 — there is no residual BJP-INC vocabulary signature. Finance Ministers of both parties, when they governed at the same time in history, would have written budget speeches that used the same topics at similar rates.</p>
+<p>This is not a failure to find a signal. It is a finding about how fiscal rhetoric works: it is institutionally determined and historically contingent, not partisan.</p>
+</div>
+</div>
+</section>
+<section id="trends" class="level3">
+<h3 class="anchored" data-anchor-id="trends">6. Topic Trends by Party Over Time</h3>
+<p>The loess smooths below show topic prevalence over time separately for BJP and INC Finance Ministers. Each point is one full budget speech.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="output/figures/fig_topic_trends_cov.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Topic prevalence over time by party. Orange = BJP, blue = INC. Each point is one budget speech. Loess smooth ± 95% CI. Free y-axis scales.</figcaption>
+</figure>
+</div>
+<p>The time trends confirm the null result visually. Where BJP and INC overlap in time (early 2000s INC, mid-2000s UPA, 2014+ BJP), their topic proportions are similar. The apparent differences in the full-sample averages vanish when you look at the overlapping time period.</p>
+</section>
+</section>
+<section id="robustness" class="level2">
+<h2 class="anchored" data-anchor-id="robustness">The Identification Problem</h2>
+<section id="why-party-and-era-cannot-be-separated" class="level3">
+<h3 class="anchored" data-anchor-id="why-party-and-era-cannot-be-separated">Why party and era cannot be separated</h3>
+<p>The fundamental challenge is straightforward. INC governed from 1947 through 1977, 1980–1989, and 1991–1996, 2004–2014. BJP governed briefly in 1998–1999, then continuously from 2014. There are only a handful of years (late 1990s, 2014) where both parties have multiple budgets close in time. The sample of “BJP budgets from the same era as many INC budgets” is essentially empty.</p>
+<p>The year spline in B2 absorbs time trends, but it is identified by variation within the BJP and INC samples across time. With so few overlapping years, the spline cannot credibly separate era from party.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="output/figures/fig_topic_party.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>Party-year grid: each cell is one budget speech. The party × year space is almost entirely non-overlapping. INC has no speeches after 2014; BJP has no speeches before 1998.</figcaption>
+</figure>
+</div>
+</section>
+<section id="what-would-identification-require" class="level3">
+<h3 class="anchored" data-anchor-id="what-would-identification-require">What would identification require?</h3>
+<p>Proper identification of a BJP−INC ideology effect would require: 1. <strong>More temporal overlap</strong> — both parties in office in the same economic era, which India’s first-past-the-post system makes rare. 2. <strong>A natural experiment</strong> — an instrument that determines which party takes office independently of the macroeconomic environment. Coalition outcomes (e.g., hung parliaments in 1996, 1998) offer the closest analogue but provide only 2–3 additional speeches. 3. <strong>Sub-speech analysis</strong> — Part A (fiscal policy and expenditure) vs Part B (tax proposals) of each speech measure different aspects of a budget. Separating these might reveal party-specific vocabulary within the tax domain even controlling for era.</p>
+</section>
+<section id="the-speech-length-trend" class="level3">
+<h3 class="anchored" data-anchor-id="the-speech-length-trend">The speech length trend</h3>
+<p>One non-ideological finding is robust: budget speeches have grown substantially longer over time.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header"><div class="callout-icon-container"><i class="callout-icon"></i></div><div class="callout-title-container flex-fill">Speech length: 1947–2026</div></div>
+<div class="callout-body-container callout-body">
+<p>Median speech length (clean words): <b>~7,400</b> across all years. But the range runs from Yashwant Sinha's 1952-53 interim (766 words, a pure vote-on-account) to Nirmala Sitharaman's 2020-21 speech (13,600+ words, the longest on record). The modern BJP era speeches are systematically longer — Sitharaman's 2019-20 speech lasted 2 hours 17 minutes. Whether verbosity signals more substantive content or is an artifact of the teleprompter era is an open question.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="about-this-project" class="level2">
+<h2 class="anchored" data-anchor-id="about-this-project">About This Project</h2>
+<p>This project uses the same STM methodology as <a href="../Lok_Sabha_Questions/docs/index.html">my Lok Sabha Questions analysis</a>, applied to the executive rather than the legislative side of Indian politics. Where the Parliament project asks what MPs <em>demand</em> of the government, this project asks what the government <em>presents</em> to Parliament as its priorities.</p>
+<p>Both projects find the same null result for ideology: when you account for the structural and temporal context in which political actors operate, the ideological signal in text is weak relative to institutional and historical variation.</p>
+<p><strong>Piyush Zaware</strong> University of Chicago · Northwestern University Kellogg Global Poverty Research Laboratory <a href="mailto:piyushz@uchicago.edu">piyushz@uchicago.edu</a></p>
+<p><strong>Data:</strong> <a href="https://www.indiabudget.gov.in">indiabudget.gov.in</a> · <strong>Code:</strong> R (stm, quanteda, ggplot2) <strong>Methodology:</strong> Roberts, Stewart &amp; Tingley (2019) · Grimmer, Roberts &amp; Stewart (2022)</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>Piyush Zaware · University of Chicago</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

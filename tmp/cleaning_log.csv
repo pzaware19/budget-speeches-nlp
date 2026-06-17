@@ -1,0 +1,94 @@
+doc_id,budget_year,budget_type,fm_name,fm_party,words_raw,words_clean
+bs194748,1947-48,full,R.K. Shanmukham Chetty,INC,10015,9911
+bs196364,1963-64,full,T.T. Krishnamachari,INC,10525,10372
+bs197778_I_,1977-78,interim,NA,NA,802,766
+bs199596,1995-96,full,Manmohan Singh,INC,12256,12034
+bs194849,1948-49,full,R.K. Shanmukham Chetty,INC,15404,15068
+bs196465,1964-65,full,T.T. Krishnamachari,INC,12862,12688
+bs197879,1978-79,full,H.M. Patel,Janata,11096,10918
+bs199697,1996-97,full,P. Chidambaram,TMC,12030,11728
+bs194950,1949-50,full,John Mathai,INC,11589,11305
+bs196566,1965-66,full,T.T. Krishnamachari,INC,11809,11644
+bs197980,1979-80,full,Charan Singh,Janata Dal,13025,12789
+bs199697_I_,1996-97,interim,NA,NA,6002,5915
+bs195051,1950-51,full,C.D. Deshmukh,INC,10306,10246
+bs196566_August_,1965-66,special,NA,NA,5249,5211
+bs198081,1980-81,full,R. Venkataraman,INC,13461,13228
+bs199798,1997-98,full,P. Chidambaram,TMC,12080,11791
+bs195152,1951-52,full,C.D. Deshmukh,INC,12784,12622
+bs196667,1966-67,full,Sachin Chaudhuri,INC,9790,9656
+bs198081_I_,1980-81,interim,NA,NA,3440,3360
+bs199899,1998-99,full,Yashwant Sinha,BJP,15643,15019
+bs195253,1952-53,full,C.D. Deshmukh,INC,4457,4405
+bs196768,1967-68,full,Morarji Desai,INC,12530,12336
+bs198182,1981-82,full,R. Venkataraman,INC,11984,11770
+bs195253_I_,1952-53,interim,NA,NA,1917,1883
+bs196768_I_,1967-68,interim,NA,NA,4781,4690
+bs198283,1982-83,full,R. Venkataraman,INC,14360,14095
+bs19992000,1999-00,full,Yashwant Sinha,BJP,13124,12791
+bs195354,1953-54,full,C.D. Deshmukh,INC,9855,9722
+bs196869,1968-69,full,Morarji Desai,INC,9156,9003
+bs198384,1983-84,full,Pranab Mukherjee,INC,13988,13730
+bs200001,2000-01,full,Yashwant Sinha,BJP,14732,14138
+bs195455,1954-55,full,C.D. Deshmukh,INC,11418,11286
+bs196970,1969-70,full,Morarji Desai,INC,6564,6436
+bs198485,1984-85,full,Pranab Mukherjee,INC,11980,11762
+bs200102,2001-02,full,Yashwant Sinha,BJP,15375,14699
+bs195556,1955-56,full,C.D. Deshmukh,INC,12261,12119
+bs197071,1970-71,full,Indira Gandhi,INC,7606,7494
+bs198586,1985-86,full,V.P. Singh,INC,13916,13673
+bs200203,2002-03,full,Jaswant Singh,BJP,16248,15492
+bs195657,1956-57,full,T.T. Krishnamachari,INC,13319,13151
+bs197172,1971-72,full,Yashwantrao Chavan,INC,10135,9937
+bs198687,1986-87,full,V.P. Singh,INC,15790,15475
+bs200304,2003-04,full,Jaswant Singh,BJP,15476,14715
+bs195657_November_,1956-57,special,NA,NA,4693,4477
+bs197172december,1971-72,full,Yashwantrao Chavan,INC,2075,2030
+bs198788,1987-88,full,N.D. Tiwari,INC,11481,11212
+bs200405,2004-05,full,P. Chidambaram,INC,13577,12907
+bs195758,1957-58,full,T.T. Krishnamachari,INC,13214,13036
+bs198889,1988-89,full,N.D. Tiwari,INC,16182,15831
+bs200405_I_,2004-05,interim,Jaswant Singh,BJP,5038,4889
+bs195758_I_,1957-58,interim,NA,NA,2122,2073
+bs197273,1972-73,full,Yashwantrao Chavan,INC,9090,8919
+bs198990,1989-90,full,S.B. Chavan,INC,13215,12931
+bs200506,2005-06,full,P. Chidambaram,INC,14257,13525
+bs195859,1958-59,full,Morarji Desai,INC,8282,7973
+bs197374,1973-74,full,Yashwantrao Chavan,INC,10259,10082
+bs199091,1990-91,full,Madhu Dandavate,Janata Dal,13508,13229
+bs200607,2006-07,full,P. Chidambaram,INC,13197,12530
+bs195960,1959-60,full,Morarji Desai,INC,10806,10641
+bs197475,1974-75,full,Yashwantrao Chavan,INC,7907,7751
+bs199192,1991-92,full,Yashwant Sinha,Janata Dal,18712,18134
+bs199192,1991-92,full,Manmohan Singh,INC,18712,18134
+bs200708,2007-08,full,P. Chidambaram,INC,13236,12443
+bs196061,1960-61,full,Morarji Desai,INC,9775,9614
+bs197475_july_,1974-75,special,NA,NA,4517,4426
+bs199192_I_,1991-92,interim,NA,NA,2492,2408
+bs196162,1961-62,full,Morarji Desai,INC,12851,12631
+bs197576,1975-76,full,C. Subramaniam,INC,11955,11853
+bs199293,1992-93,full,Manmohan Singh,INC,14430,13975
+bs196263,1962-63,full,Morarji Desai,INC,7860,7725
+bs197677,1976-77,full,C. Subramaniam,INC,12785,12689
+bs199394,1993-94,full,Manmohan Singh,INC,13027,12530
+bs196263_I_,1962-63,interim,NA,NA,4172,4097
+bs197778,1977-78,full,H.M. Patel,Janata,11999,11775
+bs199495,1994-95,full,Manmohan Singh,INC,13115,12643
+bs,NA,full,NA,NA,6611,6432
+bs201213,2012-13,full,Pranab Mukherjee,INC,14251,13766
+bs201314,2013-14,full,P. Chidambaram,INC,6611,6432
+bs201415,2014-15,full,Arun Jaitley,BJP,16564,16025
+bs201516,2015-16,full,Arun Jaitley,BJP,18073,17557
+bs201617,2016-17,full,Arun Jaitley,BJP,24733,23484
+bs201718,2017-18,full,Arun Jaitley,BJP,18930,17960
+bs201819,2018-19,full,Arun Jaitley,BJP,18099,16990
+bs201920_I_,2019-20,interim,Piyush Goyal,BJP,8178,8003
+bs201920,2019-20,full,Nirmala Sitharaman,BJP,20259,19449
+Budget_Speech_2020-21,2020-21,full,Nirmala Sitharaman,BJP,21147,20042
+Budget_Speech_2021-22,2021-22,full,Nirmala Sitharaman,BJP,17310,16146
+Budget_Speech_2022-23,2022-23,full,Nirmala Sitharaman,BJP,10110,8797
+Budget_Speech_2023-24,2023-24,full,Nirmala Sitharaman,BJP,14043,13235
+Budget_Speech_2024-25,2024-25,full,Nirmala Sitharaman,BJP,14972,7554
+Budget_Speech_2025-26,2025-26,full,NA,NA,14612,7552
+Budget_Speech_2026-27,2026-27,full,NA,NA,15817,7820
+Budget_Speech_2024-25_interim,2024-25,interim,Nirmala Sitharaman,BJP,5384,5030

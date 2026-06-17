@@ -1,0 +1,86 @@
+budget_year,fy_start,presentation_year,budget_type,fm_name,fm_party,fm_party_family,pm_name,government_coalition,source_url,verified,notes
+1947-48,1947,1947,full,R.K. Shanmukham Chetty,INC,INC,Jawaharlal Nehru,Nehru-I,NA,no,First ever Union Budget
+1948-49,1948,1948,full,R.K. Shanmukham Chetty,INC,INC,Jawaharlal Nehru,Nehru-I,NA,no,
+1949-50,1949,1949,full,John Mathai,INC,INC,Jawaharlal Nehru,Nehru-I,NA,no,
+1950-51,1950,1950,full,C.D. Deshmukh,INC,INC,Jawaharlal Nehru,Nehru-I,NA,no,Mathai resigned; Deshmukh took over
+1951-52,1951,1951,full,C.D. Deshmukh,INC,INC,Jawaharlal Nehru,Nehru-II,NA,no,
+1952-53,1952,1952,full,C.D. Deshmukh,INC,INC,Jawaharlal Nehru,Nehru-II,NA,no,
+1953-54,1953,1953,full,C.D. Deshmukh,INC,INC,Jawaharlal Nehru,Nehru-II,NA,no,
+1954-55,1954,1954,full,C.D. Deshmukh,INC,INC,Jawaharlal Nehru,Nehru-II,NA,no,
+1955-56,1955,1955,full,C.D. Deshmukh,INC,INC,Jawaharlal Nehru,Nehru-III,NA,no,
+1956-57,1956,1956,full,T.T. Krishnamachari,INC,INC,Jawaharlal Nehru,Nehru-III,NA,no,
+1957-58,1957,1957,full,T.T. Krishnamachari,INC,INC,Jawaharlal Nehru,Nehru-III,NA,no,
+1958-59,1958,1958,full,Morarji Desai,INC,INC,Jawaharlal Nehru,Nehru-III,NA,no,TTK resigned over Mundhra scandal
+1959-60,1959,1959,full,Morarji Desai,INC,INC,Jawaharlal Nehru,Nehru-III,NA,no,
+1960-61,1960,1960,full,Morarji Desai,INC,INC,Jawaharlal Nehru,Nehru-III,NA,no,
+1961-62,1961,1961,full,Morarji Desai,INC,INC,Jawaharlal Nehru,Nehru-III,NA,no,
+1962-63,1962,1962,full,Morarji Desai,INC,INC,Jawaharlal Nehru,Nehru-IV,NA,no,
+1963-64,1963,1963,full,T.T. Krishnamachari,INC,INC,Jawaharlal Nehru,Nehru-IV,NA,no,TTK second stint; Morarji removed
+1964-65,1964,1964,full,T.T. Krishnamachari,INC,INC,Lal Bahadur Shastri,Shastri,NA,no,Nehru died May 1964
+1965-66,1965,1965,full,T.T. Krishnamachari,INC,INC,Lal Bahadur Shastri,Shastri,NA,no,TTK resigned Dec 1965
+1966-67,1966,1966,full,Sachin Chaudhuri,INC,INC,Indira Gandhi,Indira-I,NA,no,
+1967-68,1967,1967,full,Morarji Desai,INC,INC,Indira Gandhi,Indira-II,NA,no,Morarji as Deputy PM + FM
+1968-69,1968,1968,full,Morarji Desai,INC,INC,Indira Gandhi,Indira-II,NA,no,
+1969-70,1969,1969,full,Morarji Desai,INC,INC,Indira Gandhi,Indira-II,NA,no,Morarji sacked July 1969; INC split
+1970-71,1970,1970,full,Indira Gandhi,INC,INC,Indira Gandhi,Indira-II,NA,no,Indira held FM portfolio herself
+1971-72,1971,1971,full,Yashwantrao Chavan,INC,INC,Indira Gandhi,Indira-III,NA,no,
+1972-73,1972,1972,full,Yashwantrao Chavan,INC,INC,Indira Gandhi,Indira-III,NA,no,
+1973-74,1973,1973,full,Yashwantrao Chavan,INC,INC,Indira Gandhi,Indira-III,NA,no,
+1974-75,1974,1974,full,Yashwantrao Chavan,INC,INC,Indira Gandhi,Indira-III,NA,no,
+1975-76,1975,1975,full,C. Subramaniam,INC,INC,Indira Gandhi,Indira-III,NA,no,Emergency declared June 1975
+1976-77,1976,1976,full,C. Subramaniam,INC,INC,Indira Gandhi,Indira-III,NA,no,
+1977-78,1977,1977,full,H.M. Patel,Janata,Other,Morarji Desai,Janata,NA,no,First non-INC government
+1978-79,1978,1978,full,H.M. Patel,Janata,Other,Morarji Desai,Janata,NA,no,
+1979-80,1979,1979,full,Charan Singh,Janata Dal,Other,Charan Singh,Janata Dal,NA,no,Janata split; Charan Singh as PM+FM
+1980-81,1980,1980,full,R. Venkataraman,INC,INC,Indira Gandhi,Indira-IV,NA,no,INC returned to power
+1981-82,1981,1981,full,R. Venkataraman,INC,INC,Indira Gandhi,Indira-IV,NA,no,
+1982-83,1982,1982,full,R. Venkataraman,INC,INC,Indira Gandhi,Indira-IV,NA,no,
+1983-84,1983,1983,full,Pranab Mukherjee,INC,INC,Indira Gandhi,Indira-IV,NA,no,
+1984-85,1984,1984,full,Pranab Mukherjee,INC,INC,Indira Gandhi,Indira-IV,NA,no,Indira assassinated Oct 1984; Rajiv took over
+1985-86,1985,1985,full,V.P. Singh,INC,INC,Rajiv Gandhi,Rajiv-I,NA,no,
+1986-87,1986,1986,full,V.P. Singh,INC,INC,Rajiv Gandhi,Rajiv-I,NA,no,
+1987-88,1987,1987,full,N.D. Tiwari,INC,INC,Rajiv Gandhi,Rajiv-I,NA,no,VP Singh resigned Jan 1987; Tiwari appointed
+1988-89,1988,1988,full,N.D. Tiwari,INC,INC,Rajiv Gandhi,Rajiv-I,NA,no,
+1989-90,1989,1989,full,S.B. Chavan,INC,INC,Rajiv Gandhi,Rajiv-I,NA,no,
+1990-91,1990,1990,full,Madhu Dandavate,Janata Dal,Other,V.P. Singh,National Front,NA,no,
+1991-92,1991,1991,full,Yashwant Sinha,Janata Dal,Other,Chandra Shekhar,Chandra Shekhar,NA,no,Interim budget; Chandra Shekhar fell
+1991-92,1991,1991,full,Manmohan Singh,INC,INC,P.V. Narasimha Rao,Rao,NA,no,Landmark liberalisation budget July 1991
+1992-93,1992,1992,full,Manmohan Singh,INC,INC,P.V. Narasimha Rao,Rao,NA,no,
+1993-94,1993,1993,full,Manmohan Singh,INC,INC,P.V. Narasimha Rao,Rao,NA,no,
+1994-95,1994,1994,full,Manmohan Singh,INC,INC,P.V. Narasimha Rao,Rao,NA,no,
+1995-96,1995,1995,full,Manmohan Singh,INC,INC,P.V. Narasimha Rao,Rao,NA,no,
+1996-97,1996,1996,full,P. Chidambaram,TMC,INC,H.D. Deve Gowda,United Front,NA,no,Dream Budget
+1997-98,1997,1997,full,P. Chidambaram,TMC,INC,I.K. Gujral,United Front,NA,no,
+1998-99,1998,1998,full,Yashwant Sinha,BJP,BJP,Atal Bihari Vajpayee,NDA-I,NA,no,
+1999-00,1999,1999,interim,Yashwant Sinha,BJP,BJP,Atal Bihari Vajpayee,NDA-I,NA,no,Interim before elections
+1999-00,1999,1999,full,Yashwant Sinha,BJP,BJP,Atal Bihari Vajpayee,NDA-II,NA,no,Full budget after NDA re-election
+2000-01,2000,2000,full,Yashwant Sinha,BJP,BJP,Atal Bihari Vajpayee,NDA-II,NA,no,
+2001-02,2001,2001,full,Yashwant Sinha,BJP,BJP,Atal Bihari Vajpayee,NDA-II,NA,no,
+2002-03,2002,2002,full,Jaswant Singh,BJP,BJP,Atal Bihari Vajpayee,NDA-II,NA,no,
+2003-04,2003,2003,full,Jaswant Singh,BJP,BJP,Atal Bihari Vajpayee,NDA-II,NA,no,
+2004-05,2004,2004,interim,Jaswant Singh,BJP,BJP,Atal Bihari Vajpayee,NDA-II,NA,no,Interim before elections
+2004-05,2004,2004,full,P. Chidambaram,INC,INC,Manmohan Singh,UPA-I,NA,no,Full budget after UPA victory
+2005-06,2005,2005,full,P. Chidambaram,INC,INC,Manmohan Singh,UPA-I,NA,no,
+2006-07,2006,2006,full,P. Chidambaram,INC,INC,Manmohan Singh,UPA-I,NA,no,
+2007-08,2007,2007,full,P. Chidambaram,INC,INC,Manmohan Singh,UPA-I,NA,no,
+2008-09,2008,2008,full,P. Chidambaram,INC,INC,Manmohan Singh,UPA-I,NA,no,
+2009-10,2009,2009,interim,Pranab Mukherjee,INC,INC,Manmohan Singh,UPA-I,NA,no,Interim before elections
+2009-10,2009,2009,full,Pranab Mukherjee,INC,INC,Manmohan Singh,UPA-II,NA,no,Full budget after UPA re-election
+2010-11,2010,2010,full,Pranab Mukherjee,INC,INC,Manmohan Singh,UPA-II,NA,no,
+2011-12,2011,2011,full,Pranab Mukherjee,INC,INC,Manmohan Singh,UPA-II,NA,no,
+2012-13,2012,2012,full,Pranab Mukherjee,INC,INC,Manmohan Singh,UPA-II,NA,no,Pranab left for Presidency July 2012
+2013-14,2013,2013,full,P. Chidambaram,INC,INC,Manmohan Singh,UPA-II,NA,no,
+2014-15,2014,2014,interim,P. Chidambaram,INC,INC,Manmohan Singh,UPA-II,NA,no,Interim before elections
+2014-15,2014,2014,full,Arun Jaitley,BJP,BJP,Narendra Modi,NDA-III,NA,no,First Modi budget; full budget July 2014
+2015-16,2015,2015,full,Arun Jaitley,BJP,BJP,Narendra Modi,NDA-III,NA,no,
+2016-17,2016,2016,full,Arun Jaitley,BJP,BJP,Narendra Modi,NDA-III,NA,no,Demonetisation year
+2017-18,2017,2017,full,Arun Jaitley,BJP,BJP,Narendra Modi,NDA-III,NA,no,First Feb 1 budget; merged Railway budget
+2018-19,2018,2018,full,Arun Jaitley,BJP,BJP,Narendra Modi,NDA-III,NA,no,
+2019-20,2019,2019,interim,Piyush Goyal,BJP,BJP,Narendra Modi,NDA-III,NA,no,Jaitley ill; Goyal presented interim
+2019-20,2019,2019,full,Nirmala Sitharaman,BJP,BJP,Narendra Modi,NDA-IV,NA,no,First Sitharaman budget; first by a woman FM
+2020-21,2020,2020,full,Nirmala Sitharaman,BJP,BJP,Narendra Modi,NDA-IV,NA,no,Pre-COVID; lockdown began March 2020
+2021-22,2021,2021,full,Nirmala Sitharaman,BJP,BJP,Narendra Modi,NDA-IV,NA,no,First paperless budget (tablet)
+2022-23,2022,2022,full,Nirmala Sitharaman,BJP,BJP,Narendra Modi,NDA-IV,NA,no,
+2023-24,2023,2023,full,Nirmala Sitharaman,BJP,BJP,Narendra Modi,NDA-IV,NA,no,
+2024-25,2024,2024,interim,Nirmala Sitharaman,BJP,BJP,Narendra Modi,NDA-IV,NA,no,Interim before elections
+2024-25,2024,2024,full,Nirmala Sitharaman,BJP,BJP,Narendra Modi,NDA-V,NA,no,Full budget post Modi-III formation

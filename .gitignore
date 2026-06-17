@@ -1,0 +1,22 @@
+# Raw PDFs (too large for GitHub)
+input/pdfs/
+
+# Raw and cleaned text corpora
+output/corpus/
+output/corpus_clean/
+
+# Binary model objects
+output/dtm/*.rds
+tmp/*.rds
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# R session
+.Rhistory
+.RData
+.Rproj.user/
+
+# Quarto cache
+.quarto/

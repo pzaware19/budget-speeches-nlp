@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "What Does India's Union Budget Actually Say?"
+  favicon: output/figures/fig_topic_words.png
+  navbar:
+    left:
+      - text: "Corpus & Data"
+        href: index.html#data
+      - text: "Topics"
+        href: index.html#topics
+      - text: "BJP vs INC"
+        href: index.html#party
+      - text: "Time Trends"
+        href: index.html#time
+      - text: "Methods"
+        href: index.html#methodology
+      - text: "Code"
+        href: https://github.com/pzaware19
+        icon: github
+  page-footer:
+    center: "Piyush Zaware · University of Chicago"
+
+format:
+  html:
+    theme:
+      light: [flatly, custom.scss]
+    toc: true
+    toc-location: right
+    toc-title: "Contents"
+    toc-depth: 2
+    smooth-scroll: true
+    code-fold: true
+    fig-align: center
+    fig-cap-location: bottom
+    number-sections: false
+    link-external-newwindow: true
+    html-math-method: katex
