@@ -20,3 +20,6 @@ tmp/*.rds
 
 # Quarto cache
 .quarto/
+
+/.quarto/
+**/*.quarto_ipynb

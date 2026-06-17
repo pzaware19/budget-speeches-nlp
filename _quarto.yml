@@ -13,6 +13,8 @@ website:
         href: index.html#topics
       - text: "BJP vs INC"
         href: index.html#party
+      - text: "Ideology"
+        href: index.html#ideology
       - text: "Time Trends"
         href: index.html#time
       - text: "Methods"
