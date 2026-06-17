@@ -3,9 +3,10 @@ project:
   output-dir: docs
 
 website:
-  title: "What Does India's Union Budget Actually Say?"
+  title: "Budget Speeches, 1947–2026"
   favicon: output/figures/fig_topic_words.png
   navbar:
+    background: light
     left:
       - text: "Corpus & Data"
         href: index.html#data

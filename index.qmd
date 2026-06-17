@@ -13,28 +13,7 @@ I scraped and topic-modelled every Union Budget speech from 1947 to 2026. No han
 :::
 
 ::: {.meta}
-Piyush Zaware
-:::
-
-::: {.badge-row}
-::: {.badge-item}
-91 Speeches
-:::
-::: {.badge-item}
-1947 – 2026
-:::
-::: {.badge-item}
-BJP · INC · Other
-:::
-::: {.badge-item}
-STM · LDA · TF-IDF
-:::
-::: {.badge-item}
-k = 10 Topics
-:::
-::: {.badge-item}
-Party × Year Covariates
-:::
+Piyush Zaware · University of Chicago · June 2026
 :::
 :::
 

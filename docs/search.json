@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Seventy-Nine Years of Budget Speeches",
     "section": "",
-    "text": "I scraped and topic-modelled every Union Budget speech from 1947 to 2026. No hand-coding, no categories set in advance. Just the text Finance Ministers read aloud to Parliament, and what the data turns up when you let it speak for itself.\n\n\nPiyush Zaware\n\n\n\n91 Speeches\n\n\n1947 – 2026\n\n\nBJP · INC · Other\n\n\nSTM · LDA · TF-IDF\n\n\nk = 10 Topics\n\n\nParty × Year Covariates"
+    "text": "I scraped and topic-modelled every Union Budget speech from 1947 to 2026. No hand-coding, no categories set in advance. Just the text Finance Ministers read aloud to Parliament, and what the data turns up when you let it speak for itself.\n\n\nPiyush Zaware · University of Chicago · June 2026"
   },
   {
     "objectID": "index.html#data",
