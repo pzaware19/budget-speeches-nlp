@@ -118,6 +118,10 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Ideology</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./index.html#prediction"> 
+<span class="menu-text">2027 Forecast</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./index.html#time"> 
 <span class="menu-text">Time Trends</span></a>
   </li>  
@@ -151,6 +155,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methods</a></li>
   <li><a href="#findings" id="toc-findings" class="nav-link" data-scroll-target="#findings">Results</a></li>
   <li><a href="#ideology" id="toc-ideology" class="nav-link" data-scroll-target="#ideology">Ideological Dimensions</a></li>
+  <li><a href="#prediction" id="toc-prediction" class="nav-link" data-scroll-target="#prediction">What the Data Predicts for 2027</a></li>
   <li><a href="#robustness" id="toc-robustness" class="nav-link" data-scroll-target="#robustness">Why This Is Harder to Answer Than It Looks</a></li>
   <li><a href="#about" id="toc-about" class="nav-link" data-scroll-target="#about">About</a></li>
   </ul>
@@ -177,12 +182,13 @@ ul.task-list li input[type="checkbox"] {
 <p>That is the question this project tries to answer. The short answer is that party matters less than you might expect.</p>
 </div>
 <div class="abstract-box">
-<p><strong>Four things the data showed</strong></p>
+<p><strong>Five things the data showed</strong></p>
 <ol type="1">
 <li><p><strong>Once you control for time, BJP and INC full-speech budget rhetoric is statistically indistinguishable.</strong> Every topic, every estimate, every confidence interval crosses zero. Finance Ministers from both parties, when governing in the same economic era, reach for the same fiscal vocabulary.</p></li>
 <li><p><strong>Stripping out the tax-proposal boilerplate (Part B) does find two significant differences.</strong> BJP Finance Ministers devote more of their macro agenda text to small-scale industry and rural banking institutions; INC Finance Ministers use more of the programmatic vocabulary of the Congress-led coalition. The full-speech null was partly an artifact of mixing politically meaningful Part A rhetoric with the formulaic Part B duty schedules.</p></li>
 <li><p><strong>Election-year (interim) budgets shift tone but not topic.</strong> The same Finance Minister presenting an interim speech sounds more reassuring and backward-looking than in their full budgets, but the underlying macro themes remain the same. Rhetorical register varies with the electoral calendar; institutional content does not.</p></li>
 <li><p><strong>The identification problem is fundamental.</strong> INC governed from 1947 to 2004 with brief interruptions. BJP has governed since 2014. The party and the decade are nearly the same variable. Any apparent difference in vocabulary could just as easily be an era difference.</p></li>
+<li><p><strong>Sitharaman’s next budget will most likely emphasise manufacturing, fiscal consolidation, and digital infrastructure.</strong> Fitting linear vocabulary trends across her eight full budgets, the strongest predictable signal (R²=0.90) is the rise of production-linked incentive and manufacturing vocabulary. Fiscal consolidation follows at R²=0.65. Both will likely dominate the 2027-28 budget if past trajectories hold.</p></li>
 </ol>
 </div>
 <section id="data" class="level2">
@@ -660,6 +666,48 @@ Note
 <p>The dictionary approach has known limitations. Words like <em>reform</em> and <em>market</em> appear in contexts that are not always ideologically homogeneous: a socialist Finance Minister can “reform” the public sector in the name of socialism. The scores are best read as capturing the <em>presence of vocabulary associated with a given ideology</em>, not the Finance Minister’s underlying beliefs. They are also sensitive to the particular word lists chosen. The patterns are robust to reasonable alternative word choices, but the precise rankings of individual FMs are not.</p>
 </div>
 </div>
+</section>
+</section>
+<section id="prediction" class="level2">
+<h2 class="anchored" data-anchor-id="prediction">What the Data Predicts for 2027</h2>
+<p>Sitharaman has now given eight full budget speeches: 2019-20, 2020-21, 2021-22, 2022-23, 2023-24, 2024-25, 2025-26, and 2026-27. That is enough data to ask whether her budgets follow any detectable trajectory, and if so, where that trajectory points.</p>
+<p>This is not a machine learning forecast. It is a structured extrapolation: fit a linear trend to her policy-theme vocabulary frequencies (from Part A text) and ideology scores, then project that line one year forward. The method is honest about what it can and cannot do.</p>
+<p>The analysis draws on two signals:</p>
+<p><strong>Internal:</strong> How the frequency of six policy-theme word groups has moved across her eight speeches. Each group captures a distinct domain (Manufacturing/PLI, Fiscal/Deficit, Digital/Tech, Green/Climate, Infrastructure, Welfare/Social). The trend across years tells you which directions her rhetorical emphasis has been moving.</p>
+<p><strong>External:</strong> PRS Legislative Research budget analyses and PIB Economic Survey press releases for 2026, the most recent pre-budget year available. These provide an independent picture of what the policy discourse was foregrounding before the budget was presented.</p>
+<section id="the-clearest-signal-manufacturing" class="level3">
+<h3 class="anchored" data-anchor-id="the-clearest-signal-manufacturing">The clearest signal: Manufacturing</h3>
+<p>The most statistically robust trend in her eight speeches is the rise of manufacturing and production-linked incentive vocabulary. This includes words like <em>manufacturing, pli, production, exports, msme, atmanirbhar, domestic, capacity, industrial</em>. The linear trend has an R-squared of 0.90, meaning nine-tenths of the year-to-year variation in this vocabulary is explained by a simple upward line.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="output/figures/fig_ns_vocab_trend.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Policy theme vocabulary trends across Sitharaman’s eight full budget speeches (Part A text). Dashed lines show linear trends. Manufacturing/PLI and Fiscal/Deficit have the highest R-squared values, indicating the most predictable trajectories.</figcaption>
+</figure>
+</div>
+<p>The fiscal consolidation vocabulary (deficit, gdp, capex, borrowing, consolidation) also follows a rising trend with R²=0.66. This is somewhat paradoxical: her budgets have been moving toward both more manufacturing emphasis <em>and</em> more fiscal restraint language simultaneously. These are not contradictory — the post-pandemic consolidation path and the production-linked incentive push can coexist in the same speech.</p>
+</section>
+<section id="prediction-for-the-2027-28-budget" class="level3">
+<h3 class="anchored" data-anchor-id="prediction-for-the-2027-28-budget">Prediction for the 2027-28 budget</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="output/figures/fig_prediction.png" class="img-fluid figure-img" style="width:90.0%"></p>
+<figcaption>Predicted policy theme emphasis for Sitharaman’s next budget (2027-28). Bars show linear trend projection; error bars show 80% prediction interval. Colour indicates direction of internal trend.</figcaption>
+</figure>
+</div>
+<p><strong>Manufacturing and Fiscal consolidation will dominate.</strong> The trend projection puts manufacturing vocabulary at ~39 mentions per 1,000 words (up from 31 in 2026-27) and fiscal/deficit vocabulary at ~61 mentions per 1,000 words (roughly stable from 62 in 2026-27, but a strong upward trend overall). Both carry meaningful R-squared values, so these are the credible predictions.</p>
+<p><strong>Digital/tech vocabulary will keep rising.</strong> R²=0.37 is more modest but the direction is consistent. Expect continued UPI, fintech, AI, and digital infrastructure language.</p>
+<p><strong>Green/climate is directionally rising but uncertain.</strong> The R²=0.07 means the trend line is a poor fit. The projection of ~74 mentions per 1,000 words is the mechanical extrapolation, but the actual 2026-27 value was only 26 — so there is a large prediction interval around this one. Green vocabulary appears in her speeches but erratically.</p>
+</section>
+<section id="ideology-stable-with-noise" class="level3">
+<h3 class="anchored" data-anchor-id="ideology-stable-with-noise">Ideology: stable with noise</h3>
+<p>The ideology scores do not show a clean trend. The market-liberal axis has R²=0.16 and the nationalist axis R²=0.05. Both are essentially noise around a flat line. The projection is that the 2027-28 budget will be ideologically similar to recent budgets: slightly market-liberal (fiscal consolidation, PLI, capital expenditure) combined with protectionist vocabulary on manufacturing (import duties, domestic production push). The specific mix will depend on the macro environment at budget time more than on any detectable ideological drift.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="output/figures/fig_ns_ideology_trend.png" class="img-fluid figure-img" style="width:90.0%"></p>
+<figcaption>Nirmala Sitharaman’s ideology scores across her eight full budgets, with 2027-28 projected values (red triangles). The flat trend lines confirm that her ideological register has been stable, not directional.</figcaption>
+</figure>
+</div>
+<p><strong>The honest caveat.</strong> Eight data points from one Finance Minister is a small sample. A single unusual year shifts a linear trend materially. The prediction intervals are wide. Any exogenous shock — a global recession, a sharp commodity price move, a coalition realignment — would override any vocabulary trend. Read this as “if the past trajectory continues” rather than “this is what will happen.”</p>
 </section>
 </section>
 <section id="robustness" class="level2">
