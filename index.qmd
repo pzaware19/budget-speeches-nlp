@@ -36,7 +36,7 @@ That is the question this project tries to answer. The short answer is that part
 
 4. **The identification problem is fundamental.** INC governed from 1947 to 2004 with brief interruptions. BJP has governed since 2014. The party and the decade are nearly the same variable. Any apparent difference in vocabulary could just as easily be an era difference.
 
-5. **The only reliable vocabulary trend in Sitharaman's eight budgets is manufacturing/PLI (R²=0.67).** Green and climate vocabulary peaked in 2022-23 after COP26 and has been falling back since. Infrastructure vocabulary peaked in 2021 and is declining. Manufacturing and production-linked incentive language is the one theme that has risen consistently — it is the most defensible projection for 2027-28.
+5. **The only reliable vocabulary trend in Sitharaman's eight budgets is manufacturing/PLI (R²=0.67).** Green and climate vocabulary peaked in 2022-23 after COP26 and has been falling back since. Infrastructure vocabulary peaked in 2021 and is declining. Manufacturing and production-linked incentive language is the one theme that has risen consistently; it is the most defensible projection for 2027-28.
 :::
 
 ## The Data {#data}
@@ -289,13 +289,13 @@ This is a structured extrapolation, not a machine learning forecast. I count how
 
 ![Policy theme vocabulary across Sitharaman's eight full budget speeches. Dashed lines are linear trend fits. Manufacturing/PLI and Fiscal/Deficit are the only themes with R² above 0.3, meaning the other lines are closer to noise than trend.](output/figures/fig_ns_vocab_trend.png){width=100%}
 
-The manufacturing and production-linked incentive vocabulary — words like *manufacturing, pli, atmanirbhar, msme, capacity, exports, domestic, industrial* — has risen consistently across her eight budgets, from around 6.7 per 1,000 words in 2019-20 to 15.4 per 1,000 in 2026-27. The linear trend fits with R²=0.67, the highest in the dataset. This is the one number you can project forward with some confidence: the 2027-28 budget will almost certainly continue or extend the manufacturing and PLI emphasis, not retreat from it.
+The manufacturing and production-linked incentive vocabulary (words like *manufacturing, pli, atmanirbhar, msme, capacity, exports, domestic, industrial*) has risen consistently across her eight budgets, from around 6.7 per 1,000 words in 2019-20 to 15.4 per 1,000 in 2026-27. The linear trend fits with R²=0.67, the highest in the dataset. This is the one number you can project forward with some confidence: the 2027-28 budget will almost certainly continue or extend the manufacturing and PLI emphasis, not retreat from it.
 
-The fiscal consolidation vocabulary (*fiscal, deficit, capex, gdp, consolidation, borrowing*) has also risen substantially since 2019-20 — from about 2.9 per 1,000 words to 10.7 per 1,000 in 2026-27, a near-fourfold increase. R²=0.37. The direction is clear but the year-to-year variation is large enough that the 2027 projection (around 11.3 per 1,000) carries a wide confidence band.
+The fiscal consolidation vocabulary (*fiscal, deficit, capex, gdp, consolidation, borrowing*) has also risen substantially since 2019-20, from about 2.9 per 1,000 words to 10.7 per 1,000 in 2026-27, a near-fourfold increase. R²=0.37. The direction is clear but the year-to-year variation is large enough that the 2027 projection (around 11.3 per 1,000) carries a wide confidence band.
 
 ### What has peaked and is now declining
 
-Two themes tell an interesting story about political timing. Green and climate vocabulary spiked sharply in 2022-23 and 2023-24 — the two budgets following COP26 in Glasgow and India's net-zero commitment. By 2026-27 the green vocabulary had fallen back to near its 2019-20 baseline (3.9 per 1,000 words, roughly where it started). The linear trend across all eight years appears slightly positive, but that is an artefact of the peak years pulling up the regression line. The true pattern is an inverted U, not a rise: the climate language responded to a specific political moment and has since receded.
+Two themes tell an interesting story about political timing. Green and climate vocabulary spiked sharply in 2022-23 and 2023-24, the two budgets following COP26 in Glasgow and India's net-zero commitment. By 2026-27 the green vocabulary had fallen back to near its 2019-20 baseline (3.9 per 1,000 words, roughly where it started). The linear trend across all eight years appears slightly positive, but that is an artefact of the peak years pulling up the regression line. The true pattern is an inverted U, not a rise: the climate language responded to a specific political moment and has since receded.
 
 Infrastructure vocabulary follows a similar arc: it peaked in 2021-22 (15.4 per 1,000 words, reflecting the post-COVID capital expenditure push) and has trended downward since, reaching 6.0 per 1,000 in 2026-27. The physical infrastructure push of the early 2020s appears to be yielding floor space to manufacturing and fiscal consolidation as the dominant economic narrative.
 
@@ -316,14 +316,14 @@ For everything else, the honest forecast is continuity at recent levels, not a m
 
 ### Ideology: stable
 
-The ideology scores show no directional trend. The market-liberal axis has R²=0.16 and the nationalist axis R²=0.05. Both are essentially stable — they fluctuate year to year without a consistent direction.
+The ideology scores show no directional trend. The market-liberal axis has R²=0.16 and the nationalist axis R²=0.05. Both are essentially stable; they fluctuate year to year without a consistent direction.
 
 ![Nirmala Sitharaman's ideology scores across her eight full budgets, with 2027-28 projected values (red triangles). Both trend lines are nearly flat, with wide prediction intervals.](output/figures/fig_ns_ideology_trend.png){width=90%}
 
-The ideological register that characterised her 2026-27 budget — moderately market-liberal on capital and deregulation, moderately nationalist on manufacturing and import duties — is the best predictor of her 2027-28 ideological register. The vocabulary mix will depend more on the macro environment at budget time than on any detectable long-run drift.
+The ideological register that characterised her 2026-27 budget, moderately market-liberal on capital and deregulation and moderately nationalist on manufacturing and import duties, is the best predictor of her 2027-28 ideological register. The vocabulary mix will depend more on the macro environment at budget time than on any detectable long-run drift.
 
 ::: {.callout-note}
-**On the sample.** Eight speeches from one Finance Minister is a small dataset. A single unusual year — a crisis budget, a pre-election reversal, a global shock — can materially shift a linear trend. Treat the manufacturing and fiscal projections as informed extrapolations, not forecasts. The 80% prediction intervals are wide for a reason.
+**On the sample.** Eight speeches from one Finance Minister is a small dataset. A single unusual year (a crisis budget, a pre-election reversal, a global shock) can materially shift a linear trend. Treat the manufacturing and fiscal projections as informed extrapolations, not forecasts. The 80% prediction intervals are wide for a reason.
 :::
 
 ## Do Finance Ministers Drift Ideologically Over Their Tenure? {#trajectory}
@@ -338,9 +338,9 @@ Most Finance Ministers show no statistically significant ideological drift. Bein
 
 Two exceptions stand out.
 
-**P. Chidambaram** (INC, 8 full budgets across multiple stints) drifts significantly toward less market-liberal vocabulary over his tenure (slope = -0.0009 per budget, p=0.049, R²=0.50). His early budgets — particularly 1996-97 under the United Front government and his first UPA budget in 2004-05 — are relatively market-liberal in vocabulary. By his later UPA budgets (2012-13), the vocabulary has shifted toward welfare and social programmes. Whether this reflects his personal evolution, the political pressures of UPA's coalition arithmetic, or the changing policy agenda is not resolvable from the text alone.
+**P. Chidambaram** (INC, 8 full budgets across multiple stints) drifts significantly toward less market-liberal vocabulary over his tenure (slope = -0.0009 per budget, p=0.049, R²=0.50). His early budgets, particularly 1996-97 under the United Front government and his first UPA budget in 2004-05, are relatively market-liberal in vocabulary. By his later UPA budgets (2012-13), the vocabulary has shifted toward welfare and social programmes. Whether this reflects his personal evolution, the political pressures of UPA's coalition arithmetic, or the changing policy agenda is not resolvable from the text alone.
 
-**Yashwant Sinha** (BJP, 4 full budgets, 1998-2002) becomes significantly less nationalist over his tenure on the protectionist axis (slope = -0.0009 per budget, p=0.001, R²=0.998). His first budget in 1998-99 contains substantially more domestic-industry protection and self-reliance vocabulary; by his 2001-02 budget, that vocabulary has receded. The NDA government's trajectory — from the Swadeshi framing of its early phase to the more outward-oriented disinvestment and technology emphasis of the early 2000s — is visible in his individual trajectory.
+**Yashwant Sinha** (BJP, 4 full budgets, 1998-2002) becomes significantly less nationalist over his tenure on the protectionist axis (slope = -0.0009 per budget, p=0.001, R²=0.998). His first budget in 1998-99 contains substantially more domestic-industry protection and self-reliance vocabulary; by his 2001-02 budget, that vocabulary has receded. The NDA government's trajectory, from the Swadeshi framing of its early phase to the more outward-oriented disinvestment and technology emphasis of the early 2000s, is visible in his individual trajectory.
 
 ![Slope of ideological drift per additional budget in tenure. Filled dots are significant at p<0.1. Most FMs cluster near zero on both axes.](output/figures/fig_fm_slope.png){width=100%}
 
@@ -354,13 +354,13 @@ The result is consistent with the interim budget finding from Section 8: elector
 
 ## Economic Survey vs Budget Speech {#ecosurvey}
 
-The Economic Survey is published the day before the Union Budget. It is written by the Chief Economic Adviser (CEA), a technocrat appointed by the government but with a degree of analytical independence from the Finance Ministry. The budget speech itself is drafted by the Finance Minister's team. The two documents address the same economy with potentially different emphases — the CEA's assessment of what is and what should be done, versus the Finance Ministry's political statement of what the government is going to do.
+The Economic Survey is published the day before the Union Budget. It is written by the Chief Economic Adviser (CEA), a technocrat appointed by the government but with a degree of analytical independence from the Finance Ministry. The budget speech itself is drafted by the Finance Minister's team. The two documents address the same economy with potentially different emphases: the CEA's assessment of what is and what should be done, versus the Finance Ministry's political statement of what the government is going to do.
 
 Do the Economic Survey and the Budget Speech sit in the same ideological position? When they diverge, who is more market-liberal?
 
 This analysis uses the same ideology dictionaries applied to Economic Survey PIB press release texts for 2021-2024. Three years have sufficient text for scoring (2021 under K.V. Subramanian; 2023 and 2024 under V. Anantha Nageswaran). Three years is a small sample and the results are directional rather than definitive.
 
-![Economic Survey (circle) vs Budget Speech (square) ideological positions. Arrow points from Budget Speech toward Economic Survey — the arrow shows the direction and magnitude of divergence. 2021: Economic Survey is more market-liberal than the Budget. 2023-24: Budget Speech is more market-liberal than the Economic Survey.](output/figures/fig_es_vs_bs.png){width=90%}
+![Economic Survey (circle) vs Budget Speech (square) ideological positions. Arrow points from Budget Speech toward Economic Survey, showing the direction and magnitude of divergence. 2021: Economic Survey is more market-liberal than the Budget. 2023-24: Budget Speech is more market-liberal than the Economic Survey.](output/figures/fig_es_vs_bs.png){width=90%}
 
 **2021 (K.V. Subramanian):** The Economic Survey is more market-liberal than the Budget Speech delivered by Nirmala Sitharaman. The CEA's text uses more private-sector, reform, and efficiency vocabulary relative to the budget's welfare and consolidation emphasis in the post-COVID year.
 
@@ -369,7 +369,7 @@ This analysis uses the same ideology dictionaries applied to Economic Survey PIB
 Market axis sign agreement across the three years: 2/3. Nationalist axis: 1/3. The sample is too small to draw firm conclusions, but the reversal in direction between the two CEA regimes is notable.
 
 ::: {.callout-note}
-The Economic Survey texts here are PIB press release summaries, not the full Economic Survey documents, which run to hundreds of pages. The PIB summaries emphasise highlights rather than the full analytical content. This limits the analysis — the ideology scores are being computed on a summary of the CEA's argument rather than the argument itself. The direction of divergence is interpretable; the magnitude less so.
+The Economic Survey texts here are PIB press release summaries, not the full Economic Survey documents, which run to hundreds of pages. The PIB summaries emphasise highlights rather than the full analytical content. This limits the analysis: the ideology scores are being computed on a summary of the CEA's argument rather than the argument itself. The direction of divergence is interpretable; the magnitude less so.
 :::
 
 ## Why This Is Harder to Answer Than It Looks {#robustness}
