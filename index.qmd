@@ -47,13 +47,15 @@ That is the question this project tries to answer. The short answer is that part
 :::
 
 ::: {.abstract-box}
-**Three things the data showed**
+**Four things the data showed**
 
-1. **Once you control for time, BJP and INC budget speeches are statistically indistinguishable.** Every topic, every estimate, every confidence interval crosses zero. Finance Ministers from both parties, when governing in the same economic era, reach for the same fiscal vocabulary.
+1. **Once you control for time, BJP and INC full-speech budget rhetoric is statistically indistinguishable.** Every topic, every estimate, every confidence interval crosses zero. Finance Ministers from both parties, when governing in the same economic era, reach for the same fiscal vocabulary.
 
-2. **Ten coherent themes fall out of the corpus without any labelling.** The post-Partition currency crisis. The Green Revolution. The 1991 foreign exchange emergency. The NABARD-SSI-rural credit era. The GST and Aadhaar decade. These are not categories I imposed; the algorithm found them.
+2. **Stripping out the tax-proposal boilerplate (Part B) does find two significant differences.** BJP Finance Ministers devote more of their macro agenda text to small-scale industry and rural banking institutions; INC Finance Ministers use more of the programmatic vocabulary of the Congress-led coalition. The full-speech null was partly an artifact of mixing politically meaningful Part A rhetoric with the formulaic Part B duty schedules.
 
-3. **The identification problem is fundamental and probably unfixable with this data.** INC governed from 1947 to 2004 with brief interruptions. BJP has governed since 2014. The party you belong to and the decade you govern in are nearly the same variable. Any apparent difference in vocabulary between BJP and INC speeches could just as easily be an era difference.
+3. **Election-year (interim) budgets shift tone but not topic.** The same Finance Minister presenting an interim speech sounds more reassuring and backward-looking than in their full budgets, but the underlying macro themes remain the same. Rhetorical register varies with the electoral calendar; institutional content does not.
+
+4. **The identification problem is fundamental.** INC governed from 1947 to 2004 with brief interruptions. BJP has governed since 2014. The party and the decade are nearly the same variable. Any apparent difference in vocabulary could just as easily be an era difference.
 :::
 
 ## The Data {#data}
@@ -194,6 +196,56 @@ Plotting BJP and INC speeches separately across time confirms the pattern visual
 ![Topic proportions over time, BJP in orange and INC in blue. Each dot is one full budget speech. The loess curves show the smoothed trend. Where the parties coexist in the same years, the lines run close together.](output/figures/fig_topic_trends_cov.png){width=100%}
 
 The 2000s period is the most informative for the party comparison: you have late UPA speeches from INC and early NDA speeches from BJP in relatively close proximity. Topic proportions in that window are hard to distinguish by party. The divergence you see at the extremes of the time axis (1950s INC, 2020s BJP) is driven by vocabulary that genuinely could not appear at both ends of the timeline.
+
+### 7. Does Tax Boilerplate Drive the Null? Part A Only {#parta}
+
+The null result above uses full budget speeches. But every speech has two halves. Part A is where the Finance Minister makes the political argument: here is what the economy looks like, here is what we are worried about, here is where the money is going. Part B is a list of tax rate changes read aloud: this duty goes up, that exemption is being removed, this surcharge is introduced. Part B generates a thick layer of predictable vocabulary (duty, excise, customs, levy, cess, proposed, clause, subsection) that is identical in structure whether the Finance Minister is left-wing or right-wing. The institutional grammar of the tax code overwhelms the political signal.
+
+The question is whether stripping Part B out before modelling sharpens the BJP-INC comparison.
+
+Using a detection cascade of regex patterns (standalone "PART B" headings, "TAX PROPOSALS" headers, inline transition phrases, and pre-1960 "DIRECT TAXATION" headings), I identified the Part A / Part B boundary in 68 of the 92 speeches. The remaining 24 are mostly interim budgets, which have no Part B by design, and a few pre-1957 speeches where the two halves were not structurally separated. The median Part A is 6,286 words and the median Part B is 5,832 words, almost exactly a 50/50 split by length.
+
+The Part A model was then run with the same STM specification: k=10, party + year spline covariates, same vocabulary cleaning, with a small additional step of removing residual tax-vocabulary terms (duty, excise, rebate, surcharge, cess) that sometimes bleed across the Part A/B boundary.
+
+![BJP-INC topic effects estimated from Part A text only (macro and expenditure content, tax proposals removed). Two of ten topics now reach significance.](output/figures/fig_parta_forest.png){width=90%}
+
+**Two topics are now statistically significant, compared to zero in the full-speech model:**
+
+- **T5 (SSI/NABARD/SIDBI/rural banking):** BJP Finance Ministers devote significantly more of their Part A to small-scale industry development finance and rural credit institutions (+0.35 proportion, p=0.001). This includes mentions of NABARD, SIDBI, the SSI sector, and tribal development schemes. The signal was present in the full-speech model but buried under Part B noise.
+
+- **T9 (UPA/NCMP/GST/Aadhaar/skill):** BJP Finance Ministers use significantly less of this vocabulary (-0.32, p<0.001). This topic contains the programmatic vocabulary of the UPA era: the National Common Minimum Programme, the flagship schemes named in that coalition agreement, and the general framing of the Congress-led government. Predictably, INC Finance Ministers use this vocabulary more. This is partly mechanical (you cannot say UPA if you are not UPA) but it also reflects a genuine difference in how the two parties describe their program priorities.
+
+![Comparison of BJP-INC effects from full-speech model (grey) and Part A only model (brown). Points that shift or gain significance in the Part A model are where the tax boilerplate was suppressing the signal.](output/figures/fig_parta_vs_full.png){width=90%}
+
+::: {.callout-note}
+The collinearity problem identified above still applies to the Part A model. T9's significance may partly reflect the difficulty of separating "which party" from "which era." UPA as a phrase genuinely belongs to 2004-2014. But T5's result is more interesting: both parties governed in eras when NABARD and SSI support were active institutions, and BJP Part A speeches devote more vocabulary to them. Whether this reflects a genuine policy emphasis or a difference in rhetorical strategy within comparable economic periods is a question the text data alone cannot fully settle.
+:::
+
+### 8. Interim vs Full Budget Speeches {#interim}
+
+Every few years, when a general election approaches, the incumbent government cannot present a full budget because it may not be in power to implement it. Instead it presents an interim budget, or vote-on-account, a short speech that asks Parliament to keep the lights on until the election is decided. These interim speeches are a natural experiment: you have the same Finance Minister, the same economic institutions, but a different political incentive. Are interim budgets different in their rhetoric from full budgets presented by the same person?
+
+Eight Finance Ministers in the corpus presented both interim and full budget speeches: Morarji Desai, C.D. Deshmukh, T.T. Krishnamachari, H.M. Patel, Manmohan Singh, Yashwant Sinha, Jaswant Singh, and Nirmala Sitharaman. That is 51 speeches total, 9 of them interim, with the same Finance Ministers presenting both types.
+
+The vocabulary analysis confirms that interim and full budget speeches use noticeably different word sets:
+
+![Words disproportionately used in interim vs full budget speeches (log-rate ratio). Each panel shows the 20 most overrepresented words in that speech type, among words appearing at least 15 times in the paired corpus.](output/figures/fig_interim_tfidf.png){width=100%}
+
+Interim speeches lean heavily on words like *achievements, confidence, assurance, satisfied, pleased*. The tone is retrospective and reassuring: here is what we accomplished, here is why you should trust us to continue. Full speeches are more prospective and programmatic: they contain more of the substantive vocabulary of fiscal policy (specific sector names, scheme names, institutional acronyms).
+
+The ideology scores tell a related story. Looking at each Finance Minister's macro rhetoric (Part A ideology scores) across their interim and full budgets, most FMs shift slightly toward more populist and reassuring vocabulary in election-year speeches:
+
+![Ideology positions of Finance Ministers across their interim and full budget speeches. Each point is one speech; lines connect the same FM across budget types.](output/figures/fig_interim_fm_profiles.png){width=100%}
+
+However, the STM model with Finance Minister fixed effects finds **no statistically significant topic shifts** between interim and full budgets from the same FM (0 of 8 topics, all p > 0.1):
+
+![STM effect of being an interim budget on topic prevalence, controlling for Finance Minister identity. No topic reaches significance.](output/figures/fig_interim_stm.png){width=90%}
+
+The null result here is probably genuine: while the *tone* and specific vocabulary of interim speeches differs from full budgets, the underlying macro-political themes they address are similar. A Finance Minister who spends their full budget years talking about rural credit and agricultural investment also talks about those things in their election-year interim speech, just in a more backward-looking, achievements-focused framing. The institutional topics do not shift; the rhetorical register does.
+
+::: {.callout-note}
+The interim budget sample is small (9 speeches across 8 Finance Ministers), which limits statistical power. The null result should be read as "we cannot detect a systematic shift with this data" rather than "there is definitely no shift."
+:::
 
 ## Ideological Dimensions {#ideology}
 
