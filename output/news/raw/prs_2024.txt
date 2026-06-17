@@ -1,0 +1,198 @@
+Union Budget 2024-25 Analysis
+Open PDF
+The Finance Minister, Ms Nirmala Sitharaman presented the Budget for 2024-25 on July 23, 2024.  In this note, actuals for 2023-24 are the unaudited provisional actuals.
+Budget Highlights
+Expenditure:
+The government is estimated to spend Rs 48,20,512 crore in 2024-25, 8.5% higher than the actual expenditure in 2023-24.  Interest payments account for 24% of the total expenditure, and 37% of revenue receipts.
+Receipts:
+The receipts (other than borrowings) in 2024-25 are estimated to be Rs 32,07,200 crore, 15% higher than the receipts in 2023-24.  Tax
+revenue,
+which forms major part of the receipts, is also expected to increase by 11% over the receipts in 2023-24.
+GDP:
+The government has estimated a nominal GDP growth rate of 10.5% in 2024-25 (i.e., real growth plus inflation).
+Deficits:
+Revenue deficit in 2024-25 is targeted at 1.8% of GDP.  This is lower than the actual revenue deficit of 2.6% of GDP in 2023-24.  Fiscal deficit in 2024-25 is targeted at 4.9% of GDP, which is lower than the actual fiscal deficit of 5.6% of GDP in 2023-24.
+New Schemes:
+Rs 62,593 crore has been allocated to the Department of Economic Affairs for New Schemes (details not available).  The allocation is for capital expenditure, and accounts for 6.8% of the total capital outlay.
+Main tax proposals in the Finance Bill
+Changes in new income tax regime:
+Tax slabs under the new tax regime have been modified.  The proposed tax structure is shown in Table 1.  Standard deduction for salaried individuals and pensioners is proposed to be increased from Rs 50,000 to Rs 75,000 under the new tax regime.  Deduction from family pension is also proposed to be increased from Rs 15,000 to Rs 25,000.  Pension contribution will be tax deductible for the employer and the employee up to 14% of the salary (from 10% earlier).
+Table
+1: Current and proposed tax slabs
+Tax Rate
+Current Income Slab
+Proposed Income Slab
+Nil
+Up to Rs 3 lakh
+Up to Rs 3 lakh
+5%
+Rs 3 lakh to Rs 6 lakh
+Rs 3 lakh to Rs 7 lakh
+10%
+Rs 6 lakh to Rs 9 lakh
+Rs 7 lakh to Rs 10 lakh
+15%
+Rs 9 lakh to Rs 12 lakh
+Rs 10 lakh to Rs 12 lakh
+20%
+Rs 12 lakh to Rs 15 lakh
+Rs 12 lakh to Rs 15 lakh
+30%
+Above Rs 15 lakh
+Above Rs 15 lakh
+Capital gains tax:
+Short term capital gains tax on listed equity shares, units of equity mutual funds and REITs/INVITs is proposed to be increased from 15% to 20%.  Long term capital gains tax will be levied at 12.5% across all asset categories.  This was earlier levied at 10% on listed equity shares, equity mutual fund units, and REITs/INVITs and at 20% with indexation for other assets.  Indexation for calculating long term capital gains for property, gold, and other unlisted assets will be removed.  Listed financial assets held for more than a year will be classified as long term while unlisted financial assets and all non-financial assets must be held for at least two years to be classified as long term.  Exemption limit for long term capital gains from listed equity shares, equity mutual funds, and business trusts will be increased from one lakh rupees to Rs 1.25 lakh.  Buy back of shares will be treated on par with dividends.
+Securities transaction tax:
+Securities transaction tax levied on sale of options in the securities market will be increased from 0.0625% to 0.1% of the option premium and on the sale of futures will be increased from 0.0125% to 0.02% of the trading price.
+Tax deducted at source:
+Rate of tax deducted at source (TDS) is proposed to be reduced from 5% to 2% for several items such as payment of insurance commission, payment of life insurance policy, rent payment, and payment of commission or brokerage.  TDS on payment of proceeds of sale by an e-commerce operator to an e-commerce participant will be reduced from 1% to 0.1%.
+Direct Tax Vivad Se Vishwas Scheme, 2024:
+The scheme will be introduced for settlement of tax related disputes.  It provides for leniency in payment of disputed interest or penalty on the tax amount.
+Equalisation levy:
+Equalisation levy of 2% of the proceeds received by a non-resident e-commerce operator for supply of goods or services will not be applicable from August 1, 2024.
+Changes in customs duty:
+Customs duty rates have been changed for several goods.  It has been reduced for goods such as: (i) gold and silver and (ii) mobile phones and their chargers/adapters.  Certain items used in the textile, steel, and capital goods sectors have been exempted from customs duty.  Customs duty has been increased for solar glass (used in manufacture of solar cells or modules) and certain chemicals.
+Angel tax:
+The Income Tax Act provides for the levy of tax on unlisted companies for receiving funds in excess of the face value of their shares.  This provision will cease to apply.
+Disclosure of foreign assets:
+The Black Money Act, 2015 has penalties for not declaring assets held abroad.  This will not apply to movable assets up to Rs 20 lakh.
+Immunity from benami transactions:
+The Prohibition of Benami Property Transactions Act, 1988 makes the benamidar and the beneficial owner equally culpable.  In order to encourage a benamidar to turn approver, provision is being made to provide immunity.
+Policy Highlights
+Employment:
+Three schemes to promote employment and increase workforce participation were announced.  These will provide: (i) wage support up to Rs 15,000 to first time employees registered with EPFO, (ii) incentives to employees and employers in the manufacturing sector for their EPFO contributions, and (iii) reimbursement of up to Rs 3,000 per month for employer EPFO contributions, per new employee for two years.
+Skilling:
+A scheme to upskill 20 lakh youth over five years will be launched.  Under this, 1,000 industrial training institutes will be upgraded to meet the skilling needs of the industry.  Another scheme to provide internship opportunities for one crore youth in 500 top companies has been announced.  Under this, a monthly allowance of Rs 5,000 and a one-time assistance of Rs 6,000 will be provided to the beneficiaries.  Companies can bear the training cost and 10% of the internship cost from their CSR funds.
+Assistance to states:
+Plan will be formulated to enhance human resources, infrastructure and economic opportunities in Bihar, Jharkhand, West Bengal, Odisha, and Andhra Pradesh.  Financial support of Rs 15,000 crore will be provided to Andhra Pradesh for a new capital this year.
+MSMEs:
+Credit guarantee scheme for MSMEs in the manufacturing sector has been announced. It will facilitate term loans for purchasing machinery and equipment without collateral or guarantee.  A self-financing guarantee fund will be constituted to provide guarantee cover up to Rs 100 crore.  The limit of Mudra loans will be increased from Rs 10 lakh to Rs 20 lakh, for entrepreneurs who have availed and paid loans previously.
+Energy
+: A roadmap will be designed for industries with high carbon dioxide emissions, setting emission targets for them. Investment towards emerging technologies in nuclear energy will be made in collaboration with the private sector.
+Agriculture:
+Existing agricultural research setup will be reviewed with a focus on raising productivity and developing climate resilient crops. Vegetable production clusters near major consumption centres will be established. A national policy will be drafted for development of the cooperative sector.
+Urban and Rural Development
+: A transit-oriented development plan will be formulated for 14 large cities with a population over 30 lakh.  States charging high stamp duties will be encouraged to reduce them, and further lower them for women buying property.  Three crore additional houses will be built under the PM Awas Yojana in rural and urban areas.
+Budget estimates of 2024-25 as compared to actuals of 2023-24
+Total Expenditure:
+The government is estimated to spend Rs
+48,20,512
+crore in 2024-25.  This is an increase of 8.5% over the actuals of 2023-24.
+Revenue expenditure
+is estimated to grow at 6.2% and capital expenditure at 17.1%.  The revenue expenditure growth has been kept in check due to pension, defence expenditure, subsidies, and major schemes (MGNREGS, Jal Jeevan Mission, and PM-KISAN) together being allotted roughly the same as the actuals for 2023-24.
+Total Receipts
+(excluding borrowings) are estimated to be Rs 32,07,200 crore, 15% higher than the actuals of 2023-24.  The gap between these receipts and the expenditure will be plugged by borrowings, budgeted to be Rs 16,13,312 crore, 2.4% lower than the actuals of 2023-24.
+Transfer to states:
+The central government will transfer Rs 23,48,980 crore to states and union territories in 2024-25, an increase of 11.9% over the actuals of 2023-24.  Transfer to states includes devolution of Rs 12,47,211 crore out of the divisible pool of central taxes and grants worth Rs 11,01,769 crore.
+Deficits:
+In 2024-25, revenue deficit is targeted at 1.8% of GDP, lower than the deficit of 2.6% of GDP in 2023-24.  Fiscal deficit is targeted at 4.9% of GDP in 2024-25, lower than the actuals for 2023-24 (5.6% of GDP).  The lower fiscal deficit is on account of receipts growing at 15%, which is higher than the expenditure growth of 8.5%.
+GDP growth estimate:
+The nominal GDP is estimated to grow at a rate of 10.5% in 2024-25.
+Table 2: Budget at a Glance 2024-25 (Rs crore)
+Actuals
+2022-23
+Budgeted
+2023-24
+Actuals
+2023-24
+Budgeted
+2024-25
+% change (2023-24 Actuals to 2024-25 BE)
+Revenue Expenditure
+34,53,132
+35,02,136
+34,94,036
+37,09,401
+6.2%
+Capital Expenditure
+7,40,025
+10,00,961
+9,48,506
+11,11,111
+17.1%
+of which:
+Capital Outlay
+6,24,757
+8,37,127
+7,87,411
+9,18,695
+16.7%
+Loans and Advances
+1,15,268
+1,63,834
+1,61,095
+1,92,416
+19.4%
+Total Expenditure
+41,93,157
+45,03,097
+44,42,542
+48,20,512
+8.5%
+Revenue Receipts
+23,83,206
+26,32,281
+27,28,412
+31,29,200
+14.7%
+Capital Receipts
+72,196
+84,000
+60,461
+78,000
+29.0%
+of which:
+Recoveries of Loans*
+26,161
+23,000
+27,338
+28,000
+2.4%
+Other receipts (including disinvestments)*
+46,035
+61,000
+33,123
+50,000
+51.0%
+Total Receipts (excluding borrowings)
+24,55,402
+27,16,281
+27,88,872
+32,07,200
+15.0%
+Revenue Deficit
+10,69,926
+8,69,855
+7,65,624
+5,80,201
+-24.2%
+% of GDP
+3.9%
+2.9%
+2.6%
+1.8%
+Fiscal Deficit
+17,37,755
+17,86,816
+16,53,670
+16,13,312
+-2.4%
+% of GDP
+6.4%
+5.9%
+5.6%
+4.9%
+Primary Deficit
+8,09,238
+7,06,845
+5,89,799
+4,50,372
+-23.6%
+% of GDP
+3.0%
+2.3%
+2.0%
+1.4%
+Note: *Recovery of Loans and Disinvestment for 2023-24 Actuals from Controller General of Accounts.
+Sources: Budget at a Glance, Union Budget Documents 2024-25; PRS.
+Read More..

@@ -30,7 +30,7 @@ with this sample size has wide prediction intervals. Exogenous shocks
 ## Most Predictable Theme: Manufacturing/PLI
 
 The strongest quantitative signal in the data is the **Manufacturing and PLI
-vocabulary** trend: R2 = 0.9.
+vocabulary** trend: R2 = 0.67.
 This is the most predictable trend in her budgets. Expect continued and
 growing emphasis on production-linked incentives, Atmanirbhar Bharat,
 MSME support, and domestic industrial capacity.
@@ -39,21 +39,21 @@ MSME support, and domestic industrial capacity.
 
 ## Rising Themes (expected to increase in 2027)
 
-- **Manufacturing/PLI**: 31.2 mentions/1k words in 2026 -> 39.2 projected 2027 (R2=0.9, news signal=0)
-- **Fiscal/Deficit**: 62.5 mentions/1k words in 2026 -> 60.5 projected 2027 (R2=0.66, news signal=0)
-- **Digital/Tech**: 37 mentions/1k words in 2026 -> 41.7 projected 2027 (R2=0.37, news signal=0)
-- **Green/Climate**: 25.6 mentions/1k words in 2026 -> 73.8 projected 2027 (R2=0.07, news signal=0)
+- **Manufacturing/PLI**: 15.4 mentions/1k words in 2026 -> 20.5 projected 2027 (R2=0.67, news signal=0)
+- **Fiscal/Deficit**: 10.7 mentions/1k words in 2026 -> 11.3 projected 2027 (R2=0.37, news signal=0)
+- **Welfare/Social**: 18.8 mentions/1k words in 2026 -> 24.7 projected 2027 (R2=0.16, news signal=0)
+- **Green/Climate**: 3.9 mentions/1k words in 2026 -> 8.7 projected 2027 (R2=0.03, news signal=0)
 
 ## Falling Themes (expected to decrease in 2027)
 
-- **Infrastructure**: 25.6 mentions/1k words in 2026 -> 29.5 projected 2027 (R2=0, news signal=1)
+- **Infrastructure**: 6 mentions/1k words in 2026 -> 7.8 projected 2027 (R2=0.06, news signal=1)
 
 ## Highest Expected Volume (mentions per 1k words)
 
-- **Green/Climate**: 25.6 mentions/1k words in 2026 -> 73.8 projected 2027 (R2=0.07, news signal=0)
-- **Fiscal/Deficit**: 62.5 mentions/1k words in 2026 -> 60.5 projected 2027 (R2=0.66, news signal=0)
-- **Digital/Tech**: 37 mentions/1k words in 2026 -> 41.7 projected 2027 (R2=0.37, news signal=0)
-- **Manufacturing/PLI**: 31.2 mentions/1k words in 2026 -> 39.2 projected 2027 (R2=0.9, news signal=0)
+- **Welfare/Social**: 18.8 mentions/1k words in 2026 -> 24.7 projected 2027 (R2=0.16, news signal=0)
+- **Manufacturing/PLI**: 15.4 mentions/1k words in 2026 -> 20.5 projected 2027 (R2=0.67, news signal=0)
+- **Fiscal/Deficit**: 10.7 mentions/1k words in 2026 -> 11.3 projected 2027 (R2=0.37, news signal=0)
+- **Digital/Tech**: 7.9 mentions/1k words in 2026 -> 9.7 projected 2027 (R2=0.03, news signal=0)
 
 ---
 

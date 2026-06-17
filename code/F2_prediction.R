@@ -108,75 +108,96 @@ theme_proj_plot <- theme_proj %>%
   left_join(news_match, by = "dimension") %>%
   mutate(
     news_match_score = replace_na(news_match_score, 0L),
-    signal = case_when(
-      trend == "rising"  & news_match_score >= 2 ~ "Both: rising",
-      trend == "falling" & news_match_score == 0 ~ "Both: falling",
-      trend == "rising"                           ~ "Trend up",
-      trend == "falling"                          ~ "Trend down",
-      news_match_score >= 2                       ~ "News active",
-      TRUE                                        ~ "Stable"
-    )
+    # Credibility tier based on R²
+    credibility = case_when(
+      r_squared >= 0.5  ~ "Strong signal (R²≥0.5)",
+      r_squared >= 0.15 ~ "Moderate signal (R²≥0.15)",
+      TRUE              ~ "Weak signal (R²<0.15)"
+    ),
+    # R² label for plot annotation
+    r2_label = glue("R²={round(r_squared, 2)}")
   )
 
-signal_colours <- c(
-  "Both: rising"  = "#2a7a2a",
-  "Both: falling" = "#b5310e",
-  "Trend up"      = "#6aaa6a",
-  "Trend down"    = "#e08070",
-  "News active"   = "#c49a00",
-  "Stable"        = "#aaaaaa"
+cred_colours <- c(
+  "Strong signal (R²≥0.5)"   = "#2a5e2a",
+  "Moderate signal (R²≥0.15)"= "#8b6914",
+  "Weak signal (R²<0.15)"    = "#aaaaaa"
 )
 
 message("\nTheme signal assessment:")
-print(theme_proj_plot %>% select(dimension, trend, r_squared, news_match_score, signal))
+print(theme_proj_plot %>% select(dimension, trend, r_squared, credibility))
 #}
 
 # -- FIGURES ------------------------------------------------------------------
 #{
-# Figure 1: Theme trend + projection bar chart
+# Figure 1: Forecast bar chart coloured by R² credibility
 p_forecast <- ggplot(theme_proj_plot,
     aes(x = reorder(dimension, pred_2027),
-        y = pred_2027, fill = signal,
+        y = pred_2027, fill = credibility,
         ymin = pred_lo, ymax = pred_hi)) +
   geom_col(width = 0.6, colour = "white", linewidth = 0.3) +
-  geom_errorbar(width = 0.25, linewidth = 0.7, colour = "#333") +
+  geom_errorbar(width = 0.3, linewidth = 0.7, colour = "#333") +
+  geom_text(aes(label = r2_label, y = pred_lo - 0.5),
+            hjust = 1, size = 3, colour = "#555") +
   coord_flip() +
-  scale_fill_manual(values = signal_colours, name = NULL) +
-  scale_y_continuous(name = "Predicted mentions per 1,000 words") +
+  scale_fill_manual(values = cred_colours, name = "Forecast reliability") +
+  scale_y_continuous(name = "Predicted mentions per 1,000 words",
+                     expand = expansion(mult = c(0.18, 0.05))) +
   labs(
-    title    = "Predicted policy theme emphasis: Sitharaman 2027",
-    subtitle = glue("Linear trend from Part A texts 2019-2026.\nColour = internal trend + news signal agreement (news year: {latest_news_year})."),
+    title    = "Predicted policy theme emphasis: Sitharaman 2027-28",
+    subtitle = "80% prediction intervals. Colour = goodness of linear fit (R²).\nGrey bars: no reliable trend — project as stable at recent levels.",
     x = NULL
   ) +
   theme_bw(base_size = 11) +
-  theme(legend.position = "bottom",
+  theme(legend.position  = "bottom",
+        legend.text      = element_text(size = 9),
         panel.grid.major.y = element_blank())
 
 ggsave(file.path(FIGDIR, "fig_prediction.png"), p_forecast,
        width = 9, height = 6, dpi = 150)
 message("Saved: fig_prediction.png")
 
-# Figure 2: Historical theme trends (actual data + linear fit lines)
-theme_years <- 2019:2026
+# Figure 2: Historical theme trends — facet by theme, actual data + trend line
+# Colour each facet by credibility so viewer knows which lines to trust
+vocab_with_cred <- vocab_trend %>%
+  left_join(theme_proj_plot %>% select(dimension, credibility, r2_label),
+            by = c("theme" = "dimension"))
 
-p_trends <- ggplot(vocab_trend, aes(x = fy_start, y = share, colour = theme)) +
-  geom_point(size = 2.2) +
-  geom_smooth(method = "lm", se = FALSE, linewidth = 0.8, linetype = "dashed") +
-  geom_line(linewidth = 0.6, alpha = 0.5) +
-  scale_x_continuous(breaks = theme_years) +
+facet_order <- theme_proj %>% arrange(desc(r_squared)) %>% pull(dimension)
+
+p_trends <- ggplot(vocab_with_cred,
+    aes(x = fy_start, y = share)) +
+  geom_point(aes(colour = credibility), size = 2.5) +
+  geom_line(aes(colour = credibility), linewidth = 0.7, alpha = 0.7) +
+  geom_smooth(method = "lm", se = TRUE, linewidth = 0.9,
+              colour = "#444", fill = "#ddd", alpha = 0.4) +
+  geom_text(data = vocab_with_cred %>%
+              group_by(theme, r2_label) %>% slice_tail(n = 1) %>% ungroup(),
+            aes(label = r2_label), hjust = 0, nudge_x = 0.05,
+            size = 2.8, colour = "#666") +
+  scale_x_continuous(breaks = 2019:2026,
+                     limits = c(2019, 2027.5),
+                     labels = c("2019", "'20", "'21", "'22", "'23", "'24", "'25", "'26")) +
   scale_y_continuous(name = "Mentions per 1,000 words") +
-  scale_colour_brewer(palette = "Dark2", name = NULL) +
+  scale_colour_manual(values = cred_colours, name = NULL) +
+  facet_wrap(~ factor(theme, levels = facet_order), ncol = 3, scales = "free_y") +
   labs(
     title    = "Policy theme vocabulary — Nirmala Sitharaman (2019-2026)",
-    subtitle = "Dashed lines = linear trend. Part A text only (excludes tax schedules).",
+    subtitle = "Sorted by linear fit quality (strongest top-left). Grey band = 95% CI on trend line.",
     x = "Budget year"
   ) +
-  theme_bw(base_size = 11) +
-  theme(legend.position = "bottom",
-        axis.text.x = element_text(angle = 45, hjust = 1))
+  theme_bw(base_size = 10) +
+  theme(legend.position  = "bottom",
+        strip.background = element_rect(fill = "#f5f1ea"),
+        strip.text       = element_text(face = "bold"),
+        axis.text.x      = element_text(size = 8))
+
+ggsave(file.path(FIGDIR, "fig_ns_vocab_trend.png"), p_trends,
+       width = 11, height = 7, dpi = 150)
+message("Saved: fig_ns_vocab_trend.png (replaced)")
 
 ggsave(file.path(FIGDIR, "fig_theme_projection.png"), p_trends,
-       width = 10, height = 6, dpi = 150)
+       width = 11, height = 7, dpi = 150)
 message("Saved: fig_theme_projection.png")
 #}
 

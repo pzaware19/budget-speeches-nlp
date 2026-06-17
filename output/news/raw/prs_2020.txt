@@ -1,0 +1,798 @@
+Union Budget 2020-21 Analysis
+Open PDF
+Budget Highlights
+Expenditure:
+The government proposes to spend Rs 30,42,230 crore in 2020-21, which is 12.7% higher than the revised estimate of 2019-20.
+Receipts:
+The receipts (other than net borrowings) are expected to increase by 16.3% to Rs 22,45,893 crore, owing to higher estimated revenue from disinvestments.
+GDP growth
+:  The government has assumed a nominal GDP growth rate of 10% (i.e., real growth plus inflation) in 2020-21.  The nominal growth estimate for 2019-20 was 12%.
+Deficits:
+Revenue deficit is targeted at 2.7% of GDP, which is higher than the revised estimate of 2.4% in 2019-20.  Fiscal deficit is targeted at 3.5% of GDP, lower than the revised estimate of 3.8% in 2019-20.   Note that the government is estimated to breach its budgeted target for fiscal deficit (3.3%) in 2019-20 and the medium term fiscal target of 3% in 2020-21.  This does not include off-budget borrowings (0.9% of GDP in 2020-21).
+Ministry allocations:
+Among the top 13 ministries with the highest allocations, the highest percentage increase is observed in the Ministry of Communications (129%), followed by the Ministry of Agriculture and Farmers’ Welfare (30%) and the Ministry of Home Affairs (20%).
+Tax proposals in the Finance Bill
+In addition to changes in tax laws, the Finance Bill, 2020 also proposes certain non-tax changes to the Prohibition of Benami Properties Transactions Act, 1988.
+Change in income tax rates
+:  The income tax rates have been changed.  Table 1 below compares the current tax rates with the proposed tax rates.  Note that the new personal tax rates are optional and may only be availed if the person satisfies certain conditions, such as if they do not claim certain exemptions or deductions.  These include standard deductions, leave travel allowance, house rent allowance, interest payment on housing loan, and deductions under Chapter VI-A (investments in provident fund, insurance premium, donations to charities, etc.).  Once the option is exercised, it will be applicable for all subsequent years.
+Income
+Current tax rate
+Proposed tax rate
+Upto Rs 5 lakh
+Nil
+Nil
+Between Rs 5 lakh and Rs 7.5 lakh
+20%
+10%
+Between Rs 7.5 lakh and Rs 10 lakh
+15%
+Between Rs 10 lakh and Rs 12.5 lakh
+30%
+20%
+Between Rs 12.5 lakh and Rs 15 lakh
+25%
+Above Rs 15 lakh
+30%
+Option for lower tax rates
+:  The Income Tax Act was recently amended to give an option to domestic companies to avail of 22% tax rate if they did not claim certain deductions.  The list has been expanded to include other deductions, such as those under Section 80G (donations to charities).  Also, a similar facility has been provided to co-operatives.
+Benefits to corporates
+:  Currently, domestic manufacturing companies have an option to pay income tax at the rate of 15% if they do not claim certain deductions under the Act.  This benefit has been extended to domestic companies engaged in electricity generation.
+Dividend Distribution Tax
+:  Currently, companies have to pay a tax of 15% on dividends distributed by it to shareholders.   This has been removed and the dividend income will now be taxable in the hands of the recipient.
+Limit on deductions for social security contributions
+:  Currently, there is no combined limit for the purpose of deductions on the amount of contribution made by an employer towards a recognised provident fund, an approved superannuation fund and the National Pension Scheme.  A combined ceiling of Rs 7.5 lakh is being introduced on deductions which may be claimed towards such contributions.
+Residence in India
+:  The Income Tax Act, 1961 specifies various conditions for determining the resident status of an Indian citizen or a person of Indian origin.  A person will be considered a resident, i.e. their global income is taxable in India, if they are in India for more than 182 days.  This has been reduced to 120 days.  In addition, any Indian citizen who is not liable to tax in any other country or territory by reason of domicile or residence shall be deemed to be a resident of India.
+TDS on e-commerce transactions
+:  TDS of 1% will be levied on e-commerce transactions.
+Housing incentives
+:  Currently, an exemption is provided on profits or gains arising out of building affordable houses if the project was approved by March 31, 2020.   Further, an additional tax deduction of up to Rs 1,50,000 is provided on interest paid on loans for self-occupied house owners if the loan was sanctioned by March 31, 2020.  The deadline in both cases has been extended to March 31, 2021.
+Tax changes for start-ups
+:  Start-ups are allowed to get a full tax waiver on profits for any three consecutive years out of their first seven years, if they are incorporated between April 1, 2016 and March 31, 2021, and their turnover does not exceed Rs 25 crore.   The waiver has been extended to start-ups for any three years out of their first ten years.  In addition, the turnover threshold has been increased from Rs 25 crore to Rs 100 crore.
+Further, the tax on ESOPs (stock options) held by employees of start-ups will be payable only on the earliest of the following events: (i) expiry of 4 years from the end of the assessment year, (ii) sale of the options, or (iii) till the employee leaves the company.
+Excise
+:  The rate of central excise duty on certain tobacco products such as cigarettes, chewing tobacco, and tobacco extracts has been increased.  For example, the rate of duty on chewing tobacco has been increased from 10% to 25% per kg.   Further, crude petroleum has been included at a rate of duty of Rs 50 per tonne.
+Customs:
+Customs duty has been raised on some items such as tableware and kitchenware, footwear, fans, and toys.
+Health cess on customs
+:  A health cess will be levied (in addition to customs duty) on certain medical devices, such as X-ray machines, imported into India.  This cess may be utilised for the financing of health infrastructure and services.
+Obligations on charities
+:  Charitable organisations get an exemption from taxation under Section 12AA, and donations to them get exemptions under Sections 10(23C), 35, and 80G.  From now, the approvals under these sections will be valid for a maximum of five years.  Any entity having these approvals has to get them re-issued.
+Commodities Transaction Tax:
+Currently, the commodities transaction tax on commodity derivatives is 0.01%.  The Bill creates three tax rates: (i) 0.01% payable by the seller on sale of commodity derivatives based on its price or price index, (ii) 0.0001% payable by the buyer on the sale of an option in goods resulting in the delivery of the goods, and (iii) 0.125% payable by the buyer on the sale of an option in goods resulting in cash payment.
+Indian Stamp Act, 1899
+:  Stamp duty will not be charged in the case of transactions in stock exchanges and depositories established in international financial centers set up under the Special Economic Zones Act, 2005.
+Sovereign wealth funds
+:  Income arising out of investments made by the Abu Dhabi Investment Authority and other notified sovereign wealth funds in certain infrastructure facilities will be exempt from tax.  This exemption is available if the investment was made before March 31, 2024, and with a minimum lock-in period of three years.
+The Prohibition of Benami Property Transactions Act, 1988:
+The Act constitutes an adjudicating authority on issues related to benami properties.  The qualifications for the chairperson and members of the authority are that they must have been: (i) a member of the Indian Revenue Service as Commissioner of Income-tax or equivalent, or (ii) a member of the Indian Legal Service as Joint Secretary or equivalent.  The Bill states that an individual qualified for the position of District Judge may also be the chairperson or a member of the authority.
+Removal of tax exemptions on certain allowances
+:
+Certain exemptions on facilities to current and former members of the Union Public Service Commission and the Election Commission such as rent-free residence, conveyance allowance, and medical facilities are exempt from tax.  This exemption has been removed.
+Policy Highlights
+Legislative Changes
+:  The Banking Regulation Act, 1949 will be amended for better governance of cooperative banks.  The limit for NBFCs to be eligible for debt recovery under the SARFAESI Act, 2002 will be reduced.  The asset size will be reduced from Rs 500 crore to Rs 100 crore, and loan size will be reduced from one crore rupees to Rs 50 lakh.  The Deposit Insurance and Credit Guarantee Corporation has been permitted to increase deposit insurance coverage for a depositor, which will now be one lakh to five lakh rupees, per depositor.  The Factor Regulation Act, 2011 will be amended to enable NBFCs to extend invoice financing to MSMEs.  The PFRDA Act will be amended to separate NPS trust for government employees for PFRDAI.   Laws where there is criminal liability for acts that are civil in nature will be examined and amended.  Contracts Act, 1872 will be strengthened to ensure that contracts are honoured.
+GST Compensation
+:  GST compensation balances for 2016-17 and 2017-18 will be paid in two instalments.   From now, transfer to GST Compensation Fund will be only through the compensation cess.
+Disinvestment
+:  The government will sell a part of its holding in LIC through an Initial Public Offer.   The government also plans to sell the balance of its holding in IDBI Bank.
+Investment
+:  Certain specified categories of government securities will be opened fully for non-resident investors.  The limit for Foreign Portfolio Investment in corporate bonds will be increased from 9% to 15% of the outstanding stock of corporate bonds.  It has been proposed to set up an Investment Clearance Cell which will provide “end to end” facilitation and support, such as pre-investment advisory at the central and state level.
+Commerce and Industry
+:  A scheme focused on encouraging manufacturing of mobile phones, electronic equipment, and semi-conductor packaging has been proposed.  The National Technical Textiles Mission will be implemented from 2020-21 to 2023-24 with an outlay of Rs 1,480 crore.  A scheme will be launched for the refund of duties and taxes on exported products, which are not getting exempted under any other existing mechanism.
+Infrastructure and Urban Development
+:  The government will build 6,500 projects under the National Infrastructure Pipeline.  These projects will include housing, safe drinking water, and healthcare, among others.   A National Logistics Policy will be released which will clarify the roles of the central government, state governments, and key regulators.  Further, it will create a single window e-logistics market.  Five new smart cities will be developed in collaboration with states in public-private partnership mode.
+Transport and Energy
+:  Four railway station re-development projects and operation of 150 passenger trains will be done through public-private partnership mode.  The government will encourage states to replace conventional energy meters with prepaid smart meters by 2023.  It has been proposed to expand the national gas grid from 16,200 km to 27,000 km.
+Agriculture and allied activities
+:  The government will expand the Pradhan Mantri Kisan Urja Suraksha evam Utthan Mahabhiyan scheme to help 20 lakh farmers in setting up stand-alone solar pumps.  Viability gap funding will be provided for setting up warehouses at the block level.   All eligible beneficiaries of Pradhan Mantri Kisan Samman Nidhi will be covered under the Kisan Credit Card scheme.   The government will propose comprehensive measures for 100 water stressed districts.
+Technology
+:  A policy will be introduced to enable private sector to build data centre parks.  Fibre to the Home connections through Bharatnet will link one lakh gram panchayats in 2020.  A new National Policy on Official Statistics has been proposed which will use latest technology including Artificial Intelligence.  An outlay of Rs 8,000 crore has been proposed for the National Mission on Quantum Technologies and Applications, over a period of five years.
+Education
+:  The new National Education Policy will be announced.  Steps will be taken to enable sourcing of External Commercial Borrowings and Foreign Direct Investment for education.  Degree level online education programme will be started by institutions who rank within top 100 in the National Institutional Ranking framework.
+Health
+:  Jan Aushadhi Kendra scheme will be expanded to all districts and 2,000 medicines and 300 surgicals will be offered by 2024.  Viability gap funding window has been proposed for setting up hospitals in the public-private partnership mode.
+Social Justice
+:
+Legislative and institutional changes will be made to ensure that there is no manual cleaning of sewer systems or septic tanks.  Rs 28,600 crore has been allocated for programs specific to women.
+National Recruitment Agency
+:  National Recruitment Agency will be set up for recruitment of non-gazetted posts in government and public sector banks.
+Budget estimates of 2020-21 as compared to revised estimates of 2019-20
+Total Expenditure:
+The government is estimated to spend Rs 30,42,230 crore during 2020-21.  This is 12.7% more than the revised estimate of 2019-20.  Out of the total expenditure, revenue expenditure is estimated to be Rs 26,30,145 crore (11.9% growth) and capital expenditure is estimated to be Rs 4,12,085 crore (18.1% growth).
+Total Receipts:
+The government receipts (excluding borrowings) are estimated to be Rs 22,45,893 crore, an increase of 16.3% over the revised estimates of 2019-20.  The gap between these receipts and the expenditure will be plugged by borrowings, budgeted to be Rs 7,96,337 crore, an increase of 3.8% over the revised estimate of 2019-20.
+Transfer to states:
+The central government will transfer Rs 13,90,666 crore to states and union territories in 2020-21.  This is an increase of 17.1% over the revised estimates of 2019-20 and includes devolution of (i) Rs 7,84,181 crore to states, out of the centre’s share of taxes, and (ii) Rs 6,06,485 crore in the form of grants and loans.
+Deficits:
+Revenue deficit is targeted at 2.7% of GDP, and fiscal deficit is targeted at 3.5% of GDP in 2020-21.  The target for primary deficit (which is fiscal deficit excluding interest payments) is 0.4% of GDP.
+GDP growth estimate:
+The nominal GDP is estimated to grow at a rate of 10% in 2020-21.  The estimated nominal GDP growth rate for 2019-20 was 12%.
+Table 1: Budget at a Glance 2020-21 (Rs crore)
+Actuals
+2018-19
+Budgeted
+2019-20
+Revised
+2019-20
+Budgeted
+2020-21
+% change
+(RE 2019-20 to BE 2020-21)
+Revenue Expenditure
+20,07,399
+24,47,780
+23,49,645
+26,30,145
+11.9%
+Capital Expenditure
+3,07,714
+3,38,569
+3,48,907
+4,12,085
+18.1%
+Total Expenditure
+23,15,113
+27,86,349
+26,98,552
+30,42,230
+12.7%
+Revenue Receipts
+15,52,916
+19,62,761
+18,50,101
+20,20,926
+9.2%
+Capital Receipts
+1,12,779
+1,19,828
+81,605
+2,24,967
+175.7%
+of which:
+Recoveries of Loans
+18,052
+14,828
+16,605
+14,967
+-9.9%
+Other receipts (including disinvestments)
+94,727
+1,05,000
+65,000
+2,10,000
+223.1%
+Total Receipts (without borrowings)
+16,65,695
+20,82,589
+19,31,706
+22,45,893
+16.3%
+Revenue Deficit
+4,54,483
+4,85,019
+4,99,544
+6,09,219
+22.0%
+% of GDP
+2.4
+2.3
+2.4
+2.7
+Fiscal Deficit
+6,49,418
+7,03,760
+7,66,846
+7,96,337
+3.8%
+% of GDP
+3.4
+3.3
+3.8
+3.5
+Primary Deficit
+66,770
+43,289
+1,41,741
+88,134
+-37.8%
+% of GDP
+0.4
+0.2
+0.7
+0.4
+Note:  Budgeted estimates (BE) are budget allocations announced at the beginning of each financial year.  Revised Estimates (RE) are estimates of projected amounts of receipts and expenditure until the end of the financial year.  Actual amounts are audited accounts of expenditure and receipts in a year.
+Sources:  Budget at a Glance, Union Budget Documents 2020-21; PRS.
+Expenses which bring a change to the government’s assets or liabilities (such as construction of roads or recovery of loans) are capital expenses, and all other expenses are revenue expenses (such as payment of salaries or interest payments).
+In 2020-21,
+capital expenditure
+is expected to increase by 18.1 % over the revised estimates of 2019-20, to Rs 4,12,085 crore.  On the other hand,
+revenue expenditure
+is expected to increase by 11.9% over the revised estimates of 2019-20 to Rs 26,30,145 crore.
+From 2010-11 to 2020-21, capital expenditure had an annual average growth of 10.2%, while revenue expenditure had an annual average growth of 9.7%.
+Disinvestment
+is the government selling its stakes in Public Sector Undertakings (PSUs).  In 2019-20, the government is estimated to meet 62% of its disinvestment target.  The disinvestment target for 2020-21 has been set at Rs 2,10,000 crore.
+Note:  Figures for 2019-20 are revised estimates.
+Sources:  Receipts Budget, Union Budget Documents 2020-21; PRS
+Receipts Highlights for 2020-21
+Total receipts (including borrowings)
+in 2020-21 are estimated to be Rs 30,42,230 crore and net receipts (excluding borrowings) to be Rs 22,45,893 crore.  Receipts (without borrowings) are estimated to increase by 16.3% over the revised estimates of 2019-20.
+Gross tax revenue
+is budgeted to increase by 12% over the revised estimates of 2019-20, which is higher than the estimated nominal GDP growth of 10% in 2020-21.     The net tax revenue of the central government (excluding states’ share in taxes) is estimated to be Rs 16,35,909 crore in 2020-21.
+Devolution to states
+from centre’s tax revenue is estimated to be Rs 7,84,181 crore in 2020-21.
+In 2019-20, the devolution to states reduced by 19% from an estimate of Rs 8,09,133 crore at the budgeted stage to Rs 6,56,046 crore at the revised stage.
+Non-tax revenue
+is expected to be Rs 3,85,017 crore in 2020-21.     This is 11.4% higher than the revised estimate of 2019-20.
+Capital receipts
+(without borrowings) are budgeted to increase by 175.7% over the revised estimates of 2019-20.  This is on account of disinvestments, which are expected to be Rs 2,10,000 crore in 2020-21, as compared to Rs 65,000 crore as per the revised estimates of 2019-20.
+Table 2: Break up of central government receipts in 2020-21 (Rs crore)
+Actuals
+2018-19
+Budgeted
+2019-20
+Revised
+2019-20
+Budgeted
+2020-21
+% change
+(RE 2019-20 to BE 2020-21)
+Gross Tax Revenue
+20,80,465
+24,61,195
+21,63,423
+24,23,020
+12.0%
+of which:
+Corporation Tax
+6,63,572
+7,66,000
+6,10,500
+6,81,000
+11.5%
+Taxes on Income
+4,73,003
+5,69,000
+5,59,500
+6,38,000
+14.0%
+Goods and Services Tax
+5,81,560
+6,63,343
+6,12,327
+6,90,500
+12.8%
+Customs
+1,17,813
+1,55,904
+1,25,000
+1,38,000
+10.4%
+Union Excise Duties
+2,31,982
+3,00,000
+2,48,012
+2,67,000
+7.7%
+Service Tax
+6,904
+-
+1,200
+1,020
+-
+A. Centre's Net Tax Revenue
+13,17,211
+16,49,582
+15,04,587
+16,35,909
+-0.8%
+Devolution to States
+7,61,454
+8,09,133
+6,56,046
+7,84,181
+19.5%
+B. Non Tax Revenue
+2,35,704
+3,13,179
+3,45,513
+3,85,017
+11.4%
+of which:
+Interest Receipts
+12,145
+13,711
+11,027
+11,042
+0.1%
+Dividend and Profits
+1,13,420
+1,63,528
+1,99,893
+1,55,395
+-22.3%
+Other Non-Tax Revenue
+1,10,139
+1,35,940
+1,34,593
+2,18,580
+62.4%
+C. Capital Receipts (without borrowings)
+1,12,779
+1,19,828
+81,605
+2,24,967
+175.7%
+of which:
+Disinvestment
+94,727
+1,05,000
+65,000
+2,10,000
+223.1%
+Receipts (without borrowings) (A+B+C)
+16,65,694
+20,82,589
+19,31,705
+22,45,893
+16.3%
+Borrowings
+6,49,418
+7,03,760
+7,66,846
+7,96,337
+3.8%
+Total Receipts (including borrowings)
+23,15,113
+27,86,349
+26,98,552
+30,42,230
+12.7%
+Sources:  Receipts Budget, Union Budget Documents 2020-21; PRS.
+Indirect taxes:
+The total indirect tax collections are estimated to be Rs 10,96,520 crore in 2020-21.  Of this, the government has estimated to raise Rs 6,90,500 crore from GST.  Out of the total tax collections under GST, 84% is expected to come from central GST (Rs 5,80,000 crore), and 16% (Rs 1,10,500 crore) from the GST compensation cess.
+Corporation tax:
+The collections from taxes on companies are expected to increase by 11.5% in 2020-21 to Rs 6,81,000 crore.  The revised estimates of 2019-20 indicate a 20.3% shortfall in collections from corporation tax over the budget estimates of 2019-20.  This shortfall may be due to a cut in the corporate tax rates made earlier during the financial year.
+Income tax:
+The collections from income tax are expected to increase by 14% in 2020-21 to Rs 6,38,000 crore.  The 14% growth is despite a reduction in tax rates.  That is, income tax is estimated to grow at 21%, if not for the Rs 40,000 crore revenue foregone due to the reduction in tax rates.
+Non-tax receipts:
+Non-tax revenue consists of interest receipts on loans given by the centre, dividends and profits, external grants, and receipts from general, economic, and social services, among others.   Non-tax revenue is expected to increase by 11.4% over the revised estimates of 2019-20 to Rs 3,85,017 crore.
+Disinvestment target:
+The disinvestment target for 2020-21 is Rs 2,10,000 crore.   This target is 223.1% higher than the revised estimate of 2019-20 (Rs 65,000 crore).
+Expenditure Highlights for 2020-21
+Total expenditure
+in 2020-21 is expected to be Rs 30,42,230 crore, which is 12.7% higher than the revised estimate of 2019-20.     Out of this, (i) Rs 8,31,825 crore is proposed to be spent on central sector schemes (7.6% increase over the revised estimate of 2019-20), and (ii) Rs 3,39,894 crore is proposed to be spent on centrally sponsored schemes (7.3% increase over the revised estimate of 2019-20).
+The government is expected to spend Rs 2,10,682 crore on pensions in 2020-21, which is 14.4% higher than the revised estimate of 2019-20.  In addition, expenditure on interest payments in 2020-21 is expected to be Rs 7,08,203 crore, which is 23% of the government’s expenditure.
+Table 3: Break up of central government expenditure in 2020-21 (Rs crore)
+Actuals
+2018-19
+Budgeted
+2019-20
+Revised
+2019-20
+Budgeted
+2020-21
+% change
+(RE 2019-20 to BE 2020-21)
+Central Expenditure
+Establishment Expenditure of Centre
+5,21,247
+5,46,296
+5,67,133
+6,09,585
+7.5%
+Central Sector Schemes
+6,38,495
+8,70,794
+7,73,196
+8,31,825
+7.6%
+Other expenditure
+6,77,403
+7,72,129
+7,41,553
+8,87,574
+19.7%
+Centrally Sponsored Schemes
+and other transfers
+Centrally Sponsored Schemes
+2,96,029
+3,31,610
+3,16,816
+3,39,894
+7.3%
+Finance Commission Grants
+93,704
+1,20,466
+1,23,710
+1,49,925
+21.2%
+of which:
+Rural Local Bodies
+35,064
+52,558
+58,616
+69,925
+19.3%
+Urban Local Bodies
+14,400
+23,359
+25,843
+30,000
+16.1%
+Grants-in-aid
+9,658
+10,344
+10,938
+20,000
+82.9%
+Post Devolution Revenue Deficit Grants
+34,582
+34,206
+28,314
+30,000
+6.0%
+Other grants
+88,235
+1,45,054
+1,76,144
+2,23,427
+26.8%
+Total Expenditure
+23,15,113
+27,86,349
+26,98,552
+30,42,230
+12.7%
+Sources:  Budget at a Glance, Union Budget Documents 2020-21; PRS.
+Expenditure on Subsidies
+In 2020-21, the total expenditure on subsidies is estimated to be Rs 2,62,109 crore, a decrease of 0.5% from the revised estimate of 2019-20.  This is largely due to a decrease in expenditure on fertiliser subsidy.   Details are given below:
+Food subsidy:
+Allocation to food subsidy is estimated at Rs 1,15,570 crore in 2020-21, a 6.3% increase as compared to the revised estimate of 2019-20.  In 2019-20 budget, Rs 1,84,220 crore was allocated to food subsidy.  However, the revised estimate is much lower than the budgeted estimate at Rs 1,08,688 crore.  This is due to a 41% cut (Rs 75,532 crore in amount) in the allocation to food subsidy for 2019-20 from the budgeted stage to the revised stage.
+Fertiliser subsidy:
+Expenditure on fertiliser subsidy is estimated at Rs 71,309 crore in 2020-21.  This is a decrease of Rs 8,689 crore (10.9%) from the revised estimate of 2019-20.
+Petroleum subsidy:
+Expenditure on petroleum subsidy is estimated to increase by 6.1% to Rs 40,915 crore in 2020-21.  Petroleum subsidy consists of subsidy on LPG (Rs 37,256 crore) and kerosene subsidy (Rs 3,659 crore).  In 2020-21, while the LPG subsidy is estimated to increase by Rs 3,170 crore over the previous year, kerosene subsidy is estimated to decrease by Rs 824 crore.
+Other subsidies:
+Expenditure on other subsidies includes interest subsidies for various government schemes, subsidies for the price support scheme for agricultural produce, and assistance to state agencies for procurement, among others.  In 2020-21, the expenditure on these other subsidies has decreased by Rs 1,987 crore (5.5%) over the revised estimate of 2019-20.  Table 4 provides details of subsidies in 2020-21.
+Table 4: Subsidies in 2020-21 (Rs crore)
+Actuals
+2018-19
+Budgeted
+2019-20
+Revised
+2019-20
+Budgeted
+2020-21
+% change
+(RE 2019-20 to BE 2020-21)
+Food subsidy
+1,01,327
+1,84,220
+1,08,688
+1,15,570
+6.3%
+Fertiliser subsidy
+70,605
+79,996
+79,998
+71,309
+-10.9%
+Petroleum subsidy
+24,837
+37,478
+38,569
+40,915
+6.1%
+Other subsidies
+26,185
+36,460
+36,302
+34,315
+-5.5%
+Total
+2,22,954
+3,38,154
+2,63,557
+2,62,109
+-0.5%
+Sources: Expenditure Profile, Union Budget 2020-21; PRS.
+Expenditure by Ministries
+The ministries with the 13 highest allocations account for 53% of the estimated total expenditure in 2020-21.   Of these, the Ministry of Defence has the highest allocation in 2020-21, at Rs 4,71,378 crore.  It accounts for 15% of the total budgeted expenditure of the central government.  Other Ministries with high allocation include: (i) Home Affairs, (ii) Agriculture and Farmers’ Welfare, (iii) Consumer Affairs, Food and Public Distribution, and (iv) Rural Development.  Table 5 shows the expenditure on Ministries with the 13 highest allocations for 2020-21 and the changes in allocation as compared to the revised estimate of 2019-20.
+Table 5: Ministry-wise expenditure in 2020-21 (Rs crore)
+Actuals
+2018-19
+Budgeted
+2019-20
+Revised
+2019-20
+Budgeted
+2020-21
+% change
+(RE 2019-20 to BE 2020-21)
+Defence
+4,03,457
+4,31,011
+4,48,820
+4,71,378
+5.0%
+Home Affairs
+1,12,189
+1,19,025
+1,39,108
+1,67,250
+20.2%
+Agriculture and Farmers' Welfare
+53,620
+1,38,564
+1,09,750
+1,42,762
+30.1%
+Consumer Affairs, Food and Public Distribution
+1,08,848
+1,94,513
+1,17,290
+1,24,535
+6.2%
+Rural Development
+1,13,706
+1,19,874
+1,24,549
+1,22,398
+-1.7%
+Human Resource Development
+80,345
+94,854
+94,854
+99,312
+4.7%
+Road Transport and Highways
+77,301
+83,016
+83,016
+91,823
+10.6%
+Communications
+35,395
+38,637
+35,749
+81,957
+129.3%
+Railways
+54,913
+68,019
+69,967
+72,216
+3.2%
+Chemicals and Fertilisers
+71,414
+80,534
+80,968
+71,897
+-11.2%
+Health and Family Welfare
+54,682
+64,559
+64,609
+67,112
+3.9%
+Housing and Urban Affairs
+40,612
+48,032
+42,267
+50,040
+18.4%
+Petroleum and Natural Gas
+32,371
+42,901
+42,901
+42,901
+0.0%
+Other Ministries
+10,76,261
+12,62,809
+12,44,703
+14,36,648
+13.8%
+Total Expenditure
+23,15,113
+27,86,349
+26,98,552
+30,42,230
+12.7%
+Note:   Expenditure is net of recoveries such as fines, and ticket sales.
+Sources:  Expenditure Budget, Union Budget 2020-21; PRS.
+Ministry of Home Affairs:
+Allocation to the Ministry of Home Affairs increased by Rs 28,142 crore (20.2%) in 2020-21, over the revised estimate of 2019-20.  This is mainly on account of grants provided by the Ministry to the newly formed union territories of Jammu and Kashmir (Rs 30,757 crore), and Ladakh (Rs 5,958 crore).
+Ministry of Communications:
+Allocation to the Ministry of Communications increased by Rs 46,208 crore (129.3%) in 2020-21, over the revised estimate of 2019-20.  This is mainly on account of capital infusion of Rs 20,410 crore in BSNL and MTNL for 4G spectrum, and Rs 13,184 crore of grants provided to them for Voluntary Retirement Scheme.
+Ministry of Agriculture and Farmers’ Welfare:
+Allocation to the Ministry of Agriculture and Farmers’ Welfare increased by 30.1% to Rs 1,42,762 crore in 2020-21 over the previous year.  This is primarily due to an increase of Rs 20,630 crore in allocation to the PM-KISAN scheme.  In 2019-20, the Ministry was allocated Rs 1,38,564 crore, which has been revised down by 21% to Rs 1,09,750 crore (due to Rs 20,630 crore of estimated underspending in PM-KISAN).
+Ministry of Consumer Affairs, Food and Public Distribution:
+Allocation to the Ministry increased by Rs 7,245 crore (6.2%) over the previous year.  In 2019-20, the Ministry was expected to spend Rs 1,94,513 crore, which has been revised down by 40% to Rs 1,17,290 crore (due to Rs 75,532 crore cut in allocation to the food subsidy).
+Expenditure on Major Schemes
+Table 6: Scheme wise allocation in 2020-21 (Rs crore)
+Actuals
+2018-19
+Budgeted
+2019-20
+Revised
+2019-20
+Budgeted
+2020-21
+% change
+(RE 2019-20 to BE 2020-21)
+PM-KISAN
+1,241
+75,000
+54,370
+75,000
+37.9%
+MGNREGS
+61,815
+60,000
+71,002
+61,500
+-13.4%
+National Education Mission
+30,830
+38,547
+37,672
+39,161
+4.0%
+National Health Mission
+31,502
+33,651
+34,290
+34,115
+-0.5%
+Integrated Child Development Services
+21,642
+27,584
+24,955
+28,557
+14.4%
+Pradhan Mantri Awas Yojana
+25,443
+25,853
+25,328
+27,500
+8.6%
+Pradhan Mantri Gram Sadak Yojana
+15,414
+19,000
+14,070
+19,500
+38.6%
+Pradhan Mantri Fasal Bima Yojana
+11,937
+14,000
+13,641
+15,695
+15.1%
+AMRUT and Smart Cities Mission
+12,085
+13,750
+9,842
+13,750
+39.7%
+Green Revolution
+11,758
+12,561
+9,965
+13,320
+33.7%
+Swachh Bharat Mission
+15,374
+12,644
+9,638
+12,294
+27.6%
+National Rural Drinking Water Mission
+5,484
+10,001
+10,001
+11,500
+15.0%
+Pradhan Mantri Krishi Sinchai Yojana
+8,143
+9,682
+7,896
+11,127
+40.9%
+Mid-Day Meal Programme
+9,514
+11,000
+9,912
+11,000
+11.0%
+National Livelihood Mission
+6,282
+9,774
+9,774
+10,005
+2.4%
+Sources: Expenditure Profile, Union Budget 2020-21; PRS.
+Among schemes, the PM-KISAN scheme (income support to farmers) has the highest allocation in 2020-21 at Rs 75,000 crore.   Allocation to the scheme has increased by 37.9% from the revised estimate of 2019-20.  However, in 2019-20, allocation to the scheme has been cut by Rs 20,630 crore (28%) from the budgeted stage to the revised stage.   In 2018-19, expenditure on the scheme saw a 94% cut, from an estimate of Rs 20,000 crore at the revised stage to an actual expenditure of Rs 1,241 crore.
+The Mahatma Gandhi National Rural Employment Guarantee Scheme (MGNREGS) has the second highest allocation in 2020-21 at Rs 61,500 crore.  This is a decrease of Rs 9,502 crore (13.4%) from the revised estimate of 2019-20.  In 2019-20, allocation to the scheme has increased by 18% from Rs 60,000 crore at the budgeted stage to Rs 71,002 crore at the revised stage.
+Allocation to the Pradhan Mantri Gram Sadak Yojana has increased by 38.6% over the revised estimate of 2019-20 to Rs 19,500 crore.   In 2019-20, allocation to the scheme has been cut by Rs 4,930 crore (26%) from the budgeted stage to the revised stage.
+Expenditure on Scheduled Caste and Scheduled Tribe sub-plans and schemes for welfare of women, children and NER
+Programmes for the welfare of women and children have been allocated Rs 2,39,504 crore in 2020-21, an increase of 3.9% over the revised estimate of 2020-21.  These allocations include programmes under all the ministries.
+The sub-plans for Scheduled Castes and Scheduled Tribes have been allocated a total of Rs 1,36,909 crore in 2020-21, a 12% increase over the revised estimate of 2019-20.
+Table 7:  Allocations for women, children, SCs, STs and NER (Rs crore)
+Budgeted
+2019-20
+Revised
+2019-20
+Budgeted 2020-21
+% change
+(RE 2019-20 to BE 2020-21)
+Welfare of Women
+1,36,934
+1,42,813
+1,43,462
+0.5%
+Welfare of Children
+91,644
+87,642
+96,042
+9.6%
+Scheduled Castes
+81,341
+72,936
+83,257
+14.1%
+Scheduled Tribes
+52,884
+49,268
+53,653
+8.9%
+North Eastern Region (NER)
+59,370
+53,374
+60,112
+12.6%
+Sources: Expenditure Profile, Union Budget 2020-21; PRS.
+Fiscal Responsibility and Budget Management targets
+The Fiscal Responsibility and Budget Management (FRBM) Act, 2003 requires the central government to progressively reduce its outstanding debt, revenue deficit and fiscal deficit.  The central government gives three year rolling targets for these indicators when it presents the Union Budget each year.  Table 8 shows the targets for revenue deficit and fiscal deficit as given in the Medium Term Fiscal Policy Statement.
+Table 8: FRBM targets for deficits (as % of GDP)
+Actuals
+2018-19
+Revised
+2019-20
+Budgeted
+2020-21
+Target
+2021-22
+Target
+2022-23
+Fiscal Deficit
+3.4%
+3.8%
+3.5%
+3.3%
+3.1%
+Revenue Deficit
+2.4%
+2.4%
+2.7%
+2.3%
+1.9%
+Sources: Medium Term Fiscal Policy Statement, Union Budget 2020-21; PRS.
+Fiscal deficit
+is an indicator of borrowings by the government for financing its expenditure.     The estimated fiscal deficit for 2020-21 is 3.5% of GDP.
+Revenue deficit
+is the excess of revenue expenditure over revenue receipts.  Such a deficit implies the government’s need to borrow funds to meet expenses which may not provide future returns.  The estimated revenue deficit for 2020-21 is 2.7% of GDP.
+Primary deficit
+is the difference between fiscal deficit and interest payments.  It is estimated to be 0.4% of GDP in 2020-21.
+Extra-Budgetary Resources
+:  In addition to the expenditure shown in the budget, the government also spends through extra-budgetary resources.  These resources are raised by issuing bonds and through loans from the National Small Savings Fund (NSSF).  In 2020-21, the government estimates an expenditure of Rs 1,86,100 crore through such extra-budgetary resources.  This includes an expenditure of Rs 1,36,600 crore by the Food Corporation of India financed through loans from NSSF.
+Since funds borrowed for such expenditure remain outside the budget, they do not get factored in the deficit and debt figures.   If borrowings made in the form of extra-budgetary resources are also taken into account, the fiscal deficit estimated for the year 2020-21 would increase from 3.5% of GDP to 4.4% of GDP.  Similarly, the fiscal deficit for the year 2019-20 would increase from 3.8% of GDP to 4.6% of GDP due to extra-budgetary borrowings of Rs 1,72,699 crore.
+Sources: Medium Term Fiscal Policy Statement, Union Budget (multiple years); PRS.
+Note:  Figures for 2019-20 are revised estimates and for 2020-21 are budget estimates.
+Sources:  Economic Surveys 2003-04 to 2018-19; Union Budget 2020-21; PRS.
+Over the past 15 years, the government has largely been able to keep the deficits below budgeted levels.  In 2018-19, the government exceeded its budgeted target of fiscal deficit of 3.3% of GDP, as the actual deficit was at 3.4% of GDP.
+In 2019-20, the government had set a budget estimate of 3.3% of GDP for fiscal deficit, and 2.3% of GDP for revenue deficit.  As per the revised estimates, both the deficits have exceeded the 2019-20 budget target.
+Outstanding debt is the accumulation of borrowings over the years.  A higher debt implies that the government has a higher loan repayment obligation over the years.
+Total outstanding debt of the government has decreased from 55.5% of GDP in 2000-01 to 50.1% of GDP in 2020-21 (estimate).  The FRBM Act sets a target of 40% of GDP for outstanding debt to be met by 2024-25.
+DISCLAIMER: This document is being furnished to you for your information.  You may choose to reproduce or redistribute this report for non-commercial purposes in part or in full to any other person with due acknowledgement of PRS Legislative Research (“PRS”).  The opinions expressed herein are entirely those of the author(s).  PRS makes every effort to use reliable and comprehensive information, but PRS does not represent that the contents of the report are accurate or complete.  PRS is an independent, not-for-profit group.  This document has been prepared without regard to the objectives or opinions of those who may receive it.

@@ -120,36 +120,67 @@ print(ns_ideology %>% select(fy_start, axis_market, axis_nationalist))
 # =============================================================================
 # PART 3: VOCABULARY TREND (TF-IDF ACROSS HER YEARS)
 # =============================================================================
+# NOTE: The Part A split (A3) failed for Budget_Speech_2020-21 through
+# 2026-27 — only the table of contents was captured (50-80 words).
+# We use the full clean texts (corpus_clean) for all 8 speeches instead,
+# adding Part B boilerplate words to the stop list to approximate Part A.
 #{
+CLEANDIR <- file.path(root, "output", "corpus_clean")
+
+# Full stop word list: standard + budget boilerplate + Part B tax terms
 budget_stopwords <- c(
   "sir","madam","speaker","honourable","hon","ble","member","members",
   "house","august","rise","present","budget","speech","interim",
   "rupee","rupees","rs","crore","crores","lakh","lakhs","per","cent",
   "year","years","india","indian","government","central","national","union",
-  "therefore","however","also","well","shall","will","may","must","total"
+  "therefore","however","also","well","shall","will","may","must","total",
+  # Part B tax boilerplate
+  "duty","duties","excise","customs","tariff","tariffs","levy","cess",
+  "surcharge","rebate","exemption","exemptions","deduction","deductions",
+  "clause","subsection","item","notification","amendment","schedule","schedules",
+  "per","hundred","thousand","rate","rates","applicable","proposed","propose",
+  "inserted","amended","omitted","substituted","hereinafter","aforesaid"
 )
 all_stopwords <- bind_rows(
   stop_words,
   tibble(word = budget_stopwords, lexicon = "custom")
 ) %>% distinct(word)
 
-# Load NS Part A texts
-ns_parta_texts <- map_dfr(ns_meta$doc_id, function(did) {
-  path <- file.path(PARTADIR, paste0(did, "_parta.txt"))
-  if (!file.exists(path)) return(NULL)
+# Map doc_id -> clean text file
+clean_file_map <- c(
+  "bs201920"                = "bs201920_clean.txt",
+  "Budget_Speech_2020-21"   = "Budget_Speech_2020-21_clean.txt",
+  "Budget_Speech_2021-22"   = "Budget_Speech_2021-22_clean.txt",
+  "Budget_Speech_2022-23"   = "Budget_Speech_2022-23_clean.txt",
+  "Budget_Speech_2023-24"   = "Budget_Speech_2023-24_clean.txt",
+  "Budget_Speech_2024-25"   = "Budget_Speech_2024-25_clean.txt",
+  "Budget_Speech_2025-26"   = "Budget_Speech_2025-26_clean.txt",
+  "Budget_Speech_2026-27"   = "Budget_Speech_2026-27_clean.txt"
+)
+
+ns_clean_texts <- map_dfr(ns_meta$doc_id, function(did) {
+  fname <- clean_file_map[did]
+  if (is.na(fname)) { message(glue("  No clean file mapping for {did}")); return(NULL) }
+  path  <- file.path(CLEANDIR, fname)
+  if (!file.exists(path)) { message(glue("  Missing: {path}")); return(NULL) }
   text <- paste(readLines(path, warn = FALSE), collapse = " ")
   tibble(doc_id = did, text = text)
 }) %>%
   left_join(ns_meta %>% select(doc_id, fy_start), by = "doc_id")
 
-message(glue("NS Part A texts loaded: {nrow(ns_parta_texts)}"))
+message(glue("NS clean texts loaded: {nrow(ns_clean_texts)} speeches"))
 
-ns_tokens <- ns_parta_texts %>%
+ns_tokens <- ns_clean_texts %>%
   unnest_tokens(word, text) %>%
   anti_join(all_stopwords, by = "word") %>%
   filter(nchar(word) >= 3,
          !str_detect(word, "^[0-9,.()+\\-]+$"),
          str_detect(word, "^[a-z'\\-]+$"))
+
+# Total substantive words per year (the denominator for all rates)
+ns_total <- ns_tokens %>% count(fy_start, name = "total_words")
+message("\nSubstantive word counts per year:")
+print(ns_total)
 
 ns_counts <- ns_tokens %>% count(fy_start, word, sort = TRUE)
 
@@ -164,37 +195,59 @@ ns_top_words <- ns_tfidf %>%
   slice_max(tf_idf, n = 15, with_ties = FALSE) %>%
   ungroup()
 
-message("\nTop distinctive words per year (NS Part A):")
+message("\nTop distinctive words per year (NS full clean):")
 ns_top_words %>%
   group_by(fy_start) %>%
   summarise(words = paste(word, collapse=", "), .groups = "drop") %>%
   print(n = Inf)
 
 # Track specific policy-theme word groups over time
+# IMPORTANT: For each year, include explicit zero if no theme words found.
+# This prevents linear regression from fitting only the positive observations.
 policy_themes <- list(
-  "Infrastructure"    = c("infrastructure","highway","railway","port","airport",
-                           "road","metro","corridor","connectivity","logistics"),
+  "Infrastructure"    = c("infrastructure","highway","railway","railways","port",
+                           "airport","metro","corridor","corridors","connectivity",
+                           "logistics","roads","expressway","waterway","broadband"),
   "Green/Climate"     = c("green","climate","renewable","solar","wind","energy",
-                           "transition","emission","sustainable","battery","hydrogen"),
-  "Digital/Tech"      = c("digital","technology","startup","innovation","aadhaar",
-                           "upi","fintech","ai","data","cyber","platform"),
-  "Welfare/Social"    = c("welfare","poor","women","farmer","tribal","health",
-                           "education","nutrition","housing","scheme","pmgsy"),
+                           "transition","emission","sustainable","battery","hydrogen",
+                           "biofuel","ethanol","net zero","carbon","environment"),
+  "Digital/Tech"      = c("digital","technology","startup","startups","innovation",
+                           "aadhaar","upi","fintech","cyber","platform","tech",
+                           "semiconductor","electronics","internet","mobile"),
+  "Welfare/Social"    = c("welfare","women","farmer","farmers","tribal","health",
+                           "education","nutrition","housing","scheme","social",
+                           "poor","pension","insurance","employment","skilling"),
   "Manufacturing/PLI" = c("manufacturing","pli","production","exports","msme",
-                           "atmanirbhar","domestic","capacity","industrial"),
-  "Fiscal/Deficit"    = c("fiscal","deficit","consolidation","debt","gdp",
-                           "borrowing","revenue","expenditure","capex","glide")
+                           "atmanirbhar","capacity","industrial","semiconductor",
+                           "make","factories","supply","domestic","invest"),
+  "Fiscal/Deficit"    = c("fiscal","deficit","consolidation","gdp","borrowing",
+                           "expenditure","capex","revenue","glide","surplus",
+                           "disinvestment","subsidy","allocation","outlay")
 )
 
-theme_trends <- map_dfr(names(policy_themes), function(theme) {
-  words <- policy_themes[[theme]]
-  ns_tokens %>%
+all_years <- sort(unique(ns_meta$fy_start))
+
+theme_trends <- map_dfr(names(policy_themes), function(theme_name) {
+  words <- policy_themes[[theme_name]]
+  # Count hits per year — then fill missing years with 0
+  hits <- ns_tokens %>%
     filter(word %in% words) %>%
-    count(fy_start) %>%
-    left_join(ns_tokens %>% count(fy_start, name = "total_words"), by = "fy_start") %>%
-    mutate(share = n / total_words * 1000,   # per 1000 words
-           theme = theme)
+    count(fy_start, name = "n")
+  # Full outer join against all years so zeros are explicit
+  full_years <- tibble(fy_start = all_years) %>%
+    left_join(hits, by = "fy_start") %>%
+    mutate(n = replace_na(n, 0L)) %>%
+    left_join(ns_total, by = "fy_start") %>%
+    mutate(share = n / total_words * 1000,
+           theme = theme_name)
+  full_years
 })
+
+message("\nTheme trends (with explicit zeros):")
+theme_trends %>%
+  select(theme, fy_start, n, total_words, share) %>%
+  arrange(theme, fy_start) %>%
+  print(n = Inf)
 
 write_csv(theme_trends, file.path(TABDIR, "tab_ns_vocab_trend.csv"))
 message("Saved: tab_ns_vocab_trend.csv")
