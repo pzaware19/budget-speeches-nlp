@@ -51,3 +51,7 @@ system2(rscript, file.path(CODDIR, "F2_prediction.R"))        # forecast + predi
 # G: New analyses
 system2(rscript, file.path(CODDIR, "G1_ecosurvey_ideology.R")) # Economic Survey vs Budget Speech ideology
 system2(rscript, file.path(CODDIR, "G2_fm_trajectory.R"))      # FM ideological drift over tenure
+
+# H: Budget words vs fiscal outcomes
+system2(rscript, file.path(CODDIR, "H1_collect_fiscal.R"))     # vocab themes for all years + WDI download
+system2(rscript, file.path(CODDIR, "H2_text_budget_regression.R")) # text-fiscal regressions + figures

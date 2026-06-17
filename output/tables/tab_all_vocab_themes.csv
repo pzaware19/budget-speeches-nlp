@@ -1,0 +1,737 @@
+theme,n_hits,total_words,share,doc_id,fy_start,budget_type,fm_name,fm_party_family
+Infrastructure,1,3472,0.2880184331797235,bs194748,1947,full,R.K. Shanmukham Chetty,INC
+Green_Climate,1,3472,0.2880184331797235,bs194748,1947,full,R.K. Shanmukham Chetty,INC
+Digital_Tech,1,3472,0.2880184331797235,bs194748,1947,full,R.K. Shanmukham Chetty,INC
+Welfare_Social,5,3472,1.4400921658986177,bs194748,1947,full,R.K. Shanmukham Chetty,INC
+Manufacturing_PLI,38,3472,10.944700460829493,bs194748,1947,full,R.K. Shanmukham Chetty,INC
+Fiscal_Deficit,99,3472,28.51382488479263,bs194748,1947,full,R.K. Shanmukham Chetty,INC
+Defence,55,3472,15.841013824884794,bs194748,1947,full,R.K. Shanmukham Chetty,INC
+FDI_Openness,34,3472,9.792626728110598,bs194748,1947,full,R.K. Shanmukham Chetty,INC
+Infrastructure,4,5107,0.7832386919913843,bs194849,1948,full,R.K. Shanmukham Chetty,INC
+Green_Climate,2,5107,0.39161934599569215,bs194849,1948,full,R.K. Shanmukham Chetty,INC
+Digital_Tech,1,5107,0.19580967299784607,bs194849,1948,full,R.K. Shanmukham Chetty,INC
+Welfare_Social,8,5107,1.5664773839827686,bs194849,1948,full,R.K. Shanmukham Chetty,INC
+Manufacturing_PLI,32,5107,6.265909535931074,bs194849,1948,full,R.K. Shanmukham Chetty,INC
+Fiscal_Deficit,218,5107,42.68650871353045,bs194849,1948,full,R.K. Shanmukham Chetty,INC
+Defence,60,5107,11.748580379870765,bs194849,1948,full,R.K. Shanmukham Chetty,INC
+FDI_Openness,57,5107,11.161151360877227,bs194849,1948,full,R.K. Shanmukham Chetty,INC
+Infrastructure,3,4024,0.7455268389662028,bs194950,1949,full,John Mathai,INC
+Green_Climate,2,4024,0.49701789264413515,bs194950,1949,full,John Mathai,INC
+Digital_Tech,2,4024,0.49701789264413515,bs194950,1949,full,John Mathai,INC
+Welfare_Social,10,4024,2.485089463220676,bs194950,1949,full,John Mathai,INC
+Manufacturing_PLI,44,4024,10.934393638170976,bs194950,1949,full,John Mathai,INC
+Fiscal_Deficit,122,4024,30.318091451292243,bs194950,1949,full,John Mathai,INC
+Defence,50,4024,12.42544731610338,bs194950,1949,full,John Mathai,INC
+FDI_Openness,48,4024,11.928429423459244,bs194950,1949,full,John Mathai,INC
+Infrastructure,3,3254,0.9219422249539029,bs195051,1950,full,C.D. Deshmukh,INC
+Green_Climate,3,3254,0.9219422249539029,bs195051,1950,full,C.D. Deshmukh,INC
+Digital_Tech,2,3254,0.6146281499692685,bs195051,1950,full,C.D. Deshmukh,INC
+Welfare_Social,4,3254,1.229256299938537,bs195051,1950,full,C.D. Deshmukh,INC
+Manufacturing_PLI,44,3254,13.521819299323909,bs195051,1950,full,C.D. Deshmukh,INC
+Fiscal_Deficit,99,3254,30.424093423478798,bs195051,1950,full,C.D. Deshmukh,INC
+Defence,21,3254,6.45359557467732,bs195051,1950,full,C.D. Deshmukh,INC
+FDI_Openness,45,3254,13.829133374308542,bs195051,1950,full,C.D. Deshmukh,INC
+Infrastructure,2,4539,0.4406256884776382,bs195152,1951,full,C.D. Deshmukh,INC
+Green_Climate,1,4539,0.2203128442388191,bs195152,1951,full,C.D. Deshmukh,INC
+Digital_Tech,1,4539,0.2203128442388191,bs195152,1951,full,C.D. Deshmukh,INC
+Welfare_Social,12,4539,2.6437541308658292,bs195152,1951,full,C.D. Deshmukh,INC
+Manufacturing_PLI,58,4539,12.77814496585151,bs195152,1951,full,C.D. Deshmukh,INC
+Fiscal_Deficit,150,4539,33.04692663582287,bs195152,1951,full,C.D. Deshmukh,INC
+Defence,37,4539,8.151575236836306,bs195152,1951,full,C.D. Deshmukh,INC
+FDI_Openness,64,4539,14.100022031284423,bs195152,1951,full,C.D. Deshmukh,INC
+Infrastructure,0,1506,0,bs195253,1952,full,C.D. Deshmukh,INC
+Green_Climate,0,1506,0,bs195253,1952,full,C.D. Deshmukh,INC
+Digital_Tech,2,1506,1.3280212483399734,bs195253,1952,full,C.D. Deshmukh,INC
+Welfare_Social,2,1506,1.3280212483399734,bs195253,1952,full,C.D. Deshmukh,INC
+Manufacturing_PLI,33,1506,21.912350597609564,bs195253,1952,full,C.D. Deshmukh,INC
+Fiscal_Deficit,56,1506,37.18459495351926,bs195253,1952,full,C.D. Deshmukh,INC
+Defence,8,1506,5.3120849933598935,bs195253,1952,full,C.D. Deshmukh,INC
+FDI_Openness,18,1506,11.952191235059761,bs195253,1952,full,C.D. Deshmukh,INC
+Infrastructure,0,610,0,bs195253_I_,1952,interim,NA,NA
+Green_Climate,0,610,0,bs195253_I_,1952,interim,NA,NA
+Digital_Tech,0,610,0,bs195253_I_,1952,interim,NA,NA
+Welfare_Social,0,610,0,bs195253_I_,1952,interim,NA,NA
+Manufacturing_PLI,6,610,9.836065573770492,bs195253_I_,1952,interim,NA,NA
+Fiscal_Deficit,49,610,80.32786885245902,bs195253_I_,1952,interim,NA,NA
+Defence,2,610,3.278688524590164,bs195253_I_,1952,interim,NA,NA
+FDI_Openness,9,610,14.754098360655739,bs195253_I_,1952,interim,NA,NA
+Infrastructure,0,3435,0,bs195354,1953,full,C.D. Deshmukh,INC
+Green_Climate,5,3435,1.455604075691412,bs195354,1953,full,C.D. Deshmukh,INC
+Digital_Tech,0,3435,0,bs195354,1953,full,C.D. Deshmukh,INC
+Welfare_Social,7,3435,2.037845705967977,bs195354,1953,full,C.D. Deshmukh,INC
+Manufacturing_PLI,45,3435,13.100436681222707,bs195354,1953,full,C.D. Deshmukh,INC
+Fiscal_Deficit,121,3435,35.22561863173217,bs195354,1953,full,C.D. Deshmukh,INC
+Defence,23,3435,6.695778748180495,bs195354,1953,full,C.D. Deshmukh,INC
+FDI_Openness,46,3435,13.39155749636099,bs195354,1953,full,C.D. Deshmukh,INC
+Infrastructure,2,3876,0.5159958720330237,bs195455,1954,full,C.D. Deshmukh,INC
+Green_Climate,4,3876,1.0319917440660473,bs195455,1954,full,C.D. Deshmukh,INC
+Digital_Tech,4,3876,1.0319917440660473,bs195455,1954,full,C.D. Deshmukh,INC
+Welfare_Social,26,3876,6.707946336429308,bs195455,1954,full,C.D. Deshmukh,INC
+Manufacturing_PLI,48,3876,12.38390092879257,bs195455,1954,full,C.D. Deshmukh,INC
+Fiscal_Deficit,159,3876,41.021671826625386,bs195455,1954,full,C.D. Deshmukh,INC
+Defence,15,3876,3.869969040247678,bs195455,1954,full,C.D. Deshmukh,INC
+FDI_Openness,54,3876,13.93188854489164,bs195455,1954,full,C.D. Deshmukh,INC
+Infrastructure,0,4399,0,bs195556,1955,full,C.D. Deshmukh,INC
+Green_Climate,2,4399,0.4546487838145033,bs195556,1955,full,C.D. Deshmukh,INC
+Digital_Tech,4,4399,0.9092975676290066,bs195556,1955,full,C.D. Deshmukh,INC
+Welfare_Social,20,4399,4.546487838145032,bs195556,1955,full,C.D. Deshmukh,INC
+Manufacturing_PLI,80,4399,18.18595135258013,bs195556,1955,full,C.D. Deshmukh,INC
+Fiscal_Deficit,133,4399,30.234144123664468,bs195556,1955,full,C.D. Deshmukh,INC
+Defence,15,4399,3.409865878608775,bs195556,1955,full,C.D. Deshmukh,INC
+FDI_Openness,44,4399,10.002273243919074,bs195556,1955,full,C.D. Deshmukh,INC
+Infrastructure,2,4653,0.4298302170642596,bs195657,1956,full,T.T. Krishnamachari,INC
+Green_Climate,2,4653,0.4298302170642596,bs195657,1956,full,T.T. Krishnamachari,INC
+Digital_Tech,2,4653,0.4298302170642596,bs195657,1956,full,T.T. Krishnamachari,INC
+Welfare_Social,19,4653,4.083387062110466,bs195657,1956,full,T.T. Krishnamachari,INC
+Manufacturing_PLI,53,4653,11.390500752202879,bs195657,1956,full,T.T. Krishnamachari,INC
+Fiscal_Deficit,131,4653,28.153879217709004,bs195657,1956,full,T.T. Krishnamachari,INC
+Defence,10,4653,2.149151085321298,bs195657,1956,full,T.T. Krishnamachari,INC
+FDI_Openness,45,4653,9.671179883945841,bs195657,1956,full,T.T. Krishnamachari,INC
+Infrastructure,0,1638,0,bs195657_November_,1956,special,NA,NA
+Green_Climate,0,1638,0,bs195657_November_,1956,special,NA,NA
+Digital_Tech,1,1638,0.6105006105006106,bs195657_November_,1956,special,NA,NA
+Welfare_Social,1,1638,0.6105006105006106,bs195657_November_,1956,special,NA,NA
+Manufacturing_PLI,17,1638,10.378510378510379,bs195657_November_,1956,special,NA,NA
+Fiscal_Deficit,5,1638,3.0525030525030523,bs195657_November_,1956,special,NA,NA
+Defence,1,1638,0.6105006105006106,bs195657_November_,1956,special,NA,NA
+FDI_Openness,25,1638,15.262515262515262,bs195657_November_,1956,special,NA,NA
+Infrastructure,7,4782,1.4638226683396067,bs195758,1957,full,T.T. Krishnamachari,INC
+Green_Climate,2,4782,0.4182350480970305,bs195758,1957,full,T.T. Krishnamachari,INC
+Digital_Tech,2,4782,0.4182350480970305,bs195758,1957,full,T.T. Krishnamachari,INC
+Welfare_Social,13,4782,2.7185278126306986,bs195758,1957,full,T.T. Krishnamachari,INC
+Manufacturing_PLI,47,4782,9.828523630280218,bs195758,1957,full,T.T. Krishnamachari,INC
+Fiscal_Deficit,67,4782,14.010874111250523,bs195758,1957,full,T.T. Krishnamachari,INC
+Defence,3,4782,0.6273525721455457,bs195758,1957,full,T.T. Krishnamachari,INC
+FDI_Openness,70,4782,14.638226683396068,bs195758,1957,full,T.T. Krishnamachari,INC
+Infrastructure,0,729,0,bs195758_I_,1957,interim,NA,NA
+Green_Climate,0,729,0,bs195758_I_,1957,interim,NA,NA
+Digital_Tech,0,729,0,bs195758_I_,1957,interim,NA,NA
+Welfare_Social,1,729,1.371742112482853,bs195758_I_,1957,interim,NA,NA
+Manufacturing_PLI,9,729,12.345679012345679,bs195758_I_,1957,interim,NA,NA
+Fiscal_Deficit,38,729,52.12620027434842,bs195758_I_,1957,interim,NA,NA
+Defence,6,729,8.23045267489712,bs195758_I_,1957,interim,NA,NA
+FDI_Openness,20,729,27.434842249657063,bs195758_I_,1957,interim,NA,NA
+Infrastructure,5,2793,1.7901897601145722,bs195859,1958,full,Morarji Desai,INC
+Green_Climate,0,2793,0,bs195859,1958,full,Morarji Desai,INC
+Digital_Tech,3,2793,1.0741138560687433,bs195859,1958,full,Morarji Desai,INC
+Welfare_Social,9,2793,3.22234156820623,bs195859,1958,full,Morarji Desai,INC
+Manufacturing_PLI,23,2793,8.234872896527031,bs195859,1958,full,Morarji Desai,INC
+Fiscal_Deficit,89,2793,31.865377730039384,bs195859,1958,full,Morarji Desai,INC
+Defence,10,2793,3.5803795202291444,bs195859,1958,full,Morarji Desai,INC
+FDI_Openness,21,2793,7.518796992481203,bs195859,1958,full,Morarji Desai,INC
+Infrastructure,6,3732,1.607717041800643,bs195960,1959,full,Morarji Desai,INC
+Green_Climate,0,3732,0,bs195960,1959,full,Morarji Desai,INC
+Digital_Tech,1,3732,0.2679528403001072,bs195960,1959,full,Morarji Desai,INC
+Welfare_Social,14,3732,3.7513397642015005,bs195960,1959,full,Morarji Desai,INC
+Manufacturing_PLI,29,3732,7.770632368703108,bs195960,1959,full,Morarji Desai,INC
+Fiscal_Deficit,172,3732,46.08788853161844,bs195960,1959,full,Morarji Desai,INC
+Defence,16,3732,4.287245444801715,bs195960,1959,full,Morarji Desai,INC
+FDI_Openness,45,3732,12.057877813504822,bs195960,1959,full,Morarji Desai,INC
+Infrastructure,1,3469,0.28826751225136926,bs196061,1960,full,Morarji Desai,INC
+Green_Climate,0,3469,0,bs196061,1960,full,Morarji Desai,INC
+Digital_Tech,1,3469,0.28826751225136926,bs196061,1960,full,Morarji Desai,INC
+Welfare_Social,7,3469,2.017872585759585,bs196061,1960,full,Morarji Desai,INC
+Manufacturing_PLI,46,3469,13.260305563562985,bs196061,1960,full,Morarji Desai,INC
+Fiscal_Deficit,141,3469,40.64571922744307,bs196061,1960,full,Morarji Desai,INC
+Defence,22,3469,6.341885269530124,bs196061,1960,full,Morarji Desai,INC
+FDI_Openness,37,3469,10.665897953300663,bs196061,1960,full,Morarji Desai,INC
+Infrastructure,7,4630,1.511879049676026,bs196162,1961,full,Morarji Desai,INC
+Green_Climate,0,4630,0,bs196162,1961,full,Morarji Desai,INC
+Digital_Tech,0,4630,0,bs196162,1961,full,Morarji Desai,INC
+Welfare_Social,15,4630,3.239740820734341,bs196162,1961,full,Morarji Desai,INC
+Manufacturing_PLI,55,4630,11.879049676025918,bs196162,1961,full,Morarji Desai,INC
+Fiscal_Deficit,106,4630,22.89416846652268,bs196162,1961,full,Morarji Desai,INC
+Defence,15,4630,3.239740820734341,bs196162,1961,full,Morarji Desai,INC
+FDI_Openness,61,4630,13.174946004319654,bs196162,1961,full,Morarji Desai,INC
+Infrastructure,2,2870,0.6968641114982579,bs196263,1962,full,Morarji Desai,INC
+Green_Climate,0,2870,0,bs196263,1962,full,Morarji Desai,INC
+Digital_Tech,0,2870,0,bs196263,1962,full,Morarji Desai,INC
+Welfare_Social,14,2870,4.878048780487805,bs196263,1962,full,Morarji Desai,INC
+Manufacturing_PLI,24,2870,8.362369337979095,bs196263,1962,full,Morarji Desai,INC
+Fiscal_Deficit,78,2870,27.177700348432058,bs196263,1962,full,Morarji Desai,INC
+Defence,3,2870,1.0452961672473868,bs196263,1962,full,Morarji Desai,INC
+FDI_Openness,35,2870,12.195121951219512,bs196263,1962,full,Morarji Desai,INC
+Infrastructure,2,1432,1.3966480446927374,bs196263_I_,1962,interim,NA,NA
+Green_Climate,1,1432,0.6983240223463687,bs196263_I_,1962,interim,NA,NA
+Digital_Tech,0,1432,0,bs196263_I_,1962,interim,NA,NA
+Welfare_Social,2,1432,1.3966480446927374,bs196263_I_,1962,interim,NA,NA
+Manufacturing_PLI,22,1432,15.363128491620111,bs196263_I_,1962,interim,NA,NA
+Fiscal_Deficit,50,1432,34.91620111731844,bs196263_I_,1962,interim,NA,NA
+Defence,12,1432,8.379888268156424,bs196263_I_,1962,interim,NA,NA
+FDI_Openness,10,1432,6.983240223463687,bs196263_I_,1962,interim,NA,NA
+Infrastructure,1,3852,0.25960539979231567,bs196364,1963,full,T.T. Krishnamachari,INC
+Green_Climate,1,3852,0.25960539979231567,bs196364,1963,full,T.T. Krishnamachari,INC
+Digital_Tech,0,3852,0,bs196364,1963,full,T.T. Krishnamachari,INC
+Welfare_Social,15,3852,3.8940809968847354,bs196364,1963,full,T.T. Krishnamachari,INC
+Manufacturing_PLI,35,3852,9.08618899273105,bs196364,1963,full,T.T. Krishnamachari,INC
+Fiscal_Deficit,103,3852,26.739356178608517,bs196364,1963,full,T.T. Krishnamachari,INC
+Defence,36,3852,9.345794392523365,bs196364,1963,full,T.T. Krishnamachari,INC
+FDI_Openness,50,3852,12.980269989615785,bs196364,1963,full,T.T. Krishnamachari,INC
+Infrastructure,1,4616,0.2166377816291161,bs196465,1964,full,T.T. Krishnamachari,INC
+Green_Climate,3,4616,0.6499133448873484,bs196465,1964,full,T.T. Krishnamachari,INC
+Digital_Tech,1,4616,0.2166377816291161,bs196465,1964,full,T.T. Krishnamachari,INC
+Welfare_Social,25,4616,5.415944540727903,bs196465,1964,full,T.T. Krishnamachari,INC
+Manufacturing_PLI,34,4616,7.365684575389948,bs196465,1964,full,T.T. Krishnamachari,INC
+Fiscal_Deficit,105,4616,22.746967071057192,bs196465,1964,full,T.T. Krishnamachari,INC
+Defence,22,4616,4.766031195840554,bs196465,1964,full,T.T. Krishnamachari,INC
+FDI_Openness,48,4616,10.398613518197575,bs196465,1964,full,T.T. Krishnamachari,INC
+Infrastructure,0,2009,0,bs196566_August_,1965,special,NA,NA
+Green_Climate,5,2009,2.4888003982080633,bs196566_August_,1965,special,NA,NA
+Digital_Tech,0,2009,0,bs196566_August_,1965,special,NA,NA
+Welfare_Social,12,2009,5.973120955699353,bs196566_August_,1965,special,NA,NA
+Manufacturing_PLI,21,2009,10.452961672473869,bs196566_August_,1965,special,NA,NA
+Fiscal_Deficit,27,2009,13.439522150323544,bs196566_August_,1965,special,NA,NA
+Defence,2,2009,0.9955201592832255,bs196566_August_,1965,special,NA,NA
+FDI_Openness,43,2009,21.40368342458935,bs196566_August_,1965,special,NA,NA
+Infrastructure,2,4265,0.46893317702227433,bs196566,1965,full,T.T. Krishnamachari,INC
+Green_Climate,3,4265,0.7033997655334114,bs196566,1965,full,T.T. Krishnamachari,INC
+Digital_Tech,0,4265,0,bs196566,1965,full,T.T. Krishnamachari,INC
+Welfare_Social,21,4265,4.9237983587338805,bs196566,1965,full,T.T. Krishnamachari,INC
+Manufacturing_PLI,51,4265,11.957796014067995,bs196566,1965,full,T.T. Krishnamachari,INC
+Fiscal_Deficit,114,4265,26.729191090269634,bs196566,1965,full,T.T. Krishnamachari,INC
+Defence,4,4265,0.9378663540445487,bs196566,1965,full,T.T. Krishnamachari,INC
+FDI_Openness,56,4265,13.13012895662368,bs196566,1965,full,T.T. Krishnamachari,INC
+Infrastructure,0,3436,0,bs196667,1966,full,Sachin Chaudhuri,INC
+Green_Climate,8,3436,2.328288707799767,bs196667,1966,full,Sachin Chaudhuri,INC
+Digital_Tech,0,3436,0,bs196667,1966,full,Sachin Chaudhuri,INC
+Welfare_Social,12,3436,3.492433061699651,bs196667,1966,full,Sachin Chaudhuri,INC
+Manufacturing_PLI,50,3436,14.551804423748544,bs196667,1966,full,Sachin Chaudhuri,INC
+Fiscal_Deficit,124,3436,36.08847497089639,bs196667,1966,full,Sachin Chaudhuri,INC
+Defence,26,3436,7.566938300349244,bs196667,1966,full,Sachin Chaudhuri,INC
+FDI_Openness,34,3436,9.89522700814901,bs196667,1966,full,Sachin Chaudhuri,INC
+Infrastructure,2,4527,0.4417936823503424,bs196768,1967,full,Morarji Desai,INC
+Green_Climate,9,4527,1.9880715705765406,bs196768,1967,full,Morarji Desai,INC
+Digital_Tech,1,4527,0.2208968411751712,bs196768,1967,full,Morarji Desai,INC
+Welfare_Social,13,4527,2.8716589352772255,bs196768,1967,full,Morarji Desai,INC
+Manufacturing_PLI,89,4527,19.659818864590235,bs196768,1967,full,Morarji Desai,INC
+Fiscal_Deficit,58,4527,12.812016788159928,bs196768,1967,full,Morarji Desai,INC
+Defence,10,4527,2.2089684117517123,bs196768,1967,full,Morarji Desai,INC
+FDI_Openness,82,4527,18.11354097636404,bs196768,1967,full,Morarji Desai,INC
+Infrastructure,3,1726,1.7381228273464657,bs196768_I_,1967,interim,NA,NA
+Green_Climate,0,1726,0,bs196768_I_,1967,interim,NA,NA
+Digital_Tech,1,1726,0.5793742757821553,bs196768_I_,1967,interim,NA,NA
+Welfare_Social,1,1726,0.5793742757821553,bs196768_I_,1967,interim,NA,NA
+Manufacturing_PLI,27,1726,15.643105446118192,bs196768_I_,1967,interim,NA,NA
+Fiscal_Deficit,49,1726,28.389339513325606,bs196768_I_,1967,interim,NA,NA
+Defence,5,1726,2.8968713789107765,bs196768_I_,1967,interim,NA,NA
+FDI_Openness,23,1726,13.325608342989572,bs196768_I_,1967,interim,NA,NA
+Infrastructure,2,3280,0.6097560975609756,bs196869,1968,full,Morarji Desai,INC
+Green_Climate,6,3280,1.829268292682927,bs196869,1968,full,Morarji Desai,INC
+Digital_Tech,0,3280,0,bs196869,1968,full,Morarji Desai,INC
+Welfare_Social,10,3280,3.048780487804878,bs196869,1968,full,Morarji Desai,INC
+Manufacturing_PLI,31,3280,9.451219512195122,bs196869,1968,full,Morarji Desai,INC
+Fiscal_Deficit,69,3280,21.03658536585366,bs196869,1968,full,Morarji Desai,INC
+Defence,11,3280,3.3536585365853657,bs196869,1968,full,Morarji Desai,INC
+FDI_Openness,44,3280,13.414634146341463,bs196869,1968,full,Morarji Desai,INC
+Infrastructure,0,2511,0,bs196970,1969,full,Morarji Desai,INC
+Green_Climate,1,2511,0.39824771007566706,bs196970,1969,full,Morarji Desai,INC
+Digital_Tech,3,2511,1.194743130227001,bs196970,1969,full,Morarji Desai,INC
+Welfare_Social,7,2511,2.7877339705296693,bs196970,1969,full,Morarji Desai,INC
+Manufacturing_PLI,21,2511,8.363201911589009,bs196970,1969,full,Morarji Desai,INC
+Fiscal_Deficit,78,2511,31.06332138590203,bs196970,1969,full,Morarji Desai,INC
+Defence,12,2511,4.778972520908004,bs196970,1969,full,Morarji Desai,INC
+FDI_Openness,31,2511,12.345679012345679,bs196970,1969,full,Morarji Desai,INC
+Infrastructure,0,2881,0,bs197071,1970,full,Indira Gandhi,INC
+Green_Climate,2,2881,0.6942034015966678,bs197071,1970,full,Indira Gandhi,INC
+Digital_Tech,2,2881,0.6942034015966678,bs197071,1970,full,Indira Gandhi,INC
+Welfare_Social,30,2881,10.413051023950016,bs197071,1970,full,Indira Gandhi,INC
+Manufacturing_PLI,20,2881,6.942034015966678,bs197071,1970,full,Indira Gandhi,INC
+Fiscal_Deficit,59,2881,20.479000347101703,bs197071,1970,full,Indira Gandhi,INC
+Defence,6,2881,2.0826102047900035,bs197071,1970,full,Indira Gandhi,INC
+FDI_Openness,27,2881,9.371745921555016,bs197071,1970,full,Indira Gandhi,INC
+Infrastructure,1,3770,0.2652519893899204,bs197172,1971,full,Yashwantrao Chavan,INC
+Green_Climate,1,3770,0.2652519893899204,bs197172,1971,full,Yashwantrao Chavan,INC
+Digital_Tech,1,3770,0.2652519893899204,bs197172,1971,full,Yashwantrao Chavan,INC
+Welfare_Social,24,3770,6.36604774535809,bs197172,1971,full,Yashwantrao Chavan,INC
+Manufacturing_PLI,23,3770,6.10079575596817,bs197172,1971,full,Yashwantrao Chavan,INC
+Fiscal_Deficit,58,3770,15.384615384615385,bs197172,1971,full,Yashwantrao Chavan,INC
+Defence,2,3770,0.5305039787798408,bs197172,1971,full,Yashwantrao Chavan,INC
+FDI_Openness,30,3770,7.957559681697613,bs197172,1971,full,Yashwantrao Chavan,INC
+Infrastructure,0,731,0,bs197172december,1971,full,Yashwantrao Chavan,INC
+Green_Climate,0,731,0,bs197172december,1971,full,Yashwantrao Chavan,INC
+Digital_Tech,0,731,0,bs197172december,1971,full,Yashwantrao Chavan,INC
+Welfare_Social,3,731,4.1039671682626535,bs197172december,1971,full,Yashwantrao Chavan,INC
+Manufacturing_PLI,3,731,4.1039671682626535,bs197172december,1971,full,Yashwantrao Chavan,INC
+Fiscal_Deficit,16,731,21.88782489740082,bs197172december,1971,full,Yashwantrao Chavan,INC
+Defence,23,731,31.46374829001368,bs197172december,1971,full,Yashwantrao Chavan,INC
+FDI_Openness,9,731,12.311901504787961,bs197172december,1971,full,Yashwantrao Chavan,INC
+Infrastructure,1,3217,0.31084861672365555,bs197273,1972,full,Yashwantrao Chavan,INC
+Green_Climate,3,3217,0.9325458501709667,bs197273,1972,full,Yashwantrao Chavan,INC
+Digital_Tech,2,3217,0.6216972334473111,bs197273,1972,full,Yashwantrao Chavan,INC
+Welfare_Social,28,3217,8.703761268262356,bs197273,1972,full,Yashwantrao Chavan,INC
+Manufacturing_PLI,22,3217,6.838669567920423,bs197273,1972,full,Yashwantrao Chavan,INC
+Fiscal_Deficit,66,3217,20.516008703761266,bs197273,1972,full,Yashwantrao Chavan,INC
+Defence,5,3217,1.554243083618278,bs197273,1972,full,Yashwantrao Chavan,INC
+FDI_Openness,15,3217,4.6627292508548335,bs197273,1972,full,Yashwantrao Chavan,INC
+Infrastructure,1,3833,0.26089225150013046,bs197374,1973,full,Yashwantrao Chavan,INC
+Green_Climate,3,3833,0.7826767545003913,bs197374,1973,full,Yashwantrao Chavan,INC
+Digital_Tech,6,3833,1.5653535090007826,bs197374,1973,full,Yashwantrao Chavan,INC
+Welfare_Social,36,3833,9.392121054004697,bs197374,1973,full,Yashwantrao Chavan,INC
+Manufacturing_PLI,55,3833,14.349073832507175,bs197374,1973,full,Yashwantrao Chavan,INC
+Fiscal_Deficit,53,3833,13.827289329506915,bs197374,1973,full,Yashwantrao Chavan,INC
+Defence,6,3833,1.5653535090007826,bs197374,1973,full,Yashwantrao Chavan,INC
+FDI_Openness,18,3833,4.6960605270023486,bs197374,1973,full,Yashwantrao Chavan,INC
+Infrastructure,1,3097,0.32289312237649337,bs197475,1974,full,Yashwantrao Chavan,INC
+Green_Climate,7,3097,2.2602518566354535,bs197475,1974,full,Yashwantrao Chavan,INC
+Digital_Tech,0,3097,0,bs197475,1974,full,Yashwantrao Chavan,INC
+Welfare_Social,17,3097,5.489183080400387,bs197475,1974,full,Yashwantrao Chavan,INC
+Manufacturing_PLI,35,3097,11.301259283177268,bs197475,1974,full,Yashwantrao Chavan,INC
+Fiscal_Deficit,48,3097,15.498869874071682,bs197475,1974,full,Yashwantrao Chavan,INC
+Defence,7,3097,2.2602518566354535,bs197475,1974,full,Yashwantrao Chavan,INC
+FDI_Openness,15,3097,4.843396835647401,bs197475,1974,full,Yashwantrao Chavan,INC
+Infrastructure,3,1767,1.697792869269949,bs197475_july_,1974,special,NA,NA
+Green_Climate,1,1767,0.5659309564233164,bs197475_july_,1974,special,NA,NA
+Digital_Tech,0,1767,0,bs197475_july_,1974,special,NA,NA
+Welfare_Social,1,1767,0.5659309564233164,bs197475_july_,1974,special,NA,NA
+Manufacturing_PLI,21,1767,11.884550084889643,bs197475_july_,1974,special,NA,NA
+Fiscal_Deficit,43,1767,24.335031126202605,bs197475_july_,1974,special,NA,NA
+Defence,2,1767,1.1318619128466327,bs197475_july_,1974,special,NA,NA
+FDI_Openness,8,1767,4.527447651386531,bs197475_july_,1974,special,NA,NA
+Infrastructure,0,4751,0,bs197576,1975,full,C. Subramaniam,INC
+Green_Climate,6,4751,1.2628920227320564,bs197576,1975,full,C. Subramaniam,INC
+Digital_Tech,1,4751,0.21048200378867607,bs197576,1975,full,C. Subramaniam,INC
+Welfare_Social,20,4751,4.209640075773522,bs197576,1975,full,C. Subramaniam,INC
+Manufacturing_PLI,80,4751,16.838560303094088,bs197576,1975,full,C. Subramaniam,INC
+Fiscal_Deficit,69,4751,14.523258261418647,bs197576,1975,full,C. Subramaniam,INC
+Defence,11,4751,2.315302041675437,bs197576,1975,full,C. Subramaniam,INC
+FDI_Openness,36,4751,7.577352136392339,bs197576,1975,full,C. Subramaniam,INC
+Infrastructure,1,5100,0.19607843137254902,bs197677,1976,full,C. Subramaniam,INC
+Green_Climate,7,5100,1.3725490196078431,bs197677,1976,full,C. Subramaniam,INC
+Digital_Tech,5,5100,0.9803921568627451,bs197677,1976,full,C. Subramaniam,INC
+Welfare_Social,42,5100,8.23529411764706,bs197677,1976,full,C. Subramaniam,INC
+Manufacturing_PLI,66,5100,12.941176470588236,bs197677,1976,full,C. Subramaniam,INC
+Fiscal_Deficit,55,5100,10.784313725490195,bs197677,1976,full,C. Subramaniam,INC
+Defence,13,5100,2.5490196078431375,bs197677,1976,full,C. Subramaniam,INC
+FDI_Openness,68,5100,13.333333333333334,bs197677,1976,full,C. Subramaniam,INC
+Infrastructure,10,4657,2.147305132059266,bs197778,1977,full,H.M. Patel,Other
+Green_Climate,4,4657,0.8589220528237063,bs197778,1977,full,H.M. Patel,Other
+Digital_Tech,10,4657,2.147305132059266,bs197778,1977,full,H.M. Patel,Other
+Welfare_Social,27,4657,5.797723856560017,bs197778,1977,full,H.M. Patel,Other
+Manufacturing_PLI,60,4657,12.883830792355592,bs197778,1977,full,H.M. Patel,Other
+Fiscal_Deficit,36,4657,7.730298475413356,bs197778,1977,full,H.M. Patel,Other
+Defence,5,4657,1.073652566029633,bs197778,1977,full,H.M. Patel,Other
+FDI_Openness,38,4657,8.159759501825208,bs197778,1977,full,H.M. Patel,Other
+Infrastructure,0,256,0,bs197778_I_,1977,interim,NA,NA
+Green_Climate,0,256,0,bs197778_I_,1977,interim,NA,NA
+Digital_Tech,0,256,0,bs197778_I_,1977,interim,NA,NA
+Welfare_Social,1,256,3.90625,bs197778_I_,1977,interim,NA,NA
+Manufacturing_PLI,0,256,0,bs197778_I_,1977,interim,NA,NA
+Fiscal_Deficit,13,256,50.78125,bs197778_I_,1977,interim,NA,NA
+Defence,0,256,0,bs197778_I_,1977,interim,NA,NA
+FDI_Openness,1,256,3.90625,bs197778_I_,1977,interim,NA,NA
+Infrastructure,5,4128,1.2112403100775193,bs197879,1978,full,H.M. Patel,Other
+Green_Climate,2,4128,0.4844961240310077,bs197879,1978,full,H.M. Patel,Other
+Digital_Tech,3,4128,0.7267441860465116,bs197879,1978,full,H.M. Patel,Other
+Welfare_Social,19,4128,4.602713178294574,bs197879,1978,full,H.M. Patel,Other
+Manufacturing_PLI,56,4128,13.565891472868216,bs197879,1978,full,H.M. Patel,Other
+Fiscal_Deficit,88,4128,21.31782945736434,bs197879,1978,full,H.M. Patel,Other
+Defence,8,4128,1.937984496124031,bs197879,1978,full,H.M. Patel,Other
+FDI_Openness,59,4128,14.292635658914728,bs197879,1978,full,H.M. Patel,Other
+Infrastructure,3,4989,0.6013229104028863,bs197980,1979,full,Charan Singh,Other
+Green_Climate,4,4989,0.8017638805371818,bs197980,1979,full,Charan Singh,Other
+Digital_Tech,3,4989,0.6013229104028863,bs197980,1979,full,Charan Singh,Other
+Welfare_Social,32,4989,6.414111044297455,bs197980,1979,full,Charan Singh,Other
+Manufacturing_PLI,62,4989,12.42734014832632,bs197980,1979,full,Charan Singh,Other
+Fiscal_Deficit,81,4989,16.235718580877933,bs197980,1979,full,Charan Singh,Other
+Defence,6,4989,1.2026458208057726,bs197980,1979,full,Charan Singh,Other
+FDI_Openness,32,4989,6.414111044297455,bs197980,1979,full,Charan Singh,Other
+Infrastructure,13,5264,2.4696048632218845,bs198081,1980,full,R. Venkataraman,INC
+Green_Climate,3,5264,0.5699088145896656,bs198081,1980,full,R. Venkataraman,INC
+Digital_Tech,13,5264,2.4696048632218845,bs198081,1980,full,R. Venkataraman,INC
+Welfare_Social,45,5264,8.548632218844984,bs198081,1980,full,R. Venkataraman,INC
+Manufacturing_PLI,75,5264,14.247720364741642,bs198081,1980,full,R. Venkataraman,INC
+Fiscal_Deficit,59,5264,11.20820668693009,bs198081,1980,full,R. Venkataraman,INC
+Defence,7,5264,1.3297872340425532,bs198081,1980,full,R. Venkataraman,INC
+FDI_Openness,53,5264,10.06838905775076,bs198081,1980,full,R. Venkataraman,INC
+Infrastructure,5,1257,3.977724741447892,bs198081_I_,1980,interim,NA,NA
+Green_Climate,0,1257,0,bs198081_I_,1980,interim,NA,NA
+Digital_Tech,0,1257,0,bs198081_I_,1980,interim,NA,NA
+Welfare_Social,13,1257,10.342084327764518,bs198081_I_,1980,interim,NA,NA
+Manufacturing_PLI,29,1257,23.070803500397773,bs198081_I_,1980,interim,NA,NA
+Fiscal_Deficit,25,1257,19.88862370723946,bs198081_I_,1980,interim,NA,NA
+Defence,3,1257,2.3866348448687353,bs198081_I_,1980,interim,NA,NA
+FDI_Openness,4,1257,3.182179793158314,bs198081_I_,1980,interim,NA,NA
+Infrastructure,12,4641,2.585649644473174,bs198182,1981,full,R. Venkataraman,INC
+Green_Climate,14,4641,3.0165912518853695,bs198182,1981,full,R. Venkataraman,INC
+Digital_Tech,6,4641,1.292824822236587,bs198182,1981,full,R. Venkataraman,INC
+Welfare_Social,20,4641,4.309416074121957,bs198182,1981,full,R. Venkataraman,INC
+Manufacturing_PLI,63,4641,13.574660633484163,bs198182,1981,full,R. Venkataraman,INC
+Fiscal_Deficit,71,4641,15.298427063132944,bs198182,1981,full,R. Venkataraman,INC
+Defence,7,4641,1.5082956259426847,bs198182,1981,full,R. Venkataraman,INC
+FDI_Openness,44,4641,9.480715363068304,bs198182,1981,full,R. Venkataraman,INC
+Infrastructure,5,5532,0.9038322487346349,bs198283,1982,full,R. Venkataraman,INC
+Green_Climate,19,5532,3.4345625451916124,bs198283,1982,full,R. Venkataraman,INC
+Digital_Tech,8,5532,1.4461315979754157,bs198283,1982,full,R. Venkataraman,INC
+Welfare_Social,46,5532,8.315256688358641,bs198283,1982,full,R. Venkataraman,INC
+Manufacturing_PLI,70,5532,12.653651482284888,bs198283,1982,full,R. Venkataraman,INC
+Fiscal_Deficit,76,5532,13.73825018076645,bs198283,1982,full,R. Venkataraman,INC
+Defence,13,5532,2.3499638467100508,bs198283,1982,full,R. Venkataraman,INC
+FDI_Openness,56,5532,10.122921185827911,bs198283,1982,full,R. Venkataraman,INC
+Infrastructure,4,5253,0.7614696363982486,bs198384,1983,full,Pranab Mukherjee,INC
+Green_Climate,10,5253,1.9036740909956216,bs198384,1983,full,Pranab Mukherjee,INC
+Digital_Tech,3,5253,0.5711022272986864,bs198384,1983,full,Pranab Mukherjee,INC
+Welfare_Social,28,5253,5.33028745478774,bs198384,1983,full,Pranab Mukherjee,INC
+Manufacturing_PLI,57,5253,10.850942318675044,bs198384,1983,full,Pranab Mukherjee,INC
+Fiscal_Deficit,89,5253,16.94269940986103,bs198384,1983,full,Pranab Mukherjee,INC
+Defence,13,5253,2.474776318294308,bs198384,1983,full,Pranab Mukherjee,INC
+FDI_Openness,55,5253,10.470207500475919,bs198384,1983,full,Pranab Mukherjee,INC
+Infrastructure,4,4377,0.9138679460817912,bs198485,1984,full,Pranab Mukherjee,INC
+Green_Climate,6,4377,1.3708019191226868,bs198485,1984,full,Pranab Mukherjee,INC
+Digital_Tech,2,4377,0.4569339730408956,bs198485,1984,full,Pranab Mukherjee,INC
+Welfare_Social,43,4377,9.824080420379255,bs198485,1984,full,Pranab Mukherjee,INC
+Manufacturing_PLI,43,4377,9.824080420379255,bs198485,1984,full,Pranab Mukherjee,INC
+Fiscal_Deficit,77,4377,17.59195796207448,bs198485,1984,full,Pranab Mukherjee,INC
+Defence,7,4377,1.5992689056431346,bs198485,1984,full,Pranab Mukherjee,INC
+FDI_Openness,27,4377,6.16860863605209,bs198485,1984,full,Pranab Mukherjee,INC
+Infrastructure,2,5367,0.3726476616359232,bs198586,1985,full,V.P. Singh,INC
+Green_Climate,18,5367,3.3538289547233093,bs198586,1985,full,V.P. Singh,INC
+Digital_Tech,11,5367,2.0495621389975778,bs198586,1985,full,V.P. Singh,INC
+Welfare_Social,35,5367,6.521334078628657,bs198586,1985,full,V.P. Singh,INC
+Manufacturing_PLI,51,5367,9.502515371716044,bs198586,1985,full,V.P. Singh,INC
+Fiscal_Deficit,91,5367,16.955468604434508,bs198586,1985,full,V.P. Singh,INC
+Defence,10,5367,1.863238308179616,bs198586,1985,full,V.P. Singh,INC
+FDI_Openness,31,5367,5.77603875535681,bs198586,1985,full,V.P. Singh,INC
+Infrastructure,10,6083,1.643925694558606,bs198687,1986,full,V.P. Singh,INC
+Green_Climate,9,6083,1.4795331251027453,bs198687,1986,full,V.P. Singh,INC
+Digital_Tech,8,6083,1.315140555646885,bs198687,1986,full,V.P. Singh,INC
+Welfare_Social,102,6083,16.76804208449778,bs198687,1986,full,V.P. Singh,INC
+Manufacturing_PLI,94,6083,15.452901528850894,bs198687,1986,full,V.P. Singh,INC
+Fiscal_Deficit,94,6083,15.452901528850894,bs198687,1986,full,V.P. Singh,INC
+Defence,16,6083,2.63028111129377,bs198687,1986,full,V.P. Singh,INC
+FDI_Openness,45,6083,7.397665625513727,bs198687,1986,full,V.P. Singh,INC
+Infrastructure,4,4746,0.8428150021070375,bs198788,1987,full,N.D. Tiwari,INC
+Green_Climate,10,4746,2.1070375052675936,bs198788,1987,full,N.D. Tiwari,INC
+Digital_Tech,29,4746,6.110408765276022,bs198788,1987,full,N.D. Tiwari,INC
+Welfare_Social,59,4746,12.431521281078803,bs198788,1987,full,N.D. Tiwari,INC
+Manufacturing_PLI,59,4746,12.431521281078803,bs198788,1987,full,N.D. Tiwari,INC
+Fiscal_Deficit,78,4746,16.43489254108723,bs198788,1987,full,N.D. Tiwari,INC
+Defence,21,4746,4.424778761061947,bs198788,1987,full,N.D. Tiwari,INC
+FDI_Openness,53,4746,11.167298777918246,bs198788,1987,full,N.D. Tiwari,INC
+Infrastructure,4,6706,0.5964807634953773,bs198889,1988,full,N.D. Tiwari,INC
+Green_Climate,14,6706,2.08768267223382,bs198889,1988,full,N.D. Tiwari,INC
+Digital_Tech,22,6706,3.2806441992245747,bs198889,1988,full,N.D. Tiwari,INC
+Welfare_Social,101,6706,15.061139278258278,bs198889,1988,full,N.D. Tiwari,INC
+Manufacturing_PLI,78,6706,11.631374888159856,bs198889,1988,full,N.D. Tiwari,INC
+Fiscal_Deficit,66,6706,9.841932597673724,bs198889,1988,full,N.D. Tiwari,INC
+Defence,18,6706,2.684163435729198,bs198889,1988,full,N.D. Tiwari,INC
+FDI_Openness,48,6706,7.157769161944528,bs198889,1988,full,N.D. Tiwari,INC
+Infrastructure,7,5287,1.3240022697181768,bs198990,1989,full,S.B. Chavan,INC
+Green_Climate,4,5287,0.7565727255532438,bs198990,1989,full,S.B. Chavan,INC
+Digital_Tech,10,5287,1.8914318138831097,bs198990,1989,full,S.B. Chavan,INC
+Welfare_Social,89,5287,16.833743143559676,bs198990,1989,full,S.B. Chavan,INC
+Manufacturing_PLI,61,5287,11.537734064686969,bs198990,1989,full,S.B. Chavan,INC
+Fiscal_Deficit,99,5287,18.725174957442785,bs198990,1989,full,S.B. Chavan,INC
+Defence,25,5287,4.728579534707774,bs198990,1989,full,S.B. Chavan,INC
+FDI_Openness,49,5287,9.268015888027236,bs198990,1989,full,S.B. Chavan,INC
+Infrastructure,2,5374,0.3721622627465575,bs199091,1990,full,Madhu Dandavate,Other
+Green_Climate,10,5374,1.8608113137327875,bs199091,1990,full,Madhu Dandavate,Other
+Digital_Tech,2,5374,0.3721622627465575,bs199091,1990,full,Madhu Dandavate,Other
+Welfare_Social,49,5374,9.117975437290658,bs199091,1990,full,Madhu Dandavate,Other
+Manufacturing_PLI,45,5374,8.373650911797544,bs199091,1990,full,Madhu Dandavate,Other
+Fiscal_Deficit,111,5374,20.65500558243394,bs199091,1990,full,Madhu Dandavate,Other
+Defence,18,5374,3.3494603647190173,bs199091,1990,full,Madhu Dandavate,Other
+FDI_Openness,66,5374,12.281354670636397,bs199091,1990,full,Madhu Dandavate,Other
+Infrastructure,7,7334,0.9544586855740388,bs199192,1991,full,Yashwant Sinha,Other
+Infrastructure,7,7334,0.9544586855740388,bs199192,1991,full,Manmohan Singh,INC
+Green_Climate,17,7334,2.317971093536951,bs199192,1991,full,Yashwant Sinha,Other
+Green_Climate,17,7334,2.317971093536951,bs199192,1991,full,Manmohan Singh,INC
+Digital_Tech,17,7334,2.317971093536951,bs199192,1991,full,Yashwant Sinha,Other
+Digital_Tech,17,7334,2.317971093536951,bs199192,1991,full,Manmohan Singh,INC
+Welfare_Social,119,7334,16.225797654758658,bs199192,1991,full,Yashwant Sinha,Other
+Welfare_Social,119,7334,16.225797654758658,bs199192,1991,full,Manmohan Singh,INC
+Manufacturing_PLI,51,7334,6.953913280610854,bs199192,1991,full,Yashwant Sinha,Other
+Manufacturing_PLI,51,7334,6.953913280610854,bs199192,1991,full,Manmohan Singh,INC
+Fiscal_Deficit,208,7334,28.361058085628578,bs199192,1991,full,Yashwant Sinha,Other
+Fiscal_Deficit,208,7334,28.361058085628578,bs199192,1991,full,Manmohan Singh,INC
+Defence,23,7334,3.136078538314699,bs199192,1991,full,Yashwant Sinha,Other
+Defence,23,7334,3.136078538314699,bs199192,1991,full,Manmohan Singh,INC
+FDI_Openness,94,7334,12.817016634851377,bs199192,1991,full,Yashwant Sinha,Other
+FDI_Openness,94,7334,12.817016634851377,bs199192,1991,full,Manmohan Singh,INC
+Infrastructure,0,855,0,bs199192_I_,1991,interim,NA,NA
+Green_Climate,1,855,1.1695906432748537,bs199192_I_,1991,interim,NA,NA
+Digital_Tech,0,855,0,bs199192_I_,1991,interim,NA,NA
+Welfare_Social,9,855,10.526315789473683,bs199192_I_,1991,interim,NA,NA
+Manufacturing_PLI,2,855,2.3391812865497075,bs199192_I_,1991,interim,NA,NA
+Fiscal_Deficit,70,855,81.87134502923976,bs199192_I_,1991,interim,NA,NA
+Defence,2,855,2.3391812865497075,bs199192_I_,1991,interim,NA,NA
+FDI_Openness,5,855,5.847953216374268,bs199192_I_,1991,interim,NA,NA
+Infrastructure,4,5669,0.7055918151349444,bs199293,1992,full,Manmohan Singh,INC
+Green_Climate,6,5669,1.0583877227024165,bs199293,1992,full,Manmohan Singh,INC
+Digital_Tech,8,5669,1.4111836302698888,bs199293,1992,full,Manmohan Singh,INC
+Welfare_Social,29,5669,5.115540659728348,bs199293,1992,full,Manmohan Singh,INC
+Manufacturing_PLI,39,5669,6.879520197565709,bs199293,1992,full,Manmohan Singh,INC
+Fiscal_Deficit,125,5669,22.049744222967014,bs199293,1992,full,Manmohan Singh,INC
+Defence,16,5669,2.8223672605397776,bs199293,1992,full,Manmohan Singh,INC
+FDI_Openness,110,5669,19.40377491621097,bs199293,1992,full,Manmohan Singh,INC
+Infrastructure,7,5094,1.3741656851197488,bs199394,1993,full,Manmohan Singh,INC
+Green_Climate,17,5094,3.337259521005104,bs199394,1993,full,Manmohan Singh,INC
+Digital_Tech,13,5094,2.552021986650962,bs199394,1993,full,Manmohan Singh,INC
+Welfare_Social,46,5094,9.030231645072634,bs199394,1993,full,Manmohan Singh,INC
+Manufacturing_PLI,53,5094,10.404397330192383,bs199394,1993,full,Manmohan Singh,INC
+Fiscal_Deficit,61,5094,11.974872398900667,bs199394,1993,full,Manmohan Singh,INC
+Defence,12,5094,2.3557126030624262,bs199394,1993,full,Manmohan Singh,INC
+FDI_Openness,99,5094,19.434628975265017,bs199394,1993,full,Manmohan Singh,INC
+Infrastructure,6,5087,1.1794770984863376,bs199495,1994,full,Manmohan Singh,INC
+Green_Climate,3,5087,0.5897385492431688,bs199495,1994,full,Manmohan Singh,INC
+Digital_Tech,19,5087,3.7350108118734027,bs199495,1994,full,Manmohan Singh,INC
+Welfare_Social,43,5087,8.452919205818754,bs199495,1994,full,Manmohan Singh,INC
+Manufacturing_PLI,56,5087,11.00845291920582,bs199495,1994,full,Manmohan Singh,INC
+Fiscal_Deficit,104,5087,20.44426970709652,bs199495,1994,full,Manmohan Singh,INC
+Defence,12,5087,2.3589541969726753,bs199495,1994,full,Manmohan Singh,INC
+FDI_Openness,87,5087,17.102417928051896,bs199495,1994,full,Manmohan Singh,INC
+Infrastructure,18,5000,3.6,bs199596,1995,full,Manmohan Singh,INC
+Green_Climate,2,5000,0.4,bs199596,1995,full,Manmohan Singh,INC
+Digital_Tech,7,5000,1.4,bs199596,1995,full,Manmohan Singh,INC
+Welfare_Social,85,5000,17,bs199596,1995,full,Manmohan Singh,INC
+Manufacturing_PLI,52,5000,10.4,bs199596,1995,full,Manmohan Singh,INC
+Fiscal_Deficit,68,5000,13.6,bs199596,1995,full,Manmohan Singh,INC
+Defence,5,5000,1,bs199596,1995,full,Manmohan Singh,INC
+FDI_Openness,79,5000,15.8,bs199596,1995,full,Manmohan Singh,INC
+Infrastructure,37,4752,7.786195286195286,bs199697,1996,full,P. Chidambaram,INC
+Green_Climate,5,4752,1.0521885521885521,bs199697,1996,full,P. Chidambaram,INC
+Digital_Tech,16,4752,3.3670033670033668,bs199697,1996,full,P. Chidambaram,INC
+Welfare_Social,68,4752,14.30976430976431,bs199697,1996,full,P. Chidambaram,INC
+Manufacturing_PLI,19,4752,3.9983164983164983,bs199697,1996,full,P. Chidambaram,INC
+Fiscal_Deficit,71,4752,14.941077441077441,bs199697,1996,full,P. Chidambaram,INC
+Defence,19,4752,3.9983164983164983,bs199697,1996,full,P. Chidambaram,INC
+FDI_Openness,55,4752,11.574074074074073,bs199697,1996,full,P. Chidambaram,INC
+Infrastructure,9,2279,3.949100482667837,bs199697_I_,1996,interim,NA,NA
+Green_Climate,0,2279,0,bs199697_I_,1996,interim,NA,NA
+Digital_Tech,3,2279,1.3163668275559457,bs199697_I_,1996,interim,NA,NA
+Welfare_Social,51,2279,22.378236068451073,bs199697_I_,1996,interim,NA,NA
+Manufacturing_PLI,32,2279,14.041246160596753,bs199697_I_,1996,interim,NA,NA
+Fiscal_Deficit,82,2279,35.980693286529174,bs199697_I_,1996,interim,NA,NA
+Defence,10,2279,4.3878894251864855,bs199697_I_,1996,interim,NA,NA
+FDI_Openness,31,2279,13.602457218078104,bs199697_I_,1996,interim,NA,NA
+Infrastructure,20,4681,4.272591326639607,bs199798,1997,full,P. Chidambaram,INC
+Green_Climate,2,4681,0.4272591326639607,bs199798,1997,full,P. Chidambaram,INC
+Digital_Tech,20,4681,4.272591326639607,bs199798,1997,full,P. Chidambaram,INC
+Welfare_Social,51,4681,10.895107882930999,bs199798,1997,full,P. Chidambaram,INC
+Manufacturing_PLI,46,4681,9.826960051271096,bs199798,1997,full,P. Chidambaram,INC
+Fiscal_Deficit,86,4681,18.37214270455031,bs199798,1997,full,P. Chidambaram,INC
+Defence,8,4681,1.7090365306558428,bs199798,1997,full,P. Chidambaram,INC
+FDI_Openness,56,4681,11.963255714590899,bs199798,1997,full,P. Chidambaram,INC
+Infrastructure,25,6286,3.9770919503658924,bs199899,1998,full,Yashwant Sinha,BJP
+Green_Climate,19,6286,3.022589882278078,bs199899,1998,full,Yashwant Sinha,BJP
+Digital_Tech,19,6286,3.022589882278078,bs199899,1998,full,Yashwant Sinha,BJP
+Welfare_Social,78,6286,12.408526885141585,bs199899,1998,full,Yashwant Sinha,BJP
+Manufacturing_PLI,46,6286,7.317849188673242,bs199899,1998,full,Yashwant Sinha,BJP
+Fiscal_Deficit,67,6286,10.658606426980592,bs199899,1998,full,Yashwant Sinha,BJP
+Defence,8,6286,1.2726694241170855,bs199899,1998,full,Yashwant Sinha,BJP
+FDI_Openness,79,6286,12.567610563156219,bs199899,1998,full,Yashwant Sinha,BJP
+Infrastructure,22,5542,3.969686033922772,bs19992000,1999,full,Yashwant Sinha,BJP
+Green_Climate,4,5542,0.7217610970768675,bs19992000,1999,full,Yashwant Sinha,BJP
+Digital_Tech,13,5542,2.3457235654998194,bs19992000,1999,full,Yashwant Sinha,BJP
+Welfare_Social,111,5542,20.028870443883072,bs19992000,1999,full,Yashwant Sinha,BJP
+Manufacturing_PLI,39,5542,7.037170696499459,bs19992000,1999,full,Yashwant Sinha,BJP
+Fiscal_Deficit,104,5542,18.765788523998555,bs19992000,1999,full,Yashwant Sinha,BJP
+Defence,15,5542,2.706604114038253,bs19992000,1999,full,Yashwant Sinha,BJP
+FDI_Openness,44,5542,7.939372067845544,bs19992000,1999,full,Yashwant Sinha,BJP
+Infrastructure,26,6005,4.329725228975853,bs200001,2000,full,Yashwant Sinha,BJP
+Green_Climate,10,6005,1.6652789342214822,bs200001,2000,full,Yashwant Sinha,BJP
+Digital_Tech,17,6005,2.8309741881765196,bs200001,2000,full,Yashwant Sinha,BJP
+Welfare_Social,106,6005,17.65195670274771,bs200001,2000,full,Yashwant Sinha,BJP
+Manufacturing_PLI,35,6005,5.828476269775187,bs200001,2000,full,Yashwant Sinha,BJP
+Fiscal_Deficit,89,6005,14.820982514571192,bs200001,2000,full,Yashwant Sinha,BJP
+Defence,38,6005,6.328059950041632,bs200001,2000,full,Yashwant Sinha,BJP
+FDI_Openness,32,6005,5.328892589508743,bs200001,2000,full,Yashwant Sinha,BJP
+Infrastructure,32,6089,5.255378551486287,bs200102,2001,full,Yashwant Sinha,BJP
+Green_Climate,4,6089,0.6569223189357859,bs200102,2001,full,Yashwant Sinha,BJP
+Digital_Tech,19,6089,3.120381014944983,bs200102,2001,full,Yashwant Sinha,BJP
+Welfare_Social,93,6089,15.27344391525702,bs200102,2001,full,Yashwant Sinha,BJP
+Manufacturing_PLI,48,6089,7.8830678272294294,bs200102,2001,full,Yashwant Sinha,BJP
+Fiscal_Deficit,119,6089,19.543438988339627,bs200102,2001,full,Yashwant Sinha,BJP
+Defence,14,6089,2.2992281162752506,bs200102,2001,full,Yashwant Sinha,BJP
+FDI_Openness,56,6089,9.196912465101002,bs200102,2001,full,Yashwant Sinha,BJP
+Infrastructure,29,6512,4.453316953316953,bs200203,2002,full,Jaswant Singh,BJP
+Green_Climate,12,6512,1.8427518427518428,bs200203,2002,full,Jaswant Singh,BJP
+Digital_Tech,16,6512,2.457002457002457,bs200203,2002,full,Jaswant Singh,BJP
+Welfare_Social,96,6512,14.742014742014742,bs200203,2002,full,Jaswant Singh,BJP
+Manufacturing_PLI,37,6512,5.681818181818182,bs200203,2002,full,Jaswant Singh,BJP
+Fiscal_Deficit,87,6512,13.35995085995086,bs200203,2002,full,Jaswant Singh,BJP
+Defence,23,6512,3.5319410319410323,bs200203,2002,full,Jaswant Singh,BJP
+FDI_Openness,72,6512,11.056511056511056,bs200203,2002,full,Jaswant Singh,BJP
+Infrastructure,28,6223,4.499437570303712,bs200304,2003,full,Jaswant Singh,BJP
+Green_Climate,17,6223,2.7318013819701106,bs200304,2003,full,Jaswant Singh,BJP
+Digital_Tech,15,6223,2.4104129840912742,bs200304,2003,full,Jaswant Singh,BJP
+Welfare_Social,76,6223,12.21275911939579,bs200304,2003,full,Jaswant Singh,BJP
+Manufacturing_PLI,45,6223,7.231238952273824,bs200304,2003,full,Jaswant Singh,BJP
+Fiscal_Deficit,92,6223,14.783866302426484,bs200304,2003,full,Jaswant Singh,BJP
+Defence,35,6223,5.624296962879639,bs200304,2003,full,Jaswant Singh,BJP
+FDI_Openness,51,6223,8.195404145910333,bs200304,2003,full,Jaswant Singh,BJP
+Infrastructure,19,5480,3.467153284671533,bs200405,2004,full,P. Chidambaram,INC
+Green_Climate,6,5480,1.094890510948905,bs200405,2004,full,P. Chidambaram,INC
+Digital_Tech,14,5480,2.5547445255474455,bs200405,2004,full,P. Chidambaram,INC
+Welfare_Social,114,5480,20.802919708029197,bs200405,2004,full,P. Chidambaram,INC
+Manufacturing_PLI,40,5480,7.299270072992701,bs200405,2004,full,P. Chidambaram,INC
+Fiscal_Deficit,78,5480,14.233576642335766,bs200405,2004,full,P. Chidambaram,INC
+Defence,15,5480,2.737226277372263,bs200405,2004,full,P. Chidambaram,INC
+FDI_Openness,41,5480,7.481751824817518,bs200405,2004,full,P. Chidambaram,INC
+Infrastructure,16,2055,7.785888077858881,bs200405_I_,2004,interim,Jaswant Singh,BJP
+Green_Climate,2,2055,0.9732360097323601,bs200405_I_,2004,interim,Jaswant Singh,BJP
+Digital_Tech,1,2055,0.48661800486618007,bs200405_I_,2004,interim,Jaswant Singh,BJP
+Welfare_Social,18,2055,8.75912408759124,bs200405_I_,2004,interim,Jaswant Singh,BJP
+Manufacturing_PLI,17,2055,8.27250608272506,bs200405_I_,2004,interim,Jaswant Singh,BJP
+Fiscal_Deficit,49,2055,23.844282238442823,bs200405_I_,2004,interim,Jaswant Singh,BJP
+Defence,14,2055,6.81265206812652,bs200405_I_,2004,interim,Jaswant Singh,BJP
+FDI_Openness,10,2055,4.866180048661801,bs200405_I_,2004,interim,Jaswant Singh,BJP
+Infrastructure,39,5687,6.857745735888869,bs200506,2005,full,P. Chidambaram,INC
+Green_Climate,7,5687,1.2308774397749254,bs200506,2005,full,P. Chidambaram,INC
+Digital_Tech,11,5687,1.9342359767891684,bs200506,2005,full,P. Chidambaram,INC
+Welfare_Social,92,5687,16.17724635132759,bs200506,2005,full,P. Chidambaram,INC
+Manufacturing_PLI,43,5687,7.561104272903112,bs200506,2005,full,P. Chidambaram,INC
+Fiscal_Deficit,80,5687,14.06717074028486,bs200506,2005,full,P. Chidambaram,INC
+Defence,10,5687,1.7583963425356075,bs200506,2005,full,P. Chidambaram,INC
+FDI_Openness,42,5687,7.385264638649551,bs200506,2005,full,P. Chidambaram,INC
+Infrastructure,23,5224,4.402756508422665,bs200607,2006,full,P. Chidambaram,INC
+Green_Climate,13,5224,2.4885145482388973,bs200607,2006,full,P. Chidambaram,INC
+Digital_Tech,24,5224,4.594180704441042,bs200607,2006,full,P. Chidambaram,INC
+Welfare_Social,54,5224,10.336906584992343,bs200607,2006,full,P. Chidambaram,INC
+Manufacturing_PLI,43,5224,8.231240428790198,bs200607,2006,full,P. Chidambaram,INC
+Fiscal_Deficit,68,5224,13.016845329249618,bs200607,2006,full,P. Chidambaram,INC
+Defence,12,5224,2.297090352220521,bs200607,2006,full,P. Chidambaram,INC
+FDI_Openness,36,5224,6.891271056661561,bs200607,2006,full,P. Chidambaram,INC
+Infrastructure,23,5218,4.407819087773093,bs200708,2007,full,P. Chidambaram,INC
+Green_Climate,11,5218,2.1080873898045227,bs200708,2007,full,P. Chidambaram,INC
+Digital_Tech,12,5218,2.2997316979685705,bs200708,2007,full,P. Chidambaram,INC
+Welfare_Social,93,5218,17.822920659256418,bs200708,2007,full,P. Chidambaram,INC
+Manufacturing_PLI,30,5218,5.749329244921426,bs200708,2007,full,P. Chidambaram,INC
+Fiscal_Deficit,60,5218,11.498658489842851,bs200708,2007,full,P. Chidambaram,INC
+Defence,8,5218,1.5331544653123803,bs200708,2007,full,P. Chidambaram,INC
+FDI_Openness,38,5218,7.282483710233806,bs200708,2007,full,P. Chidambaram,INC
+Infrastructure,33,6068,5.438365194462755,bs201213,2012,full,Pranab Mukherjee,INC
+Green_Climate,19,6068,3.131179960448253,bs201213,2012,full,Pranab Mukherjee,INC
+Digital_Tech,16,6068,2.6367831245880025,bs201213,2012,full,Pranab Mukherjee,INC
+Welfare_Social,91,6068,14.996704021094265,bs201213,2012,full,Pranab Mukherjee,INC
+Manufacturing_PLI,64,6068,10.54713249835201,bs201213,2012,full,Pranab Mukherjee,INC
+Fiscal_Deficit,110,6068,18.127883981542517,bs201213,2012,full,Pranab Mukherjee,INC
+Defence,22,6068,3.6255767963085037,bs201213,2012,full,Pranab Mukherjee,INC
+FDI_Openness,61,6068,10.05273566249176,bs201213,2012,full,Pranab Mukherjee,INC
+Infrastructure,13,2590,5.019305019305019,bs201314,2013,full,P. Chidambaram,INC
+Green_Climate,7,2590,2.7027027027027026,bs201314,2013,full,P. Chidambaram,INC
+Digital_Tech,14,2590,5.405405405405405,bs201314,2013,full,P. Chidambaram,INC
+Welfare_Social,50,2590,19.305019305019304,bs201314,2013,full,P. Chidambaram,INC
+Manufacturing_PLI,47,2590,18.146718146718147,bs201314,2013,full,P. Chidambaram,INC
+Fiscal_Deficit,59,2590,22.77992277992278,bs201314,2013,full,P. Chidambaram,INC
+Defence,19,2590,7.3359073359073355,bs201314,2013,full,P. Chidambaram,INC
+FDI_Openness,28,2590,10.81081081081081,bs201314,2013,full,P. Chidambaram,INC
+Infrastructure,58,7321,7.922414970632428,bs201415,2014,full,Arun Jaitley,BJP
+Green_Climate,54,7321,7.3760415243819155,bs201415,2014,full,Arun Jaitley,BJP
+Digital_Tech,29,7321,3.961207485316214,bs201415,2014,full,Arun Jaitley,BJP
+Welfare_Social,92,7321,12.56658926376178,bs201415,2014,full,Arun Jaitley,BJP
+Manufacturing_PLI,82,7321,11.2006556481355,bs201415,2014,full,Arun Jaitley,BJP
+Fiscal_Deficit,70,7321,9.561535309383965,bs201415,2014,full,Arun Jaitley,BJP
+Defence,32,7321,4.370987570004098,bs201415,2014,full,Arun Jaitley,BJP
+FDI_Openness,78,7321,10.654282201884989,bs201415,2014,full,Arun Jaitley,BJP
+Infrastructure,48,7757,6.187959262601521,bs201516,2015,full,Arun Jaitley,BJP
+Green_Climate,42,7757,5.414464354776332,bs201516,2015,full,Arun Jaitley,BJP
+Digital_Tech,28,7757,3.6096429031842208,bs201516,2015,full,Arun Jaitley,BJP
+Welfare_Social,119,7757,15.340982338532937,bs201516,2015,full,Arun Jaitley,BJP
+Manufacturing_PLI,54,7757,6.961454170426712,bs201516,2015,full,Arun Jaitley,BJP
+Fiscal_Deficit,76,7757,9.797602165785742,bs201516,2015,full,Arun Jaitley,BJP
+Defence,25,7757,3.2228954492716255,bs201516,2015,full,Arun Jaitley,BJP
+FDI_Openness,91,7757,11.731339435348717,bs201516,2015,full,Arun Jaitley,BJP
+Infrastructure,45,10782,4.173622704507513,bs201617,2016,full,Arun Jaitley,BJP
+Green_Climate,42,10782,3.895381190873678,bs201617,2016,full,Arun Jaitley,BJP
+Digital_Tech,56,10782,5.193841587831571,bs201617,2016,full,Arun Jaitley,BJP
+Welfare_Social,154,10782,14.28306436653682,bs201617,2016,full,Arun Jaitley,BJP
+Manufacturing_PLI,66,10782,6.121313299944352,bs201617,2016,full,Arun Jaitley,BJP
+Fiscal_Deficit,74,10782,6.863290669634576,bs201617,2016,full,Arun Jaitley,BJP
+Defence,22,10782,2.0404377666481173,bs201617,2016,full,Arun Jaitley,BJP
+FDI_Openness,99,10782,9.181969949916528,bs201617,2016,full,Arun Jaitley,BJP
+Infrastructure,41,7805,5.253042921204356,bs201718,2017,full,Arun Jaitley,BJP
+Green_Climate,34,7805,4.356181934657271,bs201718,2017,full,Arun Jaitley,BJP
+Digital_Tech,48,7805,6.149903907751442,bs201718,2017,full,Arun Jaitley,BJP
+Welfare_Social,133,7805,17.040358744394617,bs201718,2017,full,Arun Jaitley,BJP
+Manufacturing_PLI,40,7805,5.124919923126201,bs201718,2017,full,Arun Jaitley,BJP
+Fiscal_Deficit,89,7805,11.402946828955796,bs201718,2017,full,Arun Jaitley,BJP
+Defence,26,7805,3.331197950032031,bs201718,2017,full,Arun Jaitley,BJP
+FDI_Openness,62,7805,7.943625880845611,bs201718,2017,full,Arun Jaitley,BJP
+Infrastructure,108,7738,13.95709485655208,bs201819,2018,full,Arun Jaitley,BJP
+Green_Climate,22,7738,2.843111915223572,bs201819,2018,full,Arun Jaitley,BJP
+Digital_Tech,45,7738,5.815456190230033,bs201819,2018,full,Arun Jaitley,BJP
+Welfare_Social,178,7738,23.003360041354355,bs201819,2018,full,Arun Jaitley,BJP
+Manufacturing_PLI,48,7738,6.203153269578703,bs201819,2018,full,Arun Jaitley,BJP
+Fiscal_Deficit,69,7738,8.917032825019385,bs201819,2018,full,Arun Jaitley,BJP
+Defence,27,7738,3.48927371413802,bs201819,2018,full,Arun Jaitley,BJP
+FDI_Openness,51,7738,6.590850348927371,bs201819,2018,full,Arun Jaitley,BJP
+Infrastructure,65,9035,7.194244604316547,bs201920,2019,full,Nirmala Sitharaman,BJP
+Green_Climate,30,9035,3.320420586607637,bs201920,2019,full,Nirmala Sitharaman,BJP
+Digital_Tech,78,9035,8.633093525179856,bs201920,2019,full,Nirmala Sitharaman,BJP
+Welfare_Social,110,9035,12.174875484228002,bs201920,2019,full,Nirmala Sitharaman,BJP
+Manufacturing_PLI,55,9035,6.087437742114001,bs201920,2019,full,Nirmala Sitharaman,BJP
+Fiscal_Deficit,32,9035,3.541781959048146,bs201920,2019,full,Nirmala Sitharaman,BJP
+Defence,23,9035,2.5456557830658553,bs201920,2019,full,Nirmala Sitharaman,BJP
+FDI_Openness,93,9035,10.293303818483675,bs201920,2019,full,Nirmala Sitharaman,BJP
+Infrastructure,16,3391,4.718372161604247,bs201920_I_,2019,interim,Piyush Goyal,BJP
+Green_Climate,18,3391,5.308168681804777,bs201920_I_,2019,interim,Piyush Goyal,BJP
+Digital_Tech,24,3391,7.077558242406369,bs201920_I_,2019,interim,Piyush Goyal,BJP
+Welfare_Social,72,3391,21.23267472721911,bs201920_I_,2019,interim,Piyush Goyal,BJP
+Manufacturing_PLI,19,3391,5.603066941905043,bs201920_I_,2019,interim,Piyush Goyal,BJP
+Fiscal_Deficit,42,3391,12.385726924211147,bs201920_I_,2019,interim,Piyush Goyal,BJP
+Defence,12,3391,3.5387791212031847,bs201920_I_,2019,interim,Piyush Goyal,BJP
+FDI_Openness,25,3391,7.372456502506636,bs201920_I_,2019,interim,Piyush Goyal,BJP
+Infrastructure,52,8891,5.848610954898211,Budget_Speech_2020-21,2020,full,Nirmala Sitharaman,BJP
+Green_Climate,47,8891,5.28624451692723,Budget_Speech_2020-21,2020,full,Nirmala Sitharaman,BJP
+Digital_Tech,56,8891,6.298504105274997,Budget_Speech_2020-21,2020,full,Nirmala Sitharaman,BJP
+Welfare_Social,156,8891,17.545832864694635,Budget_Speech_2020-21,2020,full,Nirmala Sitharaman,BJP
+Manufacturing_PLI,67,8891,7.535710268811157,Budget_Speech_2020-21,2020,full,Nirmala Sitharaman,BJP
+Fiscal_Deficit,56,8891,6.298504105274997,Budget_Speech_2020-21,2020,full,Nirmala Sitharaman,BJP
+Defence,15,8891,1.6870993139129455,Budget_Speech_2020-21,2020,full,Nirmala Sitharaman,BJP
+FDI_Openness,64,8891,7.198290406028568,Budget_Speech_2020-21,2020,full,Nirmala Sitharaman,BJP
+Infrastructure,98,7289,13.44491699821649,Budget_Speech_2021-22,2021,full,Nirmala Sitharaman,BJP
+Green_Climate,37,7289,5.076142131979695,Budget_Speech_2021-22,2021,full,Nirmala Sitharaman,BJP
+Digital_Tech,25,7289,3.4298257648511457,Budget_Speech_2021-22,2021,full,Nirmala Sitharaman,BJP
+Welfare_Social,109,7289,14.954040334750994,Budget_Speech_2021-22,2021,full,Nirmala Sitharaman,BJP
+Manufacturing_PLI,66,7289,9.054740019207024,Budget_Speech_2021-22,2021,full,Nirmala Sitharaman,BJP
+Fiscal_Deficit,78,7289,10.701056386335573,Budget_Speech_2021-22,2021,full,Nirmala Sitharaman,BJP
+Defence,29,7289,3.9785978872273287,Budget_Speech_2021-22,2021,full,Nirmala Sitharaman,BJP
+FDI_Openness,63,7289,8.643160927424887,Budget_Speech_2021-22,2021,full,Nirmala Sitharaman,BJP
+Infrastructure,49,4248,11.534839924670434,Budget_Speech_2022-23,2022,full,Nirmala Sitharaman,BJP
+Green_Climate,66,4248,15.536723163841808,Budget_Speech_2022-23,2022,full,Nirmala Sitharaman,BJP
+Digital_Tech,54,4248,12.711864406779663,Budget_Speech_2022-23,2022,full,Nirmala Sitharaman,BJP
+Welfare_Social,57,4248,13.418079096045197,Budget_Speech_2022-23,2022,full,Nirmala Sitharaman,BJP
+Manufacturing_PLI,66,4248,15.536723163841808,Budget_Speech_2022-23,2022,full,Nirmala Sitharaman,BJP
+Fiscal_Deficit,32,4248,7.532956685499058,Budget_Speech_2022-23,2022,full,Nirmala Sitharaman,BJP
+Defence,14,4248,3.2956685499058382,Budget_Speech_2022-23,2022,full,Nirmala Sitharaman,BJP
+FDI_Openness,33,4248,7.768361581920904,Budget_Speech_2022-23,2022,full,Nirmala Sitharaman,BJP
+Infrastructure,34,6054,5.61612157251404,Budget_Speech_2023-24,2023,full,Nirmala Sitharaman,BJP
+Green_Climate,65,6054,10.736703006276842,Budget_Speech_2023-24,2023,full,Nirmala Sitharaman,BJP
+Digital_Tech,47,6054,7.763462173769409,Budget_Speech_2023-24,2023,full,Nirmala Sitharaman,BJP
+Welfare_Social,68,6054,11.23224314502808,Budget_Speech_2023-24,2023,full,Nirmala Sitharaman,BJP
+Manufacturing_PLI,57,6054,9.415262636273537,Budget_Speech_2023-24,2023,full,Nirmala Sitharaman,BJP
+Fiscal_Deficit,51,6054,8.424182358771061,Budget_Speech_2023-24,2023,full,Nirmala Sitharaman,BJP
+Defence,14,6054,2.3125206475057816,Budget_Speech_2023-24,2023,full,Nirmala Sitharaman,BJP
+FDI_Openness,51,6054,8.424182358771061,Budget_Speech_2023-24,2023,full,Nirmala Sitharaman,BJP
+Infrastructure,32,3644,8.781558726673985,Budget_Speech_2024-25,2024,full,Nirmala Sitharaman,BJP
+Green_Climate,37,3644,10.153677277716795,Budget_Speech_2024-25,2024,full,Nirmala Sitharaman,BJP
+Digital_Tech,33,3644,9.055982436882546,Budget_Speech_2024-25,2024,full,Nirmala Sitharaman,BJP
+Welfare_Social,65,3644,17.83754116355653,Budget_Speech_2024-25,2024,full,Nirmala Sitharaman,BJP
+Manufacturing_PLI,63,3644,17.288693743139408,Budget_Speech_2024-25,2024,full,Nirmala Sitharaman,BJP
+Fiscal_Deficit,28,3644,7.683863885839736,Budget_Speech_2024-25,2024,full,Nirmala Sitharaman,BJP
+Defence,8,3644,2.1953896816684964,Budget_Speech_2024-25,2024,full,Nirmala Sitharaman,BJP
+FDI_Openness,41,3644,11.251372118551043,Budget_Speech_2024-25,2024,full,Nirmala Sitharaman,BJP
+Infrastructure,24,2383,10.071338648762064,Budget_Speech_2024-25_interim,2024,interim,Nirmala Sitharaman,BJP
+Green_Climate,14,2383,5.874947545111205,Budget_Speech_2024-25_interim,2024,interim,Nirmala Sitharaman,BJP
+Digital_Tech,8,2383,3.357112882920688,Budget_Speech_2024-25_interim,2024,interim,Nirmala Sitharaman,BJP
+Welfare_Social,39,2383,16.365925304238356,Budget_Speech_2024-25_interim,2024,interim,Nirmala Sitharaman,BJP
+Manufacturing_PLI,24,2383,10.071338648762064,Budget_Speech_2024-25_interim,2024,interim,Nirmala Sitharaman,BJP
+Fiscal_Deficit,26,2383,10.910616869492237,Budget_Speech_2024-25_interim,2024,interim,Nirmala Sitharaman,BJP
+Defence,6,2383,2.517834662190516,Budget_Speech_2024-25_interim,2024,interim,Nirmala Sitharaman,BJP
+FDI_Openness,22,2383,9.232060428031893,Budget_Speech_2024-25_interim,2024,interim,Nirmala Sitharaman,BJP
+Infrastructure,30,3609,8.31255195344971,Budget_Speech_2025-26,2025,full,NA,NA
+Green_Climate,23,3609,6.372956497644777,Budget_Speech_2025-26,2025,full,NA,NA
+Digital_Tech,28,3609,7.758381823219729,Budget_Speech_2025-26,2025,full,NA,NA
+Welfare_Social,57,3609,15.793848711554446,Budget_Speech_2025-26,2025,full,NA,NA
+Manufacturing_PLI,69,3609,19.118869492934333,Budget_Speech_2025-26,2025,full,NA,NA
+Fiscal_Deficit,28,3609,7.758381823219729,Budget_Speech_2025-26,2025,full,NA,NA
+Defence,5,3609,1.3854253255749516,Budget_Speech_2025-26,2025,full,NA,NA
+FDI_Openness,55,3609,15.239678581324467,Budget_Speech_2025-26,2025,full,NA,NA
+Infrastructure,21,4014,5.23168908819133,Budget_Speech_2026-27,2026,full,NA,NA
+Green_Climate,15,4014,3.7369207772795217,Budget_Speech_2026-27,2026,full,NA,NA
+Digital_Tech,34,4014,8.470353761833582,Budget_Speech_2026-27,2026,full,NA,NA
+Welfare_Social,51,4014,12.705530642750373,Budget_Speech_2026-27,2026,full,NA,NA
+Manufacturing_PLI,56,4014,13.951170901843549,Budget_Speech_2026-27,2026,full,NA,NA
+Fiscal_Deficit,43,4014,10.712506228201295,Budget_Speech_2026-27,2026,full,NA,NA
+Defence,7,4014,1.7438963627304436,Budget_Speech_2026-27,2026,full,NA,NA
+FDI_Openness,58,4014,14.449427005480818,Budget_Speech_2026-27,2026,full,NA,NA

@@ -1,0 +1,81 @@
+vocab,fiscal,label_vocab,label_fiscal,spec,n,beta,se,p_value,r_squared,sig,sig_05,pair_label
+Defence,mil_pct_gdp,Defence vocabulary,Military spending % GDP,contemporaneous,61,0.03144181276521414,0.02765275300289941,0.260125603894571,0.021442370749872958,FALSE,FALSE,"Defence vocabulary
+→ Military spending % GDP"
+Defence,mil_pct_gdp,Defence vocabulary,Military spending % GDP,text_leads,60,-0.010092568017163395,0.01475925993227628,0.49686412339567476,0.7185917244889111,FALSE,FALSE,"Defence vocabulary
+→ Military spending % GDP"
+Defence,mil_pct_gdp,Defence vocabulary,Military spending % GDP,money_leads,60,0.325576187873444,0.6212208508135909,0.6022474132049938,0.010906037585400518,FALSE,FALSE,"Defence vocabulary
+→ Military spending % GDP"
+Defence,mil_pct_gdp,Defence vocabulary,Military spending % GDP,detrended,61,0.015774736389035954,0.022904988693940323,0.4937094944411021,0.007975072340235817,FALSE,FALSE,"Defence vocabulary
+→ Military spending % GDP"
+Welfare_Social,edu_pct_gdp,Welfare vocabulary,Education spending % GDP,contemporaneous,19,0.051673378106203496,0.027864172239564482,0.08110180393407765,0.16825974167329683,TRUE,FALSE,"Welfare vocabulary
+→ Education spending % GDP"
+Welfare_Social,edu_pct_gdp,Welfare vocabulary,Education spending % GDP,text_leads,18,-0.047620283824424355,0.024819355789385097,0.07425996645743581,0.4878811616809864,TRUE,FALSE,"Welfare vocabulary
+→ Education spending % GDP"
+Welfare_Social,edu_pct_gdp,Welfare vocabulary,Education spending % GDP,money_leads,18,1.6078809987548035,2.067567592632164,0.44885733621670265,0.08645369638741265,FALSE,FALSE,"Welfare vocabulary
+→ Education spending % GDP"
+Welfare_Social,edu_pct_gdp,Welfare vocabulary,Education spending % GDP,detrended,19,0.04534061849814556,0.023509622129321544,0.07065066759277618,0.1795165477513377,TRUE,FALSE,"Welfare vocabulary
+→ Education spending % GDP"
+Welfare_Social,health_pct_gdp,Welfare vocabulary,Health spending % GDP,contemporaneous,20,-0.011776717895659889,0.014800865481410134,0.43658734385739406,0.03397732136197093,FALSE,FALSE,"Welfare vocabulary
+→ Health spending % GDP"
+Welfare_Social,health_pct_gdp,Welfare vocabulary,Health spending % GDP,text_leads,19,0.004079610587773428,0.005805460945503326,0.49232904154276613,0.8799249900830375,FALSE,FALSE,"Welfare vocabulary
+→ Health spending % GDP"
+Welfare_Social,health_pct_gdp,Welfare vocabulary,Health spending % GDP,money_leads,19,-3.7674856572399675,3.948675862726918,0.35421975927799976,0.1322997607407465,FALSE,FALSE,"Welfare vocabulary
+→ Health spending % GDP"
+Welfare_Social,health_pct_gdp,Welfare vocabulary,Health spending % GDP,detrended,20,-0.006341828102313434,0.007961333242213103,0.43607700716135445,0.03405169284081451,FALSE,FALSE,"Welfare vocabulary
+→ Health spending % GDP"
+Fiscal_Deficit,fiscal_deficit_gdp,Fiscal/Deficit vocabulary,Fiscal deficit % GDP,contemporaneous,42,0.01778446663139455,0.04737038323118587,0.7093210942543684,0.003511399451491342,FALSE,FALSE,"Fiscal/Deficit vocabulary
+→ Fiscal deficit % GDP"
+Fiscal_Deficit,fiscal_deficit_gdp,Fiscal/Deficit vocabulary,Fiscal deficit % GDP,text_leads,41,0.013550590248441283,0.03226620624407595,0.6768781270501338,0.5691339067608622,FALSE,FALSE,"Fiscal/Deficit vocabulary
+→ Fiscal deficit % GDP"
+Fiscal_Deficit,fiscal_deficit_gdp,Fiscal/Deficit vocabulary,Fiscal deficit % GDP,money_leads,41,0.17255091065042466,0.5538975659737687,0.75710706871915,0.07353690501099792,FALSE,FALSE,"Fiscal/Deficit vocabulary
+→ Fiscal deficit % GDP"
+Fiscal_Deficit,fiscal_deficit_gdp,Fiscal/Deficit vocabulary,Fiscal deficit % GDP,detrended,42,0.07725508199317829,0.03452456009788825,0.03087803178577616,0.11125396394746864,TRUE,TRUE,"Fiscal/Deficit vocabulary
+→ Fiscal deficit % GDP"
+Infrastructure,gfcf_pct_gdp,Infrastructure vocabulary,GFCF % GDP,contemporaneous,61,1.2770387741526652,0.15474837805152764,2.0506986529051162e-11,0.5358036487131804,TRUE,TRUE,"Infrastructure vocabulary
+→ GFCF % GDP"
+Infrastructure,gfcf_pct_gdp,Infrastructure vocabulary,GFCF % GDP,text_leads,60,0.028892497657686273,0.07224801193953012,0.6907196216664615,0.9541190802682572,FALSE,FALSE,"Infrastructure vocabulary
+→ GFCF % GDP"
+Infrastructure,gfcf_pct_gdp,Infrastructure vocabulary,GFCF % GDP,money_leads,60,0.19918892025919388,0.06829578163605558,0.005053994285886617,0.6202269931414792,TRUE,TRUE,"Infrastructure vocabulary
+→ GFCF % GDP"
+Infrastructure,gfcf_pct_gdp,Infrastructure vocabulary,GFCF % GDP,detrended,61,-0.17642751626488046,0.1499665885791242,0.24414175122820672,0.022920366870247278,FALSE,FALSE,"Infrastructure vocabulary
+→ GFCF % GDP"
+Green_Climate,renew_pct_elec,Green/Climate vocabulary,Renewable elec. % total,contemporaneous,28,-0.043081501237051435,0.36050915388269655,0.9057963950192549,5.48955628085403e-4,FALSE,FALSE,"Green/Climate vocabulary
+→ Renewable elec. % total"
+Green_Climate,renew_pct_elec,Green/Climate vocabulary,Renewable elec. % total,text_leads,27,0.09203502521298305,0.1596813195798273,0.5697337072124602,0.7797164915723548,FALSE,FALSE,"Green/Climate vocabulary
+→ Renewable elec. % total"
+Green_Climate,renew_pct_elec,Green/Climate vocabulary,Renewable elec. % total,money_leads,27,-0.033970743689950164,0.09359907946303618,0.7198275243288952,0.3048407920368507,FALSE,FALSE,"Green/Climate vocabulary
+→ Renewable elec. % total"
+Green_Climate,renew_pct_elec,Green/Climate vocabulary,Renewable elec. % total,detrended,28,0.9193567001470746,0.43015154405693773,0.042148468722640484,0.14943703425709343,TRUE,TRUE,"Green/Climate vocabulary
+→ Renewable elec. % total"
+FDI_Openness,fdi_pct_gdp,FDI/Openness vocabulary,FDI inflows % GDP,contemporaneous,51,-0.027881554658687874,0.030794127662780144,0.36967464264473426,0.016454941444214482,FALSE,FALSE,"FDI/Openness vocabulary
+→ FDI inflows % GDP"
+FDI_Openness,fdi_pct_gdp,FDI/Openness vocabulary,FDI inflows % GDP,text_leads,50,0.003981295660537764,0.01364909808582943,0.7718077943968797,0.8160577764930563,FALSE,FALSE,"FDI/Openness vocabulary
+→ FDI inflows % GDP"
+FDI_Openness,fdi_pct_gdp,FDI/Openness vocabulary,FDI inflows % GDP,money_leads,50,-0.30605854904184293,0.5402253286612261,0.5737232523200483,0.3626442729911198,FALSE,FALSE,"FDI/Openness vocabulary
+→ FDI inflows % GDP"
+FDI_Openness,fdi_pct_gdp,FDI/Openness vocabulary,FDI inflows % GDP,detrended,51,-0.030071866572105414,0.016204621902708695,0.06950750460373264,0.06566719766518408,TRUE,FALSE,"FDI/Openness vocabulary
+→ FDI inflows % GDP"
+Manufacturing_PLI,gfcf_pct_gdp,Manufacturing vocabulary,GFCF % GDP,contemporaneous,61,-0.46193903433495676,0.20322400943488927,0.026679474539169225,0.08052098924575678,TRUE,TRUE,"Manufacturing vocabulary
+→ GFCF % GDP"
+Manufacturing_PLI,gfcf_pct_gdp,Manufacturing vocabulary,GFCF % GDP,text_leads,60,-0.043429242789516764,0.04947136780964899,0.38370169699312195,0.9546041111632927,FALSE,FALSE,"Manufacturing vocabulary
+→ GFCF % GDP"
+Manufacturing_PLI,gfcf_pct_gdp,Manufacturing vocabulary,GFCF % GDP,money_leads,60,-0.06362310348487267,0.07591652846785152,0.40549392228612957,0.23270905834236852,FALSE,FALSE,"Manufacturing vocabulary
+→ GFCF % GDP"
+Manufacturing_PLI,gfcf_pct_gdp,Manufacturing vocabulary,GFCF % GDP,detrended,61,-0.08472273255583158,0.08192476470250495,0.30528506644975556,0.017803922193026612,FALSE,FALSE,"Manufacturing vocabulary
+→ GFCF % GDP"
+axis_market,fdi_pct_gdp,Market-liberal axis,FDI inflows % GDP,contemporaneous,51,63.67229791833831,19.19749813411277,0.0017215126102718805,0.18333991611783815,TRUE,TRUE,"Market-liberal axis
+→ FDI inflows % GDP"
+axis_market,fdi_pct_gdp,Market-liberal axis,FDI inflows % GDP,text_leads,50,7.810554590741533,10.184702004609768,0.44698164633654314,0.8180021712785921,FALSE,FALSE,"Market-liberal axis
+→ FDI inflows % GDP"
+axis_market,fdi_pct_gdp,Market-liberal axis,FDI inflows % GDP,money_leads,50,0.0015310407293114587,8.401291898061792e-4,0.07476186992255482,0.3920141510792153,TRUE,FALSE,"Market-liberal axis
+→ FDI inflows % GDP"
+axis_market,fdi_pct_gdp,Market-liberal axis,FDI inflows % GDP,detrended,51,-10.956974045144923,13.846167681205964,0.4325617663053011,0.01261859369873043,FALSE,FALSE,"Market-liberal axis
+→ FDI inflows % GDP"
+axis_nationalist,mil_pct_gdp,Nationalist axis,Military spending % GDP,contemporaneous,61,29.807882570340723,37.69241612229976,0.43221704524157933,0.010488733022221723,FALSE,FALSE,"Nationalist axis
+→ Military spending % GDP"
+axis_nationalist,mil_pct_gdp,Nationalist axis,Military spending % GDP,text_leads,60,-13.451383473403487,20.20796547869943,0.5083212231651224,0.7184716377511442,FALSE,FALSE,"Nationalist axis
+→ Military spending % GDP"
+axis_nationalist,mil_pct_gdp,Nationalist axis,Military spending % GDP,money_leads,60,5.68793465548043e-4,4.4606415670447484e-4,0.20743332728508362,0.07356698025919314,FALSE,FALSE,"Nationalist axis
+→ Military spending % GDP"
+axis_nationalist,mil_pct_gdp,Nationalist axis,Military spending % GDP,detrended,61,38.434686934976654,30.54731309548651,0.21327531769842822,0.026130599405368764,FALSE,FALSE,"Nationalist axis
+→ Military spending % GDP"

@@ -326,6 +326,48 @@ The ideological register that characterised her 2026-27 budget, moderately marke
 **On the sample.** Eight speeches from one Finance Minister is a small dataset. A single unusual year (a crisis budget, a pre-election reversal, a global shock) can materially shift a linear trend. Treat the manufacturing and fiscal projections as informed extrapolations, not forecasts. The 80% prediction intervals are wide for a reason.
 :::
 
+## Do Budget Speeches Predict Fiscal Outcomes? {#words-money}
+
+A budget speech is a commitment device. The Finance Minister announces priorities, names schemes, and describes the fiscal trajectory. But do the words actually track the money? Does a speech heavy with infrastructure vocabulary predict higher public investment? Does fiscal/deficit rhetoric signal a tighter or looser fiscal stance in that year?
+
+This analysis matches vocabulary theme scores for all 76 full budget speeches (1960-2026) against seven World Bank fiscal indicators for India: military expenditure, education spending, health spending, gross fixed capital formation, the fiscal deficit, renewable electricity share, and FDI inflows.
+
+### The main result: most raw correlations are spurious
+
+The raw correlation between infrastructure vocabulary and gross fixed capital formation (GFCF) is striking: R²=0.54 across 61 years. The market-liberal ideology score also correlates strongly with FDI inflows (R²=0.18). But both of these relationships largely disappear once a common year trend is removed from both series.
+
+![Scatter plots: vocabulary theme scores vs fiscal outcomes (all years). OLS line with 95% CI. Year labels mark decadal observations.](output/figures/fig_vocab_fiscal_scatter.png){width=100%}
+
+Infrastructure vocabulary and investment have both trended upward since 1960. The market-liberal ideology score and FDI inflows have both trended upward since 1991. The raw correlation captures this common direction, not a genuine year-to-year relationship between rhetoric and allocation. Once the shared time trend is partialled out, infrastructure vocabulary R² drops from 0.54 to 0.02 (p=0.24).
+
+### Two correlations that survive detrending
+
+After removing year trends from both the vocabulary scores and the fiscal outcomes, two relationships remain statistically significant.
+
+**Fiscal/deficit vocabulary and the actual fiscal deficit** (R²=0.11, p=0.031, N=42 years). In years when the budget speech contains more deficit/fiscal/consolidation terminology than its trend predicts, the actual fiscal deficit as a share of GDP is also higher than its trend. The direction is plausible: Finance Ministers who face larger deficits are forced to address them in the speech, and the vocabulary responds. This is not evidence that talking about deficits causes them; it is evidence that the rhetoric accurately signals the fiscal situation the FM is describing.
+
+**Green/climate vocabulary and renewable electricity deployment** (R²=0.15, p=0.042, N=28 years). Years with above-trend green vocabulary in the budget speech are years with above-trend renewable electricity as a share of total power generation. This co-movement persists after removing the common upward trend in both series.
+
+The FDI/openness vocabulary borderline correlates with FDI inflows (R²=0.07, p=0.07) and welfare vocabulary borderline correlates with education spending (R²=0.18, p=0.07), but these do not survive a standard significance threshold.
+
+### Do speeches predict future spending (beyond persistence)?
+
+The harder test: does vocabulary in year t predict fiscal outcomes in year t, controlling for the fiscal outcome in year t-1? If the speech contains genuine forward-looking information, it should add predictive power beyond what past spending already implies.
+
+![Does last year's speech predict this year's fiscal outcomes? Coefficient on vocab_{t-1} in a regression that also controls for fiscal_{t-1}. Green filled dots are p<0.05; open dots are n.s.](output/figures/fig_text_leads_forest.png){width=90%}
+
+No vocabulary theme produces a significant positive coefficient in this specification. The closest is welfare vocabulary marginally predicting education spending at p=0.07, but with a negative coefficient: more welfare vocabulary is associated with slightly lower education spending the following year, not higher. That sign is difficult to interpret and may reflect composition effects.
+
+### The causal direction: money leads words, not words to money
+
+The most significant finding in the dynamic regressions runs the other way: past fiscal outcomes predict future vocabulary. Higher investment spending in year t-1 predicts more infrastructure vocabulary in year t, controlling for vocabulary persistence (p=0.005). Past FDI inflows marginally predict more market-liberal rhetoric (p=0.075).
+
+This pattern suggests that budget speech vocabulary is largely **reactive** rather than directive. Finance Ministers describe the fiscal trajectory they have been on, and the vocabulary reflects that trajectory. The speech does not appear to function as a binding commitment that shapes the subsequent allocation.
+
+::: {.callout-note}
+**Data limitations.** The WDI fiscal indicators are calendar-year aggregates for India. India's fiscal year runs April to March, so the match to budget speech years (which cover the following fiscal year) is approximate. For broad indicators like military spending and investment, this matters less; for shorter series like health spending (24 years) or education spending (22 years), the estimates are unreliable. The analysis uses only full budget speeches; interim budgets are excluded.
+:::
+
 ## Do Finance Ministers Drift Ideologically Over Their Tenure? {#trajectory}
 
 If a Finance Minister serves for three, five, or eight budgets, do they drift toward a different ideological position than when they started? Do they become more market-liberal as they settle into the role and build relationships with capital markets? Or does an accumulated political logic pull them back toward redistribution and welfare?
