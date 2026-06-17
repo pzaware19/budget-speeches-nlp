@@ -6,10 +6,10 @@ format:
 ---
 
 ::: {.hero}
-# What Does India's Union Budget Actually Say?
+# Seventy-Nine Years of Budget Speeches
 
 ::: {.subtitle}
-I ran unsupervised machine learning on every Union Budget speech from 1947 to 2026 — seventy-nine years, 91 speeches. No hand-coding, no predetermined categories. Just the text Finance Ministers read to Parliament, and what falls out when you let the data structure itself.
+I scraped and topic-modelled every Union Budget speech from 1947 to 2026. No hand-coding, no categories set in advance. Just the text Finance Ministers read aloud to Parliament, and what the data turns up when you let it speak for itself.
 :::
 
 ::: {.meta}
@@ -39,19 +39,21 @@ Party × Year Covariates
 :::
 
 ::: {.lead-para}
-Every February, India's Finance Minister stands before Parliament and reads a budget speech. These speeches are simultaneously a policy statement, a political document, and a historical record — they name what the government cares about, what it is afraid of, and what it is trying to sell to the public. Across eight decades, the corpus runs from R.K. Shanmukham Chetty's 1947-48 speech delivered weeks after Partition to Nirmala Sitharaman's 2026-27 speech delivered in the post-GST, Aadhaar-linked economy.
+The Union Budget speech is one of India's most consequential annual rituals. Each February, the Finance Minister walks into the Lok Sabha with a briefcase, stands at the dispatch box, and reads a prepared text that tells Parliament (and the country) what the government cares about, what it is worried about, and what it plans to spend money on. The speech is a political document dressed up as a financial one.
 
-This project applies structural topic models to that corpus. The central question: does party ideology shape what Finance Ministers talk about? Is a BJP budget speech systematically different from an INC one? The answer turns out to be more surprising than the question.
+Across eight decades, those speeches form a remarkable corpus. R.K. Shanmukham Chetty's 1947-48 speech was delivered weeks after Partition, with India still figuring out how to run a government. Nirmala Sitharaman's 2026-27 speech comes from a country with digital public infrastructure, a unified GST, and 500 million Jan Dhan accounts. What changed between them, and how much of that change was driven by the party in power versus the India that existed when that party governed?
+
+That is the question this project tries to answer. The short answer is that party matters less than you might expect.
 :::
 
 ::: {.abstract-box}
-**Three findings from 79 years of budget speeches**
+**Three things the data showed**
 
-1. **The dominant signal is era, not party.** When you control for year, BJP and INC budget speeches are statistically indistinguishable across all 10 topics. Every point estimate of the BJP−INC difference is within one standard error of zero. The vocabulary of fiscal governance is historically determined, not ideologically polarised.
+1. **Once you control for time, BJP and INC budget speeches are statistically indistinguishable.** Every topic, every estimate, every confidence interval crosses zero. Finance Ministers from both parties, when governing in the same economic era, reach for the same fiscal vocabulary.
 
-2. **The corpus recovers ten coherent economic eras.** Topics map cleanly onto India's macroeconomic history: the post-Partition fiscal emergency (1947–55), the planning era and Green Revolution (1956–79), the foreign exchange crisis and liberalisation (1991–99), and the digital public goods era (2014–26). No human labelling was used.
+2. **Ten coherent themes fall out of the corpus without any labelling.** The post-Partition currency crisis. The Green Revolution. The 1991 foreign exchange emergency. The NABARD-SSI-rural credit era. The GST and Aadhaar decade. These are not categories I imposed; the algorithm found them.
 
-3. **The identification problem is fundamental.** BJP has governed since 1999 (briefly) and 2014–present. INC governed from 1947 through 2004 with two interruptions. Party and era are collinear. Any apparent vocabulary difference between BJP and INC speeches is indistinguishable from an era effect. This is not a data limitation; it is a feature of the history.
+3. **The identification problem is fundamental and probably unfixable with this data.** INC governed from 1947 to 2004 with brief interruptions. BJP has governed since 2014. The party you belong to and the decade you govern in are nearly the same variable. Any apparent difference in vocabulary between BJP and INC speeches could just as easily be an era difference.
 :::
 
 ## The Data {#data}
@@ -65,175 +67,165 @@ This project applies structural topic models to that corpus. The central questio
 </div>
 ```
 
-The corpus covers every Union Budget speech from 1947-48 through 2026-27, downloaded from [indiabudget.gov.in](https://www.indiabudget.gov.in). Speeches include full annual budgets as well as interim budgets and occasional supplementary sessions. One speech (1977-78 interim, 766 clean words) was too short for reliable topic estimation and was excluded from modelling, leaving 91 documents.
+All speeches from 1947-48 through 2026-27 were downloaded from [indiabudget.gov.in](https://www.indiabudget.gov.in), which hosts the full archive as PDFs. The collection includes annual budgets, interim budgets (vote-on-account speeches presented before elections), and occasional mid-year supplementary sessions. One speech was dropped before modelling: the 1977-78 interim, which is only 766 words and is essentially a procedural statement rather than a real budget address.
 
-PDF extraction used `pdftools`. Text cleaning removed parliamentary boilerplate (greetings, Jai Hind), table-of-contents lines, fiscal figures, paragraph number artifacts from scanned PDFs, and lines dominated by numbers (budget tables). Custom stop words removed fiscal units (crore, lakh, rupee), country/government boilerplate (india, central, national), and generic connectors. The final cleaned corpus averages 7,400 words per speech.
+Text extraction used `pdftools`. Cleaning removed parliamentary greetings, table-of-contents pages, the fiscal tables embedded in the text (identified by lines that are more than 60% digits), and PDF-to-text artifacts from older scanned documents. Custom stop words handled fiscal units like crore, lakh, and rupee, as well as generic boilerplate (india, central, national, government) that appears in every speech and carries no discriminating information.
 
-**Corpus breakdown by party family (full budgets only):**
+One additional step was necessary before topic modelling: removing Part B vocabulary. Every budget speech has two parts. Part A covers macroeconomic themes and expenditure plans. Part B is a list of tax proposals, and it generates a predictable flood of words like *duty*, *excise*, *customs*, *levy*, *cess*, and *surcharge* that appear in every single speech and would dominate any topic model if left in. These were stripped from the modelling vocabulary while keeping the cleaned text files intact for other purposes.
 
-| Party Family | Finance Ministers | Full Budgets |
+**Who presented the budgets:**
+
+| Party | Finance Ministers | Full Budgets |
 |---|---|---|
-| INC | Shanmukham Chetty, Matthai, Deshmukh, Morarji Desai, TTK, Chavan, Mukherjee, V.P. Singh, Manmohan Singh, Chidambaram, Pranab, Jaitley* | 53 |
-| BJP | Yashwant Sinha, Jaswant Singh, Jaitley, Arun Jaitley, Nirmala Sitharaman | 20 |
-| Other | Yashwant Sinha (Janata Dal), H.M. Patel, Charan Singh era | 7 |
-
-*Arun Jaitley served under BJP; P. Chidambaram under INC/UPA.
-
-**Vocabulary construction:** TF-IDF weighted document-feature matrix via `quanteda`. Words retained if they appear in ≥ 3 speeches and ≤ 95% of speeches. Tax-proposal vocabulary (`duty`, `excise`, `customs`, `levy`, `cess`, `surcharge`, etc.) was removed before topic modelling — these terms appear in the Part B section of every budget (tax proposals) and would otherwise swamp every topic with fiscal-technical language.
+| INC | Shanmukham Chetty, Matthai, C.D. Deshmukh, Morarji Desai, T.T. Krishnamachari, Y.B. Chavan, Pranab Mukherjee, V.P. Singh, Manmohan Singh, P. Chidambaram | 53 |
+| BJP | Yashwant Sinha, Jaswant Singh, Arun Jaitley, Nirmala Sitharaman | 20 |
+| Other | Yashwant Sinha (Janata Dal), H.M. Patel, Charan Singh coalition | 7 |
 
 ## Methods {#methodology}
 
-| Method | What it does | Output |
+| Method | Purpose | Output |
 |---|---|---|
-| **STM (B1)** | Pure topic model with no covariates. Equivalent to LDA with better initialisation. `searchK()` selects k=10. | 10 topics, document-topic theta matrix |
-| **STM (B2)** | Same topic structure but adds `party + s(year, df=5)` as prevalence covariates. Estimates BJP−INC marginal effects. | Coefficient per topic with 95% CI |
-| **k selection** | `searchK()` evaluates k ∈ {5, 8, 10, 12, 15, 20} on semantic coherence, exclusivity, held-out likelihood, and residuals | k = 10 selected |
-| **FREX words** | Frequency × Exclusivity weighting for topic labelling. Balances how common a word is overall vs how characteristic it is of one topic. | Top-8 FREX words per topic |
-| **estimateEffect()** | Bayesian posterior simulation under the fitted STM to compute marginal party effects on topic prevalence | Forest plot |
+| **STM without covariates** | Find the topics. Equivalent to LDA but with better initialisation from spectral decomposition. | 10 topics, document-topic proportions (theta matrix) |
+| **STM with covariates** | Estimate whether BJP Finance Ministers use each topic more or less than INC Finance Ministers, after controlling for the year. | BJP-INC coefficient per topic with 95% confidence interval |
+| **searchK()** | Choose the number of topics. Tests k values from 5 to 20 on four criteria: semantic coherence, exclusivity, held-out likelihood, residuals. | k = 10 |
+| **FREX words** | Label topics. FREX (Frequency times Exclusivity) finds words that are both reasonably common and distinctive to one topic rather than spread across many. | Top 8 FREX words per topic |
 
 ::: {.callout-note}
-**Why STM rather than LDA?** STM is equivalent to LDA when run without covariates (as in B1) but allows prevalence covariates (as in B2). This means we can ask: after accounting for time trends, do BJP Finance Ministers use Topic X more than INC Finance Ministers? LDA cannot answer that directly. The two-step approach (B1 for topic discovery, B2 for covariate estimation) is the standard practice in Grimmer, Roberts & Stewart (2022).
+**A note on the two-step approach.** Running the topic model without covariates first (what I call B1) and then fitting the covariate model (B2) is the recommended workflow in Roberts, Stewart & Tingley's STM package. The first step discovers the topics from the text alone, without any party information leaking in. The second step asks whether party predicts topic prevalence after the fact. If you skip the first step and go straight to the covariate model, you risk letting party identity shape what the topics look like, which would bias the test you are trying to run.
 :::
 
 ## Results {#findings}
 
-### 1. Selecting the Number of Topics
+### 1. How Many Topics?
 
-The `searchK()` diagnostic evaluates four criteria across k ∈ {5, 8, 10, 12, 15, 20}:
+Picking the number of topics is always a judgment call. `searchK()` helps by computing four diagnostics across a range of candidate values:
 
-- **Semantic coherence:** top words co-occur within documents (high = interpretable)
-- **Exclusivity:** top words are distinctive to one topic, not shared across many (high = separated)
-- **Held-out likelihood:** model generalises to unseen documents (high = better fit)
-- **Residuals:** unexplained variance (low = better fit)
+- **Semantic coherence:** do the top words in each topic actually tend to appear together in the same documents? Higher is more interpretable.
+- **Exclusivity:** are the top words distinctive to one topic, or do they bleed across several? Higher means cleaner separation.
+- **Held-out likelihood:** how well does the model predict words it has not seen? Higher means better generalisation.
+- **Residuals:** how much variation is the model failing to explain? Lower is better.
 
-![k-selection diagnostics. Dashed line marks selected k=10, which balances all four criteria. k=15 and k=20 gain little on held-out likelihood but lose exclusivity.](output/figures/fig_k_selection.png){width=90%}
+![Four diagnostics for choosing k. The dashed line at k=10 sits at the natural elbow: the metrics stop improving much beyond that point.](output/figures/fig_k_selection.png){width=90%}
 
-k=10 sits at the natural elbow of all four curves. At k=5 the topics are too broad (agriculture and industry collapse into one); at k=15 the topics begin to fragment into near-duplicates without interpretive gain.
+At k=5 the topics are too coarse: agriculture and industrial planning get lumped together even though they belong to different decades and different fiscal logics. At k=15 the model starts creating near-duplicates with slightly different word lists but no clear interpretive distinction. Ten topics is the sensible stopping point.
 
-### 2. What India's Budget Speeches Talk About {#topics}
+### 2. What the Topics Are {#topics}
 
-With k=10, the model recovers topics that map directly onto India's macroeconomic history. No labels were assigned by hand.
+The ten topics the model finds correspond to recognisable periods in India's economic history. I did not tell the model anything about when speeches were given or who gave them.
 
-![Top probability words per topic (beta weights). Each panel is one topic; bars are ranked by how strongly each word loads on that topic relative to others.](output/figures/fig_topic_words.png){width=100%}
+![Top probability words per topic. Each panel is one topic ranked by the word's weight in that topic (beta). Read these alongside the FREX words in the table below for a fuller picture.](output/figures/fig_topic_words.png){width=100%}
 
-**Reading the topics:**
+**Topics and the eras they map to:**
 
-| Topic | FREX Words | Era / Theme |
+| Topic | Top FREX Words | What it captures |
 |---|---|---|
-| T1 | provinces, pakistan, sterling, kingdom, cloth | Post-Partition foreign trade & currency (1947–55) |
-| T2 | manifesto, reform, macro, adjustment, election | Liberalisation & crisis management (1991–99) |
-| T3 | fertilizers, season, naye, selective, increases | Green Revolution & agricultural inputs (1965–80) |
-| T4 | hindu, wealth, overdrafts, regulatory | Wealth tax & regulatory framework |
-| T5 | tonnes, auxiliary, valorem, drought, seventh | Industrial planning & Five-Year Plans |
-| T6 | nabard, ssi, rbi, upa, cenvat | Financial sector: rural credit, SME finance (2000s) |
-| T7 | loan, grants, heads, naye, treasury | Public expenditure & budget heads |
-| T8 | annas, dollar, war, balances, partition | Colonial-era fiscal accounts (pre-1957) |
-| T9 | gst, bcd, msmes, aadhaar, ppp | Digital economy & GST era (2014–26) |
-| T10 | gains, gic, ownership, yarn, shares | Privatisation & capital markets (1990s–2000s) |
+| T1 | provinces, pakistan, sterling, kingdom, cloth | Post-Partition trade and currency (1947-55) |
+| T2 | manifesto, reform, macro, adjustment, election | Economic liberalisation and crisis management (1991-99) |
+| T3 | fertilizers, season, naye, selective, increases | Green Revolution and agricultural inputs (1965-80) |
+| T4 | hindu, wealth, overdrafts, regulatory | Wealth tax and capital regulation |
+| T5 | tonnes, auxiliary, valorem, drought, seventh | Industrial licensing and Five-Year Plans |
+| T6 | nabard, ssi, rbi, upa, cenvat | Rural banking and SME credit (2000s) |
+| T7 | loan, grants, heads, naye, treasury | Public expenditure and budget heads |
+| T8 | annas, dollar, war, balances, partition | Pre-decimalisation fiscal accounts (before 1957) |
+| T9 | gst, bcd, msmes, aadhaar, ppp | Digital economy and the GST era (2014-26) |
+| T10 | gains, gic, ownership, yarn, shares | Privatisation and capital markets (1990s-2000s) |
 
-The temporal structure is stark. Topics T1 and T8 contain vocabulary that literally cannot appear after 1957 (annas ceased to exist when India decimalised). Topic T9 contains vocabulary that literally did not exist before 2014 (GST was enacted in 2017, Aadhaar in 2009). This is the core identification problem for the party comparison.
+Two topics serve as a natural proof of concept. T8 contains the word *annas*, which was the sub-unit of the Indian rupee before decimalisation in 1957. After that year, it could not appear in any budget speech. T9 contains *GST*, which was not enacted until 2017, and *Aadhaar*, which was launched in 2009. These words exist in completely non-overlapping time windows, and the topic model correctly isolates them.
 
-### 3. How Topics Have Shifted Over Time {#time}
+### 3. Topics Over Time {#time}
 
-Average topic prevalence by decade shows how India's fiscal preoccupations have evolved.
+Looking at how topic prevalence shifts decade by decade makes the historical structure visible without any statistical machinery.
 
-![Mean topic proportion across full budgets, by decade. Each line is one topic (labelled by top FREX word). Dotted vertical lines mark 1991 (liberalisation) and 2014 (BJP majority).](output/figures/fig_topic_time.png){width=100%}
+![Average topic proportion by decade, full budgets only. Each line is one topic. The shifts at 1991 (liberalisation) and 2014 (BJP majority) are visible, but so are earlier transitions that had nothing to do with which party was in office.](output/figures/fig_topic_time.png){width=100%}
 
-The historical segmentation is visible in raw prevalence without any statistical modelling:
+Some of what you see in this chart:
 
-- **1940s–1950s (T1, T8):** Post-Partition currency, trade agreements with Pakistan, sterling balances, reconstruction spending. This era's vocabulary is unique to those 15 years.
-- **1960s–1970s (T3, T5, T7):** Agricultural inputs, industrial licensing, Five-Year Plan outlays. The Green Revolution and planning era dominate.
-- **1980s–1990s (T2, T10):** Macro stabilisation, economic reforms, capital market development. The 1991 crisis creates a vocabulary discontinuity visible as a spike in T2.
-- **2000s–2010s (T6):** NABARD, SSI, RRBs, RIDF — the banking and financial inclusion era under UPA.
-- **2014–2026 (T9):** GST, Aadhaar, MSME, digital payments, BCD schedules. An entirely new institutional vocabulary.
+**1940s-1950s:** T1 and T8 dominate. The language is about sterling balances, reconstruction after Partition, trade agreements with Pakistan, and the fiscal mechanics of a newly independent state.
 
-This is the key empirical pattern: **topic evolution tracks institutional history, not electoral cycles.** The 1991 change is sharper than any change associated with the 1999 or 2014 election.
+**1960s-1970s:** T3 (agriculture) and T5 (industrial planning) rise. These are the Green Revolution and heavy industry years, when the budget speech was largely a report on how the Five-Year Plan was progressing.
 
-### 4. BJP vs INC Topic Profiles (Unadjusted) {#party}
+**1991:** T2 spikes sharply. Manmohan Singh's 1991-92 speech, delivered in the middle of the foreign exchange crisis, introduced a vocabulary that had not existed in Indian budget speeches before: structural adjustment, liberalisation, the IMF, convertibility.
 
-Before controlling for time, there are visible differences in raw average prevalence between BJP and INC Finance Ministers.
+**2000s-2010s:** T6 covers the NABARD, rural credit, and financial inclusion era under UPA. T10 (privatisation) rises and then fades as the disinvestment agenda runs its course.
 
-![Mean topic proportion by party family (full budgets only). Error bars = ±1 SE. The BJP-INC differences are large in raw averages — but this reflects period differences, not ideology.](output/figures/fig_topic_party.png){width=100%}
+**2014 onwards:** T9 arrives and grows. GST, Aadhaar, MSME formalisation, digital payments, BCD schedules for imports. This is a genuinely new vocabulary that Nirmala Sitharaman uses that Manmohan Singh never did, not because they are from different parties but because these institutions did not exist when Singh was Finance Minister.
 
-BJP speeches show higher average prevalence in T9 (GST era) and T6 (financial sector). INC speeches show higher prevalence in T1 (post-Partition), T7 (expenditure heads), and T8 (colonial-era accounts). These differences are mechanically generated by the fact that INC governed during eras 1 and 2 and BJP governs during era 4.
+**The key observation:** the biggest vocabulary breaks correspond to economic events, not elections. 1991 is a more dramatic break than 1999 or 2014.
 
-### 5. Controlling for Time: The Null Result {#stm}
+### 4. BJP and INC Before Controlling for Anything {#party}
 
-The B2 model adds `party + s(year, df=5)` as prevalence covariates to the STM. The year spline absorbs era-specific vocabulary shifts; the party coefficient estimates the **within-era** BJP−INC vocabulary difference.
+The raw comparison, without any time controls, shows clear differences between BJP and INC budget speeches.
 
-![Forest plot of BJP−INC marginal effects per topic (STM B2). Estimate = BJP minus INC topic proportion, controlling for year. Dashed line at zero = no difference. 95% CI shown. No topic reaches statistical significance.](output/figures/fig_bjp_inc_forest.png){width=90%}
+![Mean topic proportion by party, full budgets only. Error bars show one standard error. BJP scores higher on T9 (GST era) and lower on T1 (post-Partition) because BJP simply did not exist as a governing party during the 1940s and 1950s.](output/figures/fig_topic_party.png){width=100%}
 
-**Effect estimates (BJP minus INC, controlling for year):**
+BJP speeches look heavier on T9 (digital economy) and T6 (financial sector). INC speeches look heavier on T1 (post-Partition), T7 (expenditure), and T8 (pre-decimalisation). These differences are real in the data but they are produced almost entirely by the overlap between party and era. INC governed during India's first three decades; those decades have a distinctive vocabulary that no BJP Finance Minister could have used because those things had not happened yet.
+
+### 5. After Controlling for Time: No Difference {#stm}
+
+The second model adds party and a flexible time spline as covariates. The spline captures how the vocabulary of Indian fiscal governance changes across decades regardless of who is in office. What is left over is the within-era party difference.
+
+![Forest plot of BJP-INC topic differences (STM with covariates). Each point is the estimated effect of being a BJP Finance Minister on topic prevalence, controlling for year. The dashed line at zero means no difference. None of the ten estimates reaches statistical significance.](output/figures/fig_bjp_inc_forest.png){width=90%}
+
+**BJP minus INC effect on each topic, controlling for year:**
 
 | Topic | Estimate | SE | p-value |
 |---|---|---|---|
-| T1: Post-Partition trade | −0.047 | 0.084 | 0.58 |
-| T2: Liberalisation | −0.083 | 0.080 | 0.30 |
+| T1: Post-Partition trade | -0.047 | 0.084 | 0.58 |
+| T2: Liberalisation | -0.083 | 0.080 | 0.30 |
 | T3: Agriculture | +0.034 | 0.100 | 0.74 |
-| T4: Taxation & capital | +0.037 | 0.089 | 0.68 |
-| T5: Industrial planning | −0.124 | 0.105 | 0.24 |
+| T4: Taxation and capital | +0.037 | 0.089 | 0.68 |
+| T5: Industrial planning | -0.124 | 0.105 | 0.24 |
 | T6: Financial sector | +0.114 | 0.121 | 0.35 |
-| T7: Public expenditure | −0.022 | 0.086 | 0.80 |
-| T8: Colonial fiscal | −0.001 | 0.068 | 0.99 |
+| T7: Public expenditure | -0.022 | 0.086 | 0.80 |
+| T8: Pre-decimal fiscal | -0.001 | 0.068 | 0.99 |
 | T9: Digital economy | +0.063 | 0.080 | 0.44 |
 | T10: Privatisation | +0.027 | 0.111 | 0.81 |
 
-Zero of 10 topics show a statistically significant BJP−INC difference at p < 0.05. The largest absolute estimate is T5 (−0.124, p = 0.24), with a 95% CI that spans from −0.33 to +0.08. All estimates are small (|β| < 0.13) relative to the within-party variance in topic proportions.
+Not one of the ten topics is significant at the 5% level. The largest point estimate is T5 at -0.124, but its confidence interval runs from -0.33 to +0.08 and the p-value is 0.24. Once you remove the time variation, the BJP-INC contrast essentially disappears.
 
 ::: {.callout-note}
-**What does this mean substantively?** Once you account for the fact that India's fiscal vocabulary changes across decades — that "annas" does not survive the 1957 decimalisation, that "GST" did not exist before 2017 — there is no residual BJP-INC vocabulary signature. Finance Ministers of both parties, when they governed at the same time in history, would have written budget speeches that used the same topics at similar rates.
-
-This is not a failure to find a signal. It is a finding about how fiscal rhetoric works: it is institutionally determined and historically contingent, not partisan.
+The interpretation here is not that political parties are irrelevant to economic policy. A BJP government may well make different choices on taxes, subsidies, or capital expenditure than an INC government would. But those choices show up as *decisions*, not necessarily as distinct *vocabulary*. A Finance Minister presenting a budget on rural credit will use the word NABARD whether they are from BJP or INC, because that is the institution that handles rural credit. The topic models are picking up the institutional grammar of Indian fiscal governance, which turns out to be surprisingly stable across parties.
 :::
 
-### 6. Topic Trends by Party Over Time {#trends}
+### 6. Party Trends Over Time {#trends}
 
-The loess smooths below show topic prevalence over time separately for BJP and INC Finance Ministers. Each point is one full budget speech.
+Plotting BJP and INC speeches separately across time confirms the pattern visually. Where the two parties overlap in the same historical period, they look similar.
 
-![Topic prevalence over time by party. Orange = BJP, blue = INC. Each point is one budget speech. Loess smooth ± 95% CI. Free y-axis scales.](output/figures/fig_topic_trends_cov.png){width=100%}
+![Topic proportions over time, BJP in orange and INC in blue. Each dot is one full budget speech. The loess curves show the smoothed trend. Where the parties coexist in the same years, the lines run close together.](output/figures/fig_topic_trends_cov.png){width=100%}
 
-The time trends confirm the null result visually. Where BJP and INC overlap in time (early 2000s INC, mid-2000s UPA, 2014+ BJP), their topic proportions are similar. The apparent differences in the full-sample averages vanish when you look at the overlapping time period.
+The 2000s period is the most informative for the party comparison: you have late UPA speeches from INC and early NDA speeches from BJP in relatively close proximity. Topic proportions in that window are hard to distinguish by party. The divergence you see at the extremes of the time axis (1950s INC, 2020s BJP) is driven by vocabulary that genuinely could not appear at both ends of the timeline.
 
-## The Identification Problem {#robustness}
+## Why This Is Harder to Answer Than It Looks {#robustness}
 
-### Why party and era cannot be separated
+### The collinearity problem
 
-The fundamental challenge is straightforward. INC governed from 1947 through 1977, 1980–1989, and 1991–1996, 2004–2014. BJP governed briefly in 1998–1999, then continuously from 2014. There are only a handful of years (late 1990s, 2014) where both parties have multiple budgets close in time. The sample of "BJP budgets from the same era as many INC budgets" is essentially empty.
+INC governed India from independence in 1947 through 1977 continuously, then again from 1980 to 1989, and again from 1991 to 1996, and then from 2004 to 2014. BJP governed from 1999 to 2004, then continuously from 2014. There is very little time where you could plausibly compare a BJP budget speech to an INC one from a similar economic environment. The late 1990s and early 2000s come closest, but that gives you only about a dozen speeches on each side and both parties were governing in the same post-liberalisation, pre-NREGA era.
 
-The year spline in B2 absorbs time trends, but it is identified by variation within the BJP and INC samples across time. With so few overlapping years, the spline cannot credibly separate era from party.
+The year spline I use is doing real work: it is absorbing the vocabulary drift that happens regardless of who is in office. But the spline has to be identified from variation within the BJP sample and within the INC sample over time. With INC speeches concentrated in 1947-2004 and BJP speeches concentrated in 2014-2026, asking the spline to separate era from party is a lot to ask.
 
-![Party-year grid: each cell is one budget speech. The party × year space is almost entirely non-overlapping. INC has no speeches after 2014; BJP has no speeches before 1998.](output/figures/fig_topic_party.png){width=80%}
+### What better identification would look like
 
-### What would identification require?
+The cleanest solution would be more temporal overlap: both parties governing in the same institutional environment. India's history does not give us much of that. A few alternative approaches worth exploring:
 
-Proper identification of a BJP−INC ideology effect would require:
-1. **More temporal overlap** — both parties in office in the same economic era, which India's first-past-the-post system makes rare.
-2. **A natural experiment** — an instrument that determines which party takes office independently of the macroeconomic environment. Coalition outcomes (e.g., hung parliaments in 1996, 1998) offer the closest analogue but provide only 2–3 additional speeches.
-3. **Sub-speech analysis** — Part A (fiscal policy and expenditure) vs Part B (tax proposals) of each speech measure different aspects of a budget. Separating these might reveal party-specific vocabulary within the tax domain even controlling for era.
+**Sub-speech comparison.** Part A and Part B of budget speeches have different rhetorical logics. Part A is where the Finance Minister makes the political case for their priorities. Splitting the corpus at that boundary might reveal party-specific language in Part A even when Part B is dominated by institutional tax vocabulary.
 
-### The speech length trend
+**Finance Minister fixed effects.** Some Finance Ministers served under different political arrangements at different times. P. Chidambaram, for example, served under both Rajiv Gandhi's INC and the United Front coalition. Comparing his speeches across those contexts holds economic philosophy roughly constant while varying the governing coalition.
 
-One non-ideological finding is robust: budget speeches have grown substantially longer over time.
+**State budget speeches.** India has 28 state Finance Ministers presenting their own budgets every year. With states governed by BJP, INC, AAP, DMK, TMC and others presenting budgets in the same year, the temporal overlap problem disappears entirely. That is a project for another time.
 
-```{=html}
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header"><div class="callout-icon-container"><i class="callout-icon"></i></div><div class="callout-title-container flex-fill">Speech length: 1947–2026</div></div>
-<div class="callout-body-container callout-body">
-<p>Median speech length (clean words): <b>~7,400</b> across all years. But the range runs from Yashwant Sinha's 1952-53 interim (766 words, a pure vote-on-account) to Nirmala Sitharaman's 2020-21 speech (13,600+ words, the longest on record). The modern BJP era speeches are systematically longer — Sitharaman's 2019-20 speech lasted 2 hours 17 minutes. Whether verbosity signals more substantive content or is an artifact of the teleprompter era is an open question.</p>
-</div>
-</div>
-```
+### On speech length
 
-## About This Project
+One finding that does not depend on party comparison at all: budget speeches have gotten substantially longer over the decades. Median clean word count across all years is around 7,400 words, but the distribution is skewed heavily upward in recent years. Nirmala Sitharaman's 2020-21 speech ran to over 13,600 words, making it the longest in the archive. Her 2019-20 speech lasted 2 hours and 17 minutes in delivery. Early budgets from the 1940s and 1950s were often under 5,000 words. Whether this reflects more complex economies requiring more explanation, more detailed political communication strategies, or something about the teleprompter era is not something the topic model can tell you.
 
-This project uses the same STM methodology as [my Lok Sabha Questions analysis](../Lok_Sabha_Questions/docs/index.html), applied to the executive rather than the legislative side of Indian politics. Where the Parliament project asks what MPs *demand* of the government, this project asks what the government *presents* to Parliament as its priorities.
+## About
 
-Both projects find the same null result for ideology: when you account for the structural and temporal context in which political actors operate, the ideological signal in text is weak relative to institutional and historical variation.
+This project is a companion to my [Lok Sabha Questions analysis](../Lok_Sabha_Questions/docs/index.html), which applies similar text methods to what MPs ask the government rather than what the government presents to Parliament. The two projects reach similar conclusions from different directions: the institutional context of Indian politics shapes political language more strongly than party ideology does.
 
 **Piyush Zaware**
 University of Chicago · Northwestern University Kellogg
 Global Poverty Research Laboratory
 [piyushz@uchicago.edu](mailto:piyushz@uchicago.edu)
 
-**Data:** [indiabudget.gov.in](https://www.indiabudget.gov.in) · **Code:** R (stm, quanteda, ggplot2)
-**Methodology:** Roberts, Stewart & Tingley (2019) · Grimmer, Roberts & Stewart (2022)
+**Data:** [indiabudget.gov.in](https://www.indiabudget.gov.in)
+**Code:** R (stm, quanteda, ggplot2, pdftools)
+**References:** Roberts, Stewart & Tingley (2019); Grimmer, Roberts & Stewart (2022)
