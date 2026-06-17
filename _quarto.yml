@@ -20,6 +20,8 @@ website:
         href: index.html#interim
       - text: "Ideology"
         href: index.html#ideology
+      - text: "2027 Forecast"
+        href: index.html#prediction
       - text: "Time Trends"
         href: index.html#time
       - text: "Methods"

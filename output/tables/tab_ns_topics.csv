@@ -1,0 +1,2 @@
+doc_id,budget_year,fy_start,budget_type,fm_name,fm_party,fm_party_family,pm_name,government_coalition,words_raw,words_clean,is_short,topic_1,topic_2,topic_3,topic_4,topic_5,topic_6,topic_7,topic_8,topic_9,topic_10
+bs201920,2019-20,2019,full,Nirmala Sitharaman,BJP,BJP,Narendra Modi,NDA-IV,20259,19449,FALSE,2.4753984520194453e-4,1.842955406008969e-8,7.786347728749926e-6,6.295979341841915e-11,0.004319105590520222,2.9680323482871523e-10,7.273504812870289e-5,0.0013200696870270818,0.9940327380004311,6.691643934173543e-9
