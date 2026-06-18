@@ -41,44 +41,91 @@ body {
   color: #1a1918 !important;
 }
 
-/* Hero — no gradient, just clean type */
+/* Hero — dark overlay on word cloud banner */
 .hero {
-  padding: 4rem 0 3rem 0;
+  position: relative;
   margin-bottom: 2.5rem;
+  padding: 0;
   border-bottom: 1px solid #e8e3db;
+  overflow: hidden;
+}
+.hero-img {
+  display: block !important;
+  width: 100% !important;
+  height: 320px !important;
+  object-fit: cover !important;
+  object-position: center 30% !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  margin: 0 !important;
+  filter: brightness(0.55) !important;
+}
+/* Text overlay floated over the image */
+.hero > *:not(.quarto-figure) {
+  position: relative;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .hero h1 {
+  position: absolute;
+  top: 48px;
+  left: 2rem;
+  right: 30%;
   font-family: "Lora", Georgia, serif;
   font-size: 2.3rem;
   font-weight: 600;
-  color: #1a1918;
-  margin-bottom: 1rem;
+  color: #ffffff;
+  margin-bottom: 0;
   border: none;
-  line-height: 1.25;
-  max-width: 680px;
+  line-height: 1.22;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.6);
+  z-index: 2;
 }
-.hero .subtitle,
+.hero .subtitle {
+  position: absolute;
+  top: 175px;
+  left: 2rem;
+  right: 32%;
+  z-index: 2;
+}
 .hero .subtitle p {
-  font-size: 1.05rem !important;
-  color: #444 !important;
-  max-width: 620px;
-  line-height: 1.8;
+  font-size: 0.97rem !important;
+  color: rgba(255,255,255,0.88) !important;
+  line-height: 1.72;
   font-weight: 400;
-  margin-top: 0.8rem;
+  margin: 0;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.5);
   opacity: 1 !important;
 }
-.hero .meta,
+.hero .meta {
+  position: absolute;
+  bottom: 18px;
+  left: 2rem;
+  z-index: 2;
+}
 .hero .meta p {
-  margin-top: 1.6rem;
-  font-size: 0.82rem !important;
-  color: #888 !important;
+  font-size: 0.78rem !important;
+  color: rgba(255,255,255,0.6) !important;
   font-weight: 400;
   letter-spacing: 0;
   text-transform: none;
+  margin: 0;
   opacity: 1 !important;
 }
-.hero .badge-row {
-  display: none;
+.hero .badge-row { display: none; }
+
+/* Era word cloud image — full-width, no extra shadow */
+.era-img {
+  border-radius: 4px !important;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.18) !important;
+  margin: 2rem 0 !important;
+}
+
+/* Ideology art */
+.ideology-art {
+  border-radius: 4px !important;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.18) !important;
+  margin: 2rem 0 !important;
 }
 
 /* Stat row — just a quiet line of numbers */

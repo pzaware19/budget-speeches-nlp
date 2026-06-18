@@ -6,6 +6,9 @@ format:
 ---
 
 ::: {.hero}
+
+![](output/figures/fig_hero_wordcloud.png){.hero-img}
+
 # Seventy-Nine Years of Budget Speeches
 
 ::: {.subtitle}
@@ -63,6 +66,8 @@ One additional step was necessary before topic modelling: removing Part B vocabu
 | INC | Shanmukham Chetty, Matthai, C.D. Deshmukh, Morarji Desai, T.T. Krishnamachari, Y.B. Chavan, Pranab Mukherjee, V.P. Singh, Manmohan Singh, P. Chidambaram | 53 |
 | BJP | Yashwant Sinha, Jaswant Singh, Arun Jaitley, Nirmala Sitharaman | 20 |
 | Other | Yashwant Sinha (Janata Dal), H.M. Patel, Charan Singh coalition | 7 |
+
+![The dominant vocabulary of each political era — word size reflects relative frequency within that era's speeches. Colours are illustrative, not party-coded.](output/figures/fig_era_wordclouds.png){width=100% .era-img}
 
 ## Methods {#methodology}
 
@@ -238,6 +243,8 @@ The method is a dictionary-based scoring on two axes, applied to the TF-IDF weig
 
 - **Market-liberal axis:** runs from *state-led and socialist* (public sector, cooperative, welfare, subsidy, labour rights, nationalisation, five-year plan) to *market-liberal and capitalist* (private sector, FDI, deregulation, disinvestment, equity, efficiency, fiscal consolidation). Positive score = more capitalist vocabulary.
 - **Nationalist axis:** runs from *globalist and open* (exports, WTO, GATT, trade liberalisation, convertibility, foreign markets) to *economically nationalist and protectionist* (swadeshi, self-reliance, atmanirbhar, import substitution, protection of domestic industry, tariffs). Positive score = more protectionist vocabulary.
+
+![All 76 full budget speeches (1947-2026) plotted in the 2D ideology space. Colour encodes decade. The shift from the socialist-nationalist quadrant in the 1950s-70s toward the market-liberal quadrant after 1991 is the dominant structural change in the corpus.](output/figures/fig_ideology_art.png){width=100% .ideology-art}
 
 ### The 2D ideological map
 

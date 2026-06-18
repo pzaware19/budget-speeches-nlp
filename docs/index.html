@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5269e97ff33498ce16eff636eac5839b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-484c7122a6ce9f8ed70b7856dfac8102.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -162,8 +162,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Contents</h2>
    
   <ul class="collapse">
-  <li><a href="#seventy-nine-years-of-budget-speeches" id="toc-seventy-nine-years-of-budget-speeches" class="nav-link active" data-scroll-target="#seventy-nine-years-of-budget-speeches">Seventy-Nine Years of Budget Speeches</a></li>
-  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">The Data</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link active" data-scroll-target="#data">The Data</a></li>
   <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methods</a></li>
   <li><a href="#findings" id="toc-findings" class="nav-link" data-scroll-target="#findings">Results</a></li>
   <li><a href="#ideology" id="toc-ideology" class="nav-link" data-scroll-target="#ideology">Ideological Dimensions</a></li>
@@ -182,7 +181,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="seventy-nine-years-of-budget-speeches" class="level1 hero">
+<div class="hero">
+<p><img src="output/figures/fig_hero_wordcloud.png" class="hero-img img-fluid"></p>
+<section id="seventy-nine-years-of-budget-speeches" class="level1">
 <h1>Seventy-Nine Years of Budget Speeches</h1>
 <div class="subtitle">
 <p>I scraped and topic-modelled every Union Budget speech from 1947 to 2026. No hand-coding, no categories set in advance. Just the text Finance Ministers read aloud to Parliament, and what the data turns up when you let it speak for itself.</p>
@@ -191,6 +192,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Piyush Zaware · University of Chicago · June 2026</p>
 </div>
 </section>
+</div>
 <div class="lead-para">
 <p>The Union Budget speech is one of India’s most consequential annual rituals. Each February, the Finance Minister walks into the Lok Sabha with a briefcase, stands at the dispatch box, and reads a prepared text that tells Parliament (and the country) what the government cares about, what it is worried about, and what it plans to spend money on. The speech is a political document dressed up as a financial one.</p>
 <p>Across eight decades, those speeches form a remarkable corpus. R.K. Shanmukham Chetty’s 1947-48 speech was delivered weeks after Partition, with India still figuring out how to run a government. Nirmala Sitharaman’s 2026-27 speech comes from a country with digital public infrastructure, a unified GST, and 500 million Jan Dhan accounts. What changed between them, and how much of that change was driven by the party in power versus the India that existed when that party governed?</p>
@@ -249,6 +251,12 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="output/figures/fig_era_wordclouds.png" class="era-img img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>The dominant vocabulary of each political era — word size reflects relative frequency within that era’s speeches. Colours are illustrative, not party-coded.</figcaption>
+</figure>
+</div>
 </section>
 <section id="methodology" class="level2">
 <h2 class="anchored" data-anchor-id="methodology">Methods</h2>
@@ -623,6 +631,12 @@ Note
 <li><strong>Market-liberal axis:</strong> runs from <em>state-led and socialist</em> (public sector, cooperative, welfare, subsidy, labour rights, nationalisation, five-year plan) to <em>market-liberal and capitalist</em> (private sector, FDI, deregulation, disinvestment, equity, efficiency, fiscal consolidation). Positive score = more capitalist vocabulary.</li>
 <li><strong>Nationalist axis:</strong> runs from <em>globalist and open</em> (exports, WTO, GATT, trade liberalisation, convertibility, foreign markets) to <em>economically nationalist and protectionist</em> (swadeshi, self-reliance, atmanirbhar, import substitution, protection of domestic industry, tariffs). Positive score = more protectionist vocabulary.</li>
 </ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="output/figures/fig_ideology_art.png" class="ideology-art img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>All 76 full budget speeches (1947-2026) plotted in the 2D ideology space. Colour encodes decade. The shift from the socialist-nationalist quadrant in the 1950s-70s toward the market-liberal quadrant after 1991 is the dominant structural change in the corpus.</figcaption>
+</figure>
+</div>
 <section id="the-2d-ideological-map" class="level3">
 <h3 class="anchored" data-anchor-id="the-2d-ideological-map">The 2D ideological map</h3>
 <p>Placing every Finance Minister on both axes at once shows how the combinations have shifted. Each small dot is one budget speech; the large labelled points are each FM’s average across all their full budgets.</p>

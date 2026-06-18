@@ -43,9 +43,21 @@ TABDIR <- file.path(root, "output", "tables")
 # LOAD AND PREPARE
 # =============================================================================
 #{
+# Use budget_metadata.csv as authoritative budget_type source.
+# ideology_scores has a malformed doc_id "bs" for Chidambaram's 2014-15
+# INTERIM budget, incorrectly classified as "full". Joining on (fy_start,
+# fm_name) against budget_metadata gets the correct type.
+# Note: 2008-09 (Chidambaram's last UPA-I budget) is absent from the corpus.
+bm_auth <- read_csv(file.path(root, "input", "budget_metadata.csv"),
+                     show_col_types = FALSE) %>%
+  select(fy_start, fm_name, auth_type = budget_type)
+
 scores <- read_csv(file.path(DTMDIR, "ideology_scores.csv"),
                     show_col_types = FALSE) %>%
-  filter(budget_type == "full", !is.na(fm_name), !is.na(fy_start)) %>%
+  filter(!is.na(fm_name), !is.na(fy_start)) %>%
+  left_join(bm_auth, by = c("fy_start", "fm_name")) %>%
+  mutate(budget_type = coalesce(auth_type, budget_type)) %>%
+  filter(budget_type == "full") %>%
   arrange(fm_name, fy_start)
 
 # Add tenure year (1 = first full budget)

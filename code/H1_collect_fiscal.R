@@ -128,9 +128,17 @@ all_theme_scores <- map_dfr(clean_files, function(fp) {
   res %>% mutate(doc_id = doc_id)
 })
 
-# Join with metadata
+# Join with metadata — deduplicate bs199192 (1991-92 has both Yashwant Sinha
+# and Manmohan Singh mapped to the same text file; keep Manmohan Singh only,
+# who presented the actual full liberalisation budget in July 1991).
+meta_dedup <- meta %>%
+  group_by(doc_id) %>%
+  arrange(desc(fm_name == "Manmohan Singh")) %>%  # Manmohan Singh rows first
+  slice_head(n = 1) %>%
+  ungroup()
+
 all_theme_scores <- all_theme_scores %>%
-  left_join(meta, by = "doc_id") %>%
+  left_join(meta_dedup, by = "doc_id") %>%
   filter(!is.na(fy_start))
 
 message(glue("\nTheme scores computed for {n_distinct(all_theme_scores$doc_id)} speeches"))
