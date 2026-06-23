@@ -1,5 +1,9 @@
 # Raw PDFs (too large for GitHub)
 input/pdfs/
+input/ecosurvey_pdfs/
+
+# Full Economic Survey extracted text (large; regenerate with code/G4_scrape_ecosurvey.R)
+output/ecosurvey_full/
 
 # Raw and cleaned text corpora
 output/corpus/
