@@ -45,9 +45,37 @@ TABDIR <- file.path(root, "output", "tables")
 es_years <- sort(as.integer(str_remove(
   list.files(FULLDIR, pattern = "^[0-9]{4}\\.txt$"), "\\.txt$")))
 
-# Budget speech file map (fy_start -> clean file). The Feb budget of year Y is
-# preceded by the survey released in Jan of year Y, so they share the same key.
+# Budget speech file map (fy_start -> clean file, FULL budgets only). The Feb
+# budget of year Y is preceded by the survey released in Jan of year Y, so they
+# share the same key. Extended 2026-08-07 from 1998 (the first year the Economic
+# Survey is text-extractable rather than a scanned image, see G5) through 2025.
+# 2008-09/2009-10/2010-11/2011-12 were missing from corpus_clean entirely (a
+# pre-existing gap in A1's scrape, not related to this analysis) and were
+# lightly re-scraped+cleaned by hand for this purpose only -- they are NOT part
+# of the DTM/topic-model corpus used elsewhere on the site (B1/B2/etc.), so
+# adding them here does not change any other section's results.
 bs_file_map <- c(
+  "1998" = "bs199899_clean.txt",
+  "1999" = "bs19992000_clean.txt",
+  "2000" = "bs200001_clean.txt",
+  "2001" = "bs200102_clean.txt",
+  "2002" = "bs200203_clean.txt",
+  "2003" = "bs200304_clean.txt",
+  "2004" = "bs200405_clean.txt",
+  "2005" = "bs200506_clean.txt",
+  "2006" = "bs200607_clean.txt",
+  "2007" = "bs200708_clean.txt",
+  "2008" = "bs200809_clean.txt",
+  "2009" = "bs200910_clean.txt",
+  "2010" = "bs201011_clean.txt",
+  "2011" = "bs201112_clean.txt",
+  "2012" = "bs201213_clean.txt",
+  "2013" = "bs201314_clean.txt",
+  "2014" = "bs201415_clean.txt",
+  "2015" = "bs201516_clean.txt",
+  "2016" = "bs201617_clean.txt",
+  "2017" = "bs201718_clean.txt",
+  "2018" = "bs201819_clean.txt",
   "2019" = "bs201920_clean.txt",
   "2020" = "Budget_Speech_2020-21_clean.txt",
   "2021" = "Budget_Speech_2021-22_clean.txt",
@@ -190,6 +218,48 @@ p <- ggplot(sim_long, aes(x = factor(bs_year), y = factor(es_year), fill = cosin
 
 ggsave(file.path(FIGDIR, "fig_es_bs_similarity.png"), p, width = 8.5, height = 6, dpi = 150)
 cat("\nSaved: fig_es_bs_similarity.png\n")
+#}
+
+# -- full-range (1998-2025) trend: same-year vs baseline, over time -----------
+#{
+baseline_by_year <- sim_long %>% filter(!same_year) %>%
+  group_by(es_year) %>% summarise(baseline = mean(cosine_tfidf), .groups = "drop")
+trend <- sim_long %>% filter(same_year) %>%
+  transmute(es_year, same_year_cosine = cosine_tfidf) %>%
+  left_join(baseline_by_year, by = "es_year") %>%
+  mutate(is_hit = same_year_cosine > sapply(es_year, function(y)
+    max(sim_long$cosine_tfidf[sim_long$es_year == y & !sim_long$same_year])))
+
+fm_eras <- tibble(
+  xmin = c(1998, 2002, 2004, 2009, 2013, 2014, 2019),
+  xmax = c(2001, 2003, 2008, 2012, 2013, 2018, 2025),
+  label = c("Sinha", "Jaswant\nSingh", "Chidambaram", "Mukherjee", "Chidambaram", "Jaitley", "Sitharaman")
+) %>% mutate(xmid = (xmin + xmax) / 2)
+
+p2 <- ggplot(trend, aes(x = es_year)) +
+  geom_rect(data = fm_eras, aes(xmin = xmin - 0.5, xmax = xmax + 0.5, x = NULL),
+            ymin = -Inf, ymax = Inf, fill = rep(c("#00000000", "#00000008"), length.out = nrow(fm_eras)), inherit.aes = FALSE) +
+  geom_text(data = fm_eras, aes(x = xmid, y = 0.48, label = label), inherit.aes = FALSE,
+            size = 2.7, colour = "grey45", lineheight = 0.85) +
+  geom_line(aes(y = baseline), colour = "grey55", linewidth = 0.5, linetype = "dashed") +
+  geom_line(aes(y = same_year_cosine), colour = "#b5310e", linewidth = 0.7) +
+  geom_point(aes(y = same_year_cosine, shape = is_hit), colour = "#b5310e", size = 2.2) +
+  scale_shape_manual(values = c(`TRUE` = 17, `FALSE` = 16), guide = "none") +
+  scale_x_continuous(breaks = seq(1998, 2025, 3)) +
+  labs(
+    title = "Does the budget echo its own Economic Survey? Not usually, and not more so now.",
+    subtitle = "Red = same-year cosine similarity (Survey vs the budget it precedes). Grey dashed = average similarity\nto every OTHER year's budget. Triangles mark the 3 of 28 years where the same-year pair is the closest match.",
+    x = NULL, y = "TF-IDF cosine similarity",
+    caption = "Full Economic Surveys (1998-2025, the range with extractable text) vs full Union budget speeches. Shaded bands: Finance Minister tenure."
+  ) +
+  theme_minimal(base_size = 11) +
+  theme(plot.title = element_text(face = "bold", size = 12),
+        plot.subtitle = element_text(colour = "grey35", size = 9),
+        plot.caption = element_text(colour = "grey55", size = 7.5),
+        panel.grid.minor = element_blank())
+
+ggsave(file.path(FIGDIR, "fig_es_bs_trend_full.png"), p2, width = 9, height = 5, dpi = 170, bg = "white")
+cat("Saved: fig_es_bs_trend_full.png\n")
 #}
 
 cat("\nG3 complete.\n")
