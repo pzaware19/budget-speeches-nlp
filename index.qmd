@@ -67,7 +67,7 @@ One additional step was necessary before topic modelling: removing Part B vocabu
 | BJP | Yashwant Sinha, Jaswant Singh, Arun Jaitley, Nirmala Sitharaman | 20 |
 | Other | Yashwant Sinha (Janata Dal), H.M. Patel, Charan Singh coalition | 7 |
 
-![The dominant vocabulary of each political era — word size reflects relative frequency within that era's speeches. Colours are illustrative, not party-coded.](output/figures/fig_era_wordclouds.png){width=100% .era-img}
+![The dominant vocabulary of each political era: word size reflects relative frequency within that era's speeches. Colours are illustrative, not party-coded.](output/figures/fig_era_wordclouds.png){width=100% .era-img}
 
 ## Methods {#methodology}
 
